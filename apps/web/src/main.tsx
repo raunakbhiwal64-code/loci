@@ -8,6 +8,7 @@ import { App } from "./App.js";
 async function boot() {
   const spine = new Spine();
   await spine.init();
+  spine.applyActiveTheme();
   const root = createRoot(document.getElementById("root")!);
   root.render(
     <React.StrictMode>

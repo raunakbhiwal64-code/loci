@@ -8,6 +8,7 @@ import { GrownUps } from "./screens/GrownUps.js";
 import { ProfileSwitcher } from "./screens/ProfileSwitcher.js";
 import { ModuleHost } from "./screens/ModuleHost.js";
 import { DailyChallenge } from "./daily/DailyChallenge.js";
+import { ThemePicker } from "./screens/ThemePicker.js";
 
 export type Screen =
   | { name: "hub" }
@@ -16,7 +17,8 @@ export type Screen =
   | { name: "grownups" }
   | { name: "profiles" }
   | { name: "module"; moduleId: string }
-  | { name: "daily" };
+  | { name: "daily" }
+  | { name: "theme" };
 
 export function App({ spine }: { spine: Spine }) {
   const [, force] = useState(0);
@@ -35,6 +37,7 @@ export function App({ spine }: { spine: Spine }) {
         <FirstRun
           spine={spine}
           onDone={() => {
+            spine.applyActiveTheme();
             force((n) => n + 1);
             setScreen({ name: "hub" });
           }}
@@ -50,9 +53,10 @@ export function App({ spine }: { spine: Spine }) {
       {screen.name === "reviews" && <Reviews spine={spine} onBack={() => nav({ name: "hub" })} />}
       {screen.name === "grownups" && <GrownUps spine={spine} onBack={() => nav({ name: "hub" })} />}
       {screen.name === "profiles" && (
-        <ProfileSwitcher spine={spine} onDone={() => { force((n) => n + 1); nav({ name: "hub" }); }} />
+        <ProfileSwitcher spine={spine} onDone={() => { spine.applyActiveTheme(); force((n) => n + 1); nav({ name: "hub" }); }} />
       )}
       {screen.name === "daily" && <DailyChallenge spine={spine} onBack={() => nav({ name: "hub" })} />}
+      {screen.name === "theme" && <ThemePicker spine={spine} onBack={() => nav({ name: "hub" })} />}
       {screen.name === "module" && (
         <ModuleHost spine={spine} moduleId={screen.moduleId} onBack={() => nav({ name: "hub" })} />
       )}

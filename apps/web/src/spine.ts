@@ -4,7 +4,7 @@ import { createProgression } from "@loci/core-progression";
 import { createSrs } from "@loci/core-srs";
 import { Analytics } from "@loci/analytics";
 import { Gateway, StubAdapter } from "@loci/ai-gateway";
-import { MODULE_ACCENTS, designSystemFor } from "@loci/design-system";
+import { MODULE_ACCENTS, designSystemFor, applyTheme, DEFAULT_THEME } from "@loci/design-system";
 
 /**
  * The shared spine (PRD Phase 0). Owns the local store, analytics, and the AI
@@ -67,6 +67,23 @@ export class Spine {
 
   activeProfile(): Profile | undefined {
     return this.store.activeProfile();
+  }
+
+  /* ---- theme (kid-chosen, persisted per profile) ---- */
+  getTheme(): string {
+    const p = this.store.activeProfile();
+    if (!p) return DEFAULT_THEME;
+    return this.store.moduleStorage(p.id, "shell").get<string>("theme") ?? DEFAULT_THEME;
+  }
+  setTheme(id: string): void {
+    const p = this.store.activeProfile();
+    if (p) this.store.moduleStorage(p.id, "shell").set("theme", id);
+    applyTheme(id);
+    this.notify();
+  }
+  /** Apply the active profile's stored theme (or the default). Call on boot & profile switch. */
+  applyActiveTheme(): void {
+    applyTheme(this.getTheme());
   }
 
   /** Progression for the current profile, for shell surfaces (Hub, skill map). */

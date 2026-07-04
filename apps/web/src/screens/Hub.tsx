@@ -17,10 +17,20 @@ export function Hub({ spine, nav }: { spine: Spine; nav: (s: Screen) => void }) 
     <div className="stack">
       <div className="topbar">
         <h1>Loci</h1>
-        <button className="row" style={{ border: "none", background: "none", cursor: "pointer" }} onClick={() => nav({ name: "profiles" })}>
+        <div className="row" style={{ gap: 8 }}>
           {streak > 0 && <span className="streak">🔥 {streak}</span>}
-          <Avatar emoji={profile.avatarId} label={profile.displayName} />
-        </button>
+          <button
+            aria-label="Pick your look"
+            title="Pick your look"
+            style={{ border: "1px solid var(--line)", background: "var(--surface-raised)", cursor: "pointer", fontSize: 20, width: 44, height: 44, borderRadius: "50%" }}
+            onClick={() => nav({ name: "theme" })}
+          >
+            🎨
+          </button>
+          <button aria-label="Switch profile" style={{ border: "none", background: "none", cursor: "pointer", padding: 0 }} onClick={() => nav({ name: "profiles" })}>
+            <Avatar emoji={profile.avatarId} label={profile.displayName} />
+          </button>
+        </div>
       </div>
 
       <GuideBubble>
