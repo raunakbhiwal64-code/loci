@@ -21,14 +21,18 @@ import { GameReview, type MoveRecord } from "./review.js";
 import type { Belt } from "./puzzles.js";
 import { AnnotatedReplayFlow } from "./replay/AnnotatedReplay.js";
 import { GuidedGame } from "./guided/GuidedGame.js";
+import { PathScreen } from "./path/PathScreen.js";
+import { Review, reviewCount } from "./review/Review.js";
 
 type Screen =
   | "home"
+  | "path"
   | "belts"
   | "beltrun"
   | "bot-pick"
   | "bot-play"
   | "review"
+  | "srs-review"
   | "pass"
   | "daily"
   | "replay"
@@ -199,8 +203,25 @@ export function GambitApp({ ctx }: { ctx: ModuleContext }) {
     );
   }
 
+  if (screen === "path") {
+    return (
+      <Frame ctx={ctx} onHome={() => setScreen("home")} hideHome>
+        <PathScreen ctx={ctx} onHome={() => setScreen("home")} />
+      </Frame>
+    );
+  }
+
+  if (screen === "srs-review") {
+    return (
+      <Frame ctx={ctx} onHome={() => setScreen("home")} hideHome>
+        <Review ctx={ctx} onHome={() => setScreen("home")} />
+      </Frame>
+    );
+  }
+
   // home
   const solved = allSolvedCount(ctx);
+  const dueReviews = reviewCount(ctx);
   return (
     <Frame ctx={ctx} onHome={() => setScreen("home")} hideHome>
       <div className="stack">
@@ -209,16 +230,29 @@ export function GambitApp({ ctx }: { ctx: ModuleContext }) {
         </GuideBubble>
 
         <Card className="stack">
-          <Display as="h3">Keep going</Display>
+          <Display as="h3">Learn Chess (The Path)</Display>
           <p className="ds-muted">
-            You've solved {solved.solved} of {solved.total} puzzles. Ready for the next one?
+            Nine levels, from the board to real strategy — each one unlocked by proving the last. This is the best place
+            to start and keep going.
           </p>
-          <Button big onClick={() => setScreen("belts")}>
-            Continue the belts →
+          <Button big onClick={() => setScreen("path")}>
+            Open The Path →
           </Button>
         </Card>
 
         <div className="tiles">
+          <button className="tile" onClick={() => setScreen("path")}>
+            <span className="tile__emoji">🧗</span>
+            <span className="tile__name">The Path</span>
+            <span className="tile__blurb">The full learning ladder, L0 to L8.</span>
+          </button>
+          <button className="tile" onClick={() => setScreen("srs-review")}>
+            <span className="tile__emoji">{dueReviews > 0 ? "🔁" : "✅"}</span>
+            <span className="tile__name">Review</span>
+            <span className="tile__blurb">
+              {dueReviews > 0 ? "Keep your patterns sharp — some are due!" : "Practise your patterns so they stick."}
+            </span>
+          </button>
           <button className="tile" onClick={() => setScreen("bot-pick")}>
             <span className="tile__emoji">🤖</span>
             <span className="tile__name">Play the Bot</span>
@@ -247,7 +281,9 @@ export function GambitApp({ ctx }: { ctx: ModuleContext }) {
           <button className="tile" onClick={() => setScreen("belts")}>
             <span className="tile__emoji">🥋</span>
             <span className="tile__name">Belt Path</span>
-            <span className="tile__blurb">Learn every chess skill, step by step.</span>
+            <span className="tile__blurb">
+              Puzzle belts, step by step. {solved.solved}/{solved.total} solved.
+            </span>
           </button>
         </div>
       </div>

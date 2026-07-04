@@ -128,7 +128,8 @@ export function PuzzleBoard({
 }: {
   ctx?: ModuleContext;
   puzzle: Puzzle;
-  onSolved?: () => void;
+  /** Called once when solved; `firstTry` is true if there were no wrong guesses. */
+  onSolved?: (firstTry: boolean) => void;
   onNext?: () => void;
   nextLabel?: string;
 }) {
@@ -136,6 +137,7 @@ export function PuzzleBoard({
   const [, force] = useState(0);
   const [selected, setSelected] = useState<Square | null>(null);
   const [solved, setSolved] = useState(false);
+  const [wrongTries, setWrongTries] = useState(0);
   const [nudge, setNudge] = useState<string>(puzzle.ask);
   const [lastMove, setLastMove] = useState<{ from: Square; to: Square } | null>(null);
 
@@ -155,12 +157,13 @@ export function PuzzleBoard({
       if (san === puzzle.solution[0]) {
         setSolved(true);
         setNudge("Yes! That's it. 🌟");
-        onSolved?.();
+        onSolved?.(wrongTries === 0);
       } else {
         // undo — a gentle retry, never a penalty
         game.undo();
         setLastMove(null);
         void before;
+        setWrongTries((w) => w + 1);
         setNudge("Not quite — try another idea. You've got this!");
       }
       force((n) => n + 1);

@@ -7,6 +7,16 @@ export { PUZZLES, dailyPuzzle } from "./puzzles.js";
 export { PERSONAS } from "./personas.js";
 export { analyzePurpose, type PurposeLabel, type PurposeSheet } from "./purposes.js";
 export { REPLAY_GAMES } from "./replay/games.js";
+export { PATH_LEVELS, levelStatuses, isGateCleared, masteryRatio, type PathLevel } from "./path.js";
+export { LESSONS, lessonsForLevel, type Lesson } from "./lessons.js";
+export {
+  playerChessProfile,
+  weaknessMap,
+  weakestCategories,
+  type PlayerChessProfile,
+  type WeaknessCategory,
+} from "./weakness.js";
+export { selectReviewPuzzles } from "./review/selection.js";
 
 /**
  * Gambit — kids' chess and strategic thinking (PRD 4.2), on the shared spine.

@@ -191,6 +191,24 @@ export const PUZZLES: Puzzle[] = [
     ask: "Move the knight to unveil a check — and attack the queen too!",
     wins: 9,
   },
+  {
+    id: "b4-discovered-grab",
+    belt: 4,
+    type: "discovered",
+    fen: "4k3/8/8/8/8/2q5/4N3/4R1K1 w - - 0 1",
+    solution: ["Nxc3+"],
+    ask: "Snatch the queen with your knight — and reveal a rook check at the same time!",
+    wins: 9,
+  },
+  {
+    id: "b4-skewer-corner",
+    belt: 4,
+    type: "skewer",
+    fen: "k6q/8/8/8/8/8/8/6KR w - - 0 1",
+    solution: ["Rxh8+"],
+    ask: "Line your rook up on the queen across the board and win it with check.",
+    wins: 9,
+  },
 
   /* ---------------- Belt 5 — Checkmates ---------------------------------- */
   {
