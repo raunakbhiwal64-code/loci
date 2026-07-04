@@ -1,0 +1,18 @@
+{
+  "name": "@loci/placeholder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "@loci/module-sdk": "0.1.0",
+    "@loci/design-system": "0.1.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}

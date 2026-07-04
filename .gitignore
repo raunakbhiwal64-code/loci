@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# builds
+dist/
+build/
+*.tsbuildinfo
+
+# env & secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+*.log
+
+# vite / pwa
+dev-dist/

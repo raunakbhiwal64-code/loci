@@ -1,0 +1,31 @@
+{
+  "name": "@loci/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@loci/ai-gateway": "0.1.0",
+    "@loci/analytics": "0.1.0",
+    "@loci/core-progression": "0.1.0",
+    "@loci/core-srs": "0.1.0",
+    "@loci/data-local": "0.1.0",
+    "@loci/design-system": "0.1.0",
+    "@loci/memora": "0.1.0",
+    "@loci/module-sdk": "0.1.0",
+    "@loci/placeholder": "0.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}

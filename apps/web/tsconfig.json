@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@loci/module-sdk": ["../../packages/module-sdk/src/index.ts"],
+      "@loci/core-progression": ["../../packages/core-progression/src/index.ts"],
+      "@loci/core-srs": ["../../packages/core-srs/src/index.ts"],
+      "@loci/data-local": ["../../packages/data-local/src/index.ts"],
+      "@loci/ai-gateway": ["../../packages/ai-gateway/src/index.ts"],
+      "@loci/analytics": ["../../packages/analytics/src/index.ts"],
+      "@loci/design-system": ["../../packages/design-system/src/index.ts"],
+      "@loci/memora": ["../../modules/memora/src/index.ts"],
+      "@loci/placeholder": ["../../modules/placeholder/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

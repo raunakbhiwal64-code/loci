@@ -1,0 +1,65 @@
+/*
+ * Loci design tokens — "parchment and ember" (PRD 6.1).
+ * Warm, scholarly, workshop-of-the-mind. Deliberately not the cold, neon,
+ * slot-machine look of most kids' apps. Fraunces for display, Manrope for body.
+ * (Fonts should be self-hosted for offline/perf; system fallbacks below.)
+ */
+
+:root {
+  /* palette — parchment base, ember warmth */
+  --parchment: #f4ecd8;
+  --parchment-2: #ece0c4;
+  --ink: #2e2a24;
+  --ink-soft: #5d554a;
+  --ember: #c9622b;
+  --ember-deep: #a24a1e;
+  --gold: #d9a441;
+  --line: #d8c9a8;
+  --surface: #fbf6ea;
+  --surface-raised: #ffffff;
+  --good: #4b7f52;
+  --shadow: 0 2px 0 rgba(46, 42, 36, 0.08), 0 8px 24px rgba(46, 42, 36, 0.1);
+
+  /* per-module accents (one family, distinct hues) */
+  --accent-memora: #d98a2b; /* amber */
+  --accent-gambit: #1f6f6b; /* deep teal */
+  --accent-abacus: #b8522f; /* terracotta */
+  --accent-cortex: #4b4b8f; /* indigo */
+  --accent-placeholder: #6b7a8f;
+
+  /* the active module accent (set per-module at mount) */
+  --accent: var(--ember);
+
+  /* typography */
+  --font-display: "Fraunces", "Georgia", "Times New Roman", serif;
+  --font-body: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* spacing / radius */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 22px;
+  --gap: 16px;
+
+  /* motion (respects reduced-motion) */
+  --dur: 220ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 0ms;
+  }
+}
+
+.loci-root {
+  background: radial-gradient(120% 120% at 50% 0%, var(--surface) 0%, var(--parchment) 60%, var(--parchment-2) 100%);
+  color: var(--ink);
+  font-family: var(--font-body);
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* large touch targets, WCAG AA baseline (PRD 6.1) */
+.loci-root button,
+.loci-root a {
+  min-height: 44px;
+}

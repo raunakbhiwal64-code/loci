@@ -1,0 +1,61 @@
+/* Shared component styles — themed by var(--accent) per module. */
+
+.ds-btn {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: var(--r-md);
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: transform var(--dur) ease, filter var(--dur) ease;
+  color: #fff;
+  background: var(--accent);
+  box-shadow: var(--shadow);
+}
+.ds-btn:hover { filter: brightness(1.05); }
+.ds-btn:active { transform: translateY(1px); }
+.ds-btn--ghost { background: transparent; color: var(--ink); box-shadow: none; border: 2px solid var(--line); }
+.ds-btn--big { font-size: 1.2rem; padding: 16px 28px; border-radius: var(--r-lg); }
+.ds-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+.ds-card {
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.ds-display { font-family: var(--font-display); color: var(--ink); line-height: 1.1; margin: 0; }
+.ds-muted { color: var(--ink-soft); }
+
+.ds-ribbon { height: 12px; background: var(--parchment-2); border-radius: 999px; overflow: hidden; }
+.ds-ribbon > i { display: block; height: 100%; background: var(--accent); transition: width var(--dur) ease; }
+
+.ds-guide {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--parchment); border: 1px solid var(--line);
+  border-radius: var(--r-lg); padding: 14px 16px;
+}
+.ds-guide__face {
+  flex: none; width: 44px; height: 44px; border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, var(--gold), var(--ember));
+  display: grid; place-items: center; font-size: 22px;
+}
+
+.ds-modal__scrim { position: fixed; inset: 0; background: rgba(46,42,36,0.45); display: grid; place-items: center; padding: 20px; z-index: 50; }
+.ds-modal { max-width: 460px; width: 100%; }
+
+.ds-avatar { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; font-size: 28px; background: var(--parchment-2); border: 2px solid var(--line); }
+
+.ds-skillmap { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+.ds-skill { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); padding: 10px 12px; }
+.ds-skill__name { font-size: 0.85rem; font-weight: 700; }
+.ds-skill__lvl { font-size: 0.75rem; color: var(--ink-soft); }
+
+.ds-daily {
+  background: linear-gradient(135deg, var(--ember), var(--gold));
+  color: #fff; border-radius: var(--r-lg); padding: 24px; box-shadow: var(--shadow);
+}
+.ds-daily .ds-display { color: #fff; }
