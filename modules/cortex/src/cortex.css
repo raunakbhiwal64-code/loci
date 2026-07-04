@@ -1,0 +1,89 @@
+/* Cortex board styles — themed by var(--accent). Kid-warm, generous tap targets. */
+
+.cx-clues { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.cx-clue {
+  display: flex; gap: 8px; align-items: baseline;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r-md); padding: 8px 12px; font-size: 0.95rem;
+}
+.cx-clue__n {
+  flex: none; font-weight: 800; color: var(--accent);
+  min-width: 1.4em; text-align: center;
+}
+
+/* Logic grid: one block per category, rows = people, cols = values */
+.cx-grid { display: grid; gap: 18px; }
+.cx-grid__block { overflow-x: auto; }
+.cx-grid__title { font-family: var(--font-display); font-size: 1.05rem; margin: 0 0 8px; }
+.cx-grid__table { border-collapse: collapse; }
+.cx-grid__table th, .cx-grid__table td { border: 1px solid var(--line); padding: 0; }
+.cx-grid__corner { background: var(--parchment-2); }
+.cx-grid__colh, .cx-grid__rowh {
+  background: var(--parchment); font-size: 0.85rem; font-weight: 700;
+  padding: 6px 8px; white-space: nowrap; text-align: center;
+}
+.cx-grid__colh span { font-size: 1.1rem; display: block; }
+.cx-cell {
+  width: 52px; height: 52px; font-size: 22px; cursor: pointer;
+  background: var(--surface); border: none; display: grid; place-items: center;
+  transition: background var(--dur) ease;
+}
+.cx-cell:hover { background: var(--parchment); }
+.cx-cell--yes { color: var(--accent); font-weight: 900; }
+.cx-cell--no { color: var(--ink-soft); }
+.cx-cell:focus-visible { outline: 3px solid var(--ink); outline-offset: -3px; }
+
+/* Sudoku */
+.cx-sudoku { display: inline-grid; gap: 0; margin: 0 auto; border: 3px solid var(--ink); }
+.cx-su-cell {
+  width: 48px; height: 48px; font-size: 22px; font-weight: 700;
+  display: grid; place-items: center; cursor: pointer; background: var(--surface);
+  border: 1px solid var(--line); box-sizing: border-box; color: var(--ink);
+}
+.cx-su-cell--given { background: var(--parchment-2); cursor: default; font-weight: 900; }
+.cx-su-cell--sel { outline: 3px solid var(--accent); outline-offset: -3px; z-index: 1; }
+.cx-su-cell--conflict { color: #c0392b; background: #fdecea; }
+.cx-su-cell--boxR { border-right: 3px solid var(--ink); }
+.cx-su-cell--boxB { border-bottom: 3px solid var(--ink); }
+.cx-pad { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.cx-pad button {
+  width: 48px; height: 48px; font-size: 20px; font-weight: 800;
+  border-radius: var(--r-md); border: 2px solid var(--line);
+  background: var(--surface); cursor: pointer; color: var(--ink);
+}
+.cx-pad button:hover { border-color: var(--accent); }
+
+/* Sequence terms */
+.cx-seq { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; justify-content: center; font-family: var(--font-display); }
+.cx-seq__term {
+  min-width: 48px; padding: 12px 14px; text-align: center; font-size: 1.6rem;
+  background: var(--parchment); border: 2px solid var(--line); border-radius: var(--r-md);
+}
+.cx-seq__q {
+  min-width: 48px; padding: 12px 14px; text-align: center; font-size: 1.6rem;
+  border: 2px dashed var(--accent); border-radius: var(--r-md); color: var(--accent);
+}
+
+/* Answer options (sequences, odd-one-out) */
+.cx-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.cx-opt {
+  padding: 16px; font-size: 1.2rem; font-weight: 700; border-radius: var(--r-md);
+  border: 2px solid var(--line); background: var(--surface); cursor: pointer; color: var(--ink);
+  transition: border-color var(--dur) ease, background var(--dur) ease;
+}
+.cx-opt:hover { border-color: var(--accent); }
+.cx-opt--picked { border-color: var(--accent); background: var(--parchment); }
+.cx-opt--right { border-color: #2e7d32; background: #e8f5e9; }
+.cx-opt--wrong { border-color: #c0392b; background: #fdecea; }
+
+.cx-reason {
+  text-align: left; font-size: 1rem; font-weight: 600; line-height: 1.4;
+}
+
+/* Hint / reasoning trace panel */
+.cx-trace { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.cx-trace li {
+  background: var(--parchment); border: 1px solid var(--line);
+  border-radius: var(--r-md); padding: 8px 12px; font-size: 0.95rem;
+}
+.cx-hint-note { font-size: 0.85rem; color: var(--ink-soft); }

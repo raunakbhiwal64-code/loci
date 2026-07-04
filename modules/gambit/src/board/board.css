@@ -1,0 +1,76 @@
+/* Parchment-styled SVG chessboard, themed with design-system CSS vars. */
+
+.gambit-board {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--r-md);
+  border: 3px solid var(--line);
+  box-shadow: var(--shadow);
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.gambit-sq--light rect { fill: var(--parchment-2); }
+.gambit-sq--dark rect { fill: #8a6a44; } /* warm brown */
+
+.gambit-sq.is-last rect { fill: color-mix(in srgb, var(--accent) 35%, var(--parchment-2)); }
+.gambit-sq--dark.is-last rect { fill: color-mix(in srgb, var(--accent) 45%, #8a6a44); }
+
+.gambit-sq.is-selected rect {
+  fill: color-mix(in srgb, var(--accent) 55%, var(--parchment-2));
+  stroke: var(--accent);
+  stroke-width: 6;
+}
+.gambit-sq--dark.is-selected rect {
+  fill: color-mix(in srgb, var(--accent) 60%, #8a6a44);
+}
+
+.gambit-sq.is-check rect {
+  fill: color-mix(in srgb, #c0392b 55%, var(--parchment-2));
+}
+
+.gambit-piece {
+  font-size: 68px;
+  pointer-events: none;
+  paint-order: stroke;
+}
+.gambit-piece--w {
+  fill: #fbf6ea;
+  stroke: #2e2a24;
+  stroke-width: 2px;
+}
+.gambit-piece--b {
+  fill: #2e2a24;
+  stroke: #0d0b08;
+  stroke-width: 1px;
+}
+
+.gambit-dot {
+  fill: var(--accent);
+  opacity: 0.55;
+  pointer-events: none;
+}
+.gambit-ring {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 6;
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.gambit-coord {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 700;
+  fill: var(--ink-soft);
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .gambit-sq--light rect { fill: #6b533a; }
+  .gambit-sq--dark rect { fill: #4a3826; }
+}

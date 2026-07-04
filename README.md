@@ -9,8 +9,10 @@ Built to the [Loci Master PRD v2.1](./docs/Loci-Master-PRD-v2_1.md). Honesty
 guardrail (non-negotiable): we claim children learn specific real skills and
 enjoy it. We never claim we raise general intelligence or that skills transfer.
 
-> **Status:** Phase 0 (the shared spine) + Phase 1 (Memora integrated onto the
-> spine) are in place. See [Roadmap](#roadmap).
+> **Status:** All launch-set modules are built on the shared spine — Memora
+> (v2), Gambit, Abacus, Cortex, plus the P1/P2 modules Tangra, Lexicon and
+> FocusRead — along with the Guardian safety layer and Real-World Quests.
+> Built to PRD v3.0 (`docs/Loci-Master-PRD-v3_0.md`). See [Roadmap](#roadmap).
 
 ## What's here
 
@@ -88,12 +90,14 @@ interface LociModule {
 
 | Phase | What | State |
 |-------|------|-------|
-| 0 | The spine + Hub shell + daily-challenge slot | ✅ in this repo |
-| 1 | Memora refactored onto the spine + first daily challenge | ✅ in this repo |
-| 2 | Gambit (chess, Stockfish WASM) + Abacus | ⬜ next |
-| 3 | Cortex (logic) — complete the free launch quartet | ⬜ |
-| 4 | Own the stack: self-hosted model, accounts, parent dashboard | ⬜ |
-| 5 | Tangra, Lexicon, FocusRead | ⬜ |
+| 0 | The spine + Hub shell + daily-challenge slot | ✅ |
+| 1 | Memora refactored onto the spine + daily challenge | ✅ |
+| 2 | Gambit (chess, move tutor) + Abacus (Vedic math) | ✅ |
+| 3 | Cortex (logic) — completes the free launch quartet | ✅ |
+| — | Guardian safety layer + Real-World Quests (PRD 6.2/6.4) | ✅ |
+| 5 | Tangra (spatial), Lexicon (verbal), FocusRead (reading) | ✅ |
+| 4 | Own the stack: self-hosted model, accounts, parent dashboard | ⬜ backend phase |
+| 6 | Native shell + partnerships (evidence-gated) | ⬜ |
 
 ## Notes on the Memora port
 

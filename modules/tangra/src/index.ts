@@ -1,13 +1,20 @@
+import React from "react";
+import { createRoot } from "react-dom/client";
 import type { LociModule } from "@loci/module-sdk";
+import { TangraApp } from "./TangraApp.js";
 
-/** Tangra — scaffold; implementation lands in this package. */
+/**
+ * Tangra — spatial reasoning (PRD 4.5). Rotation match, mazes, block-count and
+ * symmetry draw. Deterministic geometry, minimal AI — the economy module.
+ */
 export const tangra: LociModule = {
   id: "tangra",
   displayName: "Tangra",
   accentToken: "--accent-tangra",
   skillsAwarded: ["spatial-visualisation", "metacognition"],
-  
-  mount(container) {
-    container.innerHTML = '<div class="ds-card" style="text-align:center;padding:32px"><div style="font-size:44px">🔷</div><h3 class="ds-display">Tangra is on its way!</h3><p class="ds-muted">This module is being crafted. Check back soon.</p></div>';
+  mount(container, ctx) {
+    const root = createRoot(container);
+    root.render(React.createElement(TangraApp, { ctx }));
+    return () => root.unmount();
   },
 };

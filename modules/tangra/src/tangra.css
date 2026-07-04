@@ -1,0 +1,69 @@
+/* Tangra — spatial games. Themed by var(--accent) (moss green). Pure SVG. */
+
+.tg-svg { display: block; width: 100%; height: auto; touch-action: manipulation; }
+
+/* Rotation Match — candidate cards */
+.tg-cands { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.tg-cand {
+  border: 3px solid var(--line); background: var(--surface);
+  border-radius: var(--r-md); padding: 12px; cursor: pointer;
+  transition: transform var(--dur) ease, border-color var(--dur) ease;
+}
+.tg-cand:hover { transform: translateY(-2px); }
+.tg-cand:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.tg-cand[data-state="right"] { border-color: var(--good); background: #eef6ee; }
+.tg-cand[data-state="wrong"] { border-color: var(--ember); background: #f9ece4; }
+.tg-cand[data-state="miss"] { opacity: 0.45; }
+
+.tg-shape-fill { fill: var(--accent); }
+.tg-shape-stroke { stroke: var(--surface-raised); stroke-width: 1.5; }
+.tg-grid-line { stroke: var(--line); stroke-width: 1; }
+
+/* Maze */
+.tg-maze-wrap { display: grid; place-items: center; }
+.tg-maze-wall { stroke: var(--ink); stroke-width: 2.4; stroke-linecap: round; }
+.tg-maze-player { fill: var(--accent); }
+.tg-maze-goal { fill: var(--gold); }
+.tg-maze-trail { fill: color-mix(in srgb, var(--accent) 22%, transparent); }
+.tg-maze-solution { fill: color-mix(in srgb, var(--gold) 30%, transparent); }
+
+.tg-dpad { display: grid; grid-template-columns: repeat(3, 56px); grid-template-rows: repeat(3, 56px); gap: 6px; justify-content: center; }
+.tg-dpad button {
+  font-size: 22px; border: 2px solid var(--line); background: var(--surface-raised);
+  border-radius: var(--r-md); cursor: pointer; color: var(--ink);
+}
+.tg-dpad button:hover:not(:disabled) { background: var(--parchment); }
+.tg-dpad button:disabled { opacity: 0.3; cursor: default; }
+.tg-dpad .tg-up { grid-area: 1 / 2; }
+.tg-dpad .tg-left { grid-area: 2 / 1; }
+.tg-dpad .tg-right { grid-area: 2 / 3; }
+.tg-dpad .tg-down { grid-area: 3 / 2; }
+
+/* Blocks — isometric cubes */
+.tg-cube-top { fill: color-mix(in srgb, var(--accent) 78%, white); }
+.tg-cube-left { fill: color-mix(in srgb, var(--accent) 55%, black); }
+.tg-cube-right { fill: var(--accent); }
+.tg-cube-edge { stroke: var(--ink); stroke-width: 0.8; stroke-linejoin: round; }
+
+/* Symmetry */
+.tg-sym-cell { cursor: pointer; }
+.tg-sym-given { fill: var(--accent); }
+.tg-sym-drawn { fill: var(--gold); }
+.tg-sym-empty { fill: var(--surface); }
+.tg-sym-empty:hover { fill: var(--parchment); }
+.tg-sym-frame { stroke: var(--line); stroke-width: 1; fill: none; }
+.tg-sym-mirror { stroke: var(--ember); stroke-width: 2.5; stroke-dasharray: 6 5; }
+
+/* Difficulty ladder */
+.tg-ladder { display: flex; gap: 8px; flex-wrap: wrap; }
+.tg-ladder button {
+  border: 2px solid var(--line); background: var(--surface-raised); color: var(--ink);
+  border-radius: 999px; padding: 8px 16px; font-weight: 700; cursor: pointer; font-family: var(--font-body);
+}
+.tg-ladder button[aria-pressed="true"] { border-color: var(--accent); background: var(--parchment); }
+.tg-ladder button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.tg-star { color: var(--gold); }
+.tg-feedback { font-weight: 700; min-height: 1.4em; }
+.tg-feedback[data-tone="good"] { color: var(--good); }
+.tg-feedback[data-tone="try"] { color: var(--ember-deep); }
