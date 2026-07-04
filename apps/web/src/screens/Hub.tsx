@@ -1,16 +1,15 @@
-import { Avatar, Button, Card, DailyChallengeCard, Display, GuideBubble, SkillMap } from "@loci/design-system";
+import { Avatar, Button, Card, DailyChallengeCard, Display, GuideBubble } from "@loci/design-system";
 import type { Screen } from "../App.js";
 import type { Spine } from "../spine.js";
 import { MODULES } from "../registry.js";
-import { skillRows } from "../skillRows.js";
 import { dateKey } from "@loci/data-local";
 import { QuestCard } from "../guardian/QuestCard.js";
+import { AdventureTrail } from "../components/AdventureMap.js";
 
 /** Screen 2 — Hub home. The daily anchor (PRD 6.3). */
 export function Hub({ spine, nav }: { spine: Spine; nav: (s: Screen) => void }) {
   const profile = spine.activeProfile()!;
   const streak = spine.store.streak(profile.id);
-  const rows = skillRows(spine).slice(0, 4);
   const todayDone = spine.store.getDaily(profile.id, dateKey())?.completed ?? false;
 
   return (
@@ -51,13 +50,13 @@ export function Hub({ spine, nav }: { spine: Spine; nav: (s: Screen) => void }) 
       <Card className="stack">
         <div className="spread">
           <Display as="h2" style={{ fontSize: "1.3rem" }}>
-            Your Thinking Skills
+            Your Adventure Map
           </Display>
           <Button variant="ghost" onClick={() => nav({ name: "skillmap" })}>
-            See all
+            Open map
           </Button>
         </div>
-        <SkillMap skills={rows} />
+        <AdventureTrail spine={spine} />
       </Card>
 
       <div className="spread">
