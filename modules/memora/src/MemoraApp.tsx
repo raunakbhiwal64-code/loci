@@ -3,6 +3,7 @@ import { Button, Card, Display, GuideBubble, ProgressRibbon } from "@loci/design
 import type { ModuleContext } from "@loci/module-sdk";
 import { allPalaces, DEFAULT_LIST, type Palace } from "./palaces.js";
 import { MyPalaces, PhotoPalace } from "./builder/PhotoPalace.js";
+import { LearnAnything } from "./learnanything/LearnAnything.js";
 import { localMnemonic } from "./util.js";
 
 /**
@@ -14,7 +15,7 @@ import { localMnemonic } from "./util.js";
  * which then appears in the palace picker with the photo + numbered pins.
  */
 
-type Stage = "pick" | "build" | "meet" | "place" | "walk" | "recall" | "done";
+type Stage = "pick" | "build" | "learn" | "meet" | "place" | "walk" | "recall" | "done";
 
 export function MemoraApp({ ctx }: { ctx: ModuleContext }) {
   const [stage, setStage] = useState<Stage>("pick");
@@ -106,6 +107,10 @@ export function MemoraApp({ ctx }: { ctx: ModuleContext }) {
     );
   }
 
+  if (stage === "learn") {
+    return <LearnAnything ctx={ctx} onExit={() => setStage("pick")} />;
+  }
+
   if (stage === "pick") {
     return (
       <div className="stack">
@@ -127,6 +132,11 @@ export function MemoraApp({ ctx }: { ctx: ModuleContext }) {
             <span className="tile__emoji">🏠</span>
             <span className="tile__name">Build my own palace</span>
             <span className="tile__blurb">Take photos of a place you know</span>
+          </button>
+          <button className="tile" onClick={() => setStage("learn")}>
+            <span className="tile__emoji">📝</span>
+            <span className="tile__name">Learn Anything</span>
+            <span className="tile__blurb">Load your own poem, list or facts</span>
           </button>
         </div>
         <MyPalaces ctx={ctx} onBuild={() => setStage("build")} />

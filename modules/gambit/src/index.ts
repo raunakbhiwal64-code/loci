@@ -5,6 +5,8 @@ import { GambitApp } from "./GambitApp.js";
 
 export { PUZZLES, dailyPuzzle } from "./puzzles.js";
 export { PERSONAS } from "./personas.js";
+export { analyzePurpose, type PurposeLabel, type PurposeSheet } from "./purposes.js";
+export { REPLAY_GAMES } from "./replay/games.js";
 
 /**
  * Gambit — kids' chess and strategic thinking (PRD 4.2), on the shared spine.

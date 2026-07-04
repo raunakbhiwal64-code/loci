@@ -19,8 +19,21 @@ import { analyzeMove, severityHeadline, factSheetContext, type FactSheet } from 
 import { dailyPuzzle } from "./puzzles.js";
 import { GameReview, type MoveRecord } from "./review.js";
 import type { Belt } from "./puzzles.js";
+import { AnnotatedReplayFlow } from "./replay/AnnotatedReplay.js";
+import { GuidedGame } from "./guided/GuidedGame.js";
 
-type Screen = "home" | "belts" | "beltrun" | "bot-pick" | "bot-play" | "review" | "pass" | "daily";
+type Screen =
+  | "home"
+  | "belts"
+  | "beltrun"
+  | "bot-pick"
+  | "bot-play"
+  | "review"
+  | "pass"
+  | "daily"
+  | "replay"
+  | "guided-pick"
+  | "guided-play";
 
 export function GambitApp({ ctx }: { ctx: ModuleContext }) {
   const [screen, setScreen] = useState<Screen>("home");
@@ -135,6 +148,57 @@ export function GambitApp({ ctx }: { ctx: ModuleContext }) {
     );
   }
 
+  if (screen === "replay") {
+    return (
+      <Frame ctx={ctx} onHome={() => setScreen("home")} hideHome>
+        <AnnotatedReplayFlow ctx={ctx} onHome={() => setScreen("home")} />
+      </Frame>
+    );
+  }
+
+  if (screen === "guided-pick") {
+    return (
+      <Frame ctx={ctx} onHome={() => setScreen("home")}>
+        <div className="stack">
+          <GuideBubble>
+            In a Guided Game I'll walk the blunder-check with you before each move — then it fades as you get the hang of
+            it. Pick a friendly opponent!
+          </GuideBubble>
+          <div className="tiles">
+            {PERSONAS.map((p) => (
+              <button
+                key={p.id}
+                className="tile"
+                onClick={() => {
+                  setPersona(p);
+                  setScreen("guided-play");
+                  ctx.analytics.emit({
+                    kind: "activity",
+                    action: "started",
+                    moduleId: "gambit",
+                    skills: ["metacognition"],
+                  });
+                }}
+              >
+                <span className="tile__emoji">{p.emoji}</span>
+                <span className="tile__name">{p.name}</span>
+                <span className="tile__blurb">{p.blurb}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </Frame>
+    );
+  }
+
+  if (screen === "guided-play") {
+    return (
+      <Frame ctx={ctx} onHome={() => setScreen("home")}>
+        <GuidedGame ctx={ctx} persona={persona} onQuit={() => setScreen("home")} />
+      </Frame>
+    );
+  }
+
   // home
   const solved = allSolvedCount(ctx);
   return (
@@ -159,6 +223,16 @@ export function GambitApp({ ctx }: { ctx: ModuleContext }) {
             <span className="tile__emoji">🤖</span>
             <span className="tile__name">Play the Bot</span>
             <span className="tile__blurb">Full game with a friendly coach after every move.</span>
+          </button>
+          <button className="tile" onClick={() => setScreen("guided-pick")}>
+            <span className="tile__emoji">🧠</span>
+            <span className="tile__name">Guided Game</span>
+            <span className="tile__blurb">Play with the blunder-check coach that fades as you learn.</span>
+          </button>
+          <button className="tile" onClick={() => setScreen("replay")}>
+            <span className="tile__emoji">🎬</span>
+            <span className="tile__name">Annotated Games</span>
+            <span className="tile__blurb">Watch a whole game with the why behind every move.</span>
           </button>
           <button className="tile" onClick={() => setScreen("daily")}>
             <span className="tile__emoji">🗓️</span>

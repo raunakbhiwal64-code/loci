@@ -9,6 +9,8 @@ import { ProfileSwitcher } from "./screens/ProfileSwitcher.js";
 import { ModuleHost } from "./screens/ModuleHost.js";
 import { DailyChallenge } from "./daily/DailyChallenge.js";
 import { ThemePicker } from "./screens/ThemePicker.js";
+import { Celebration } from "./components/Celebration.js";
+import type { Milestone } from "./milestones.js";
 
 export type Screen =
   | { name: "hub" }
@@ -23,12 +25,27 @@ export type Screen =
 export function App({ spine }: { spine: Spine }) {
   const [, force] = useState(0);
   const [screen, setScreen] = useState<Screen>({ name: "hub" });
+  const [celebrations, setCelebrations] = useState<Milestone[]>([]);
 
-  // Re-render the shell whenever the spine reports a change (skill awards, etc.).
-  useEffect(() => spine.onChange(() => force((n) => n + 1)), [spine]);
+  // Re-render on any spine change, and queue any newly-earned milestones.
+  useEffect(
+    () =>
+      spine.onChange(() => {
+        force((n) => n + 1);
+        const fresh = spine.checkMilestones();
+        if (fresh.length) setCelebrations((q) => [...q, ...fresh]);
+      }),
+    [spine]
+  );
+
+  const profile = spine.activeProfile();
+
+  // Baseline milestones on mount / profile switch (silent for already-earned).
+  useEffect(() => {
+    if (profile) spine.checkMilestones();
+  }, [spine, profile?.id]);
 
   const nav = (s: Screen) => setScreen(s);
-  const profile = spine.activeProfile();
 
   // First run: no profile yet → activation gate (target < 60s to play).
   if (!profile) {
@@ -59,6 +76,14 @@ export function App({ spine }: { spine: Spine }) {
       {screen.name === "theme" && <ThemePicker spine={spine} onBack={() => nav({ name: "hub" })} />}
       {screen.name === "module" && (
         <ModuleHost spine={spine} moduleId={screen.moduleId} onBack={() => nav({ name: "hub" })} />
+      )}
+
+      {celebrations[0] && (
+        <Celebration
+          milestone={celebrations[0]}
+          childName={profile.displayName}
+          onClose={() => setCelebrations((q) => q.slice(1))}
+        />
       )}
     </div>
   );

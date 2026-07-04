@@ -5,6 +5,7 @@ import { createSrs } from "@loci/core-srs";
 import { Analytics } from "@loci/analytics";
 import { Gateway, StubAdapter } from "@loci/ai-gateway";
 import { MODULE_ACCENTS, designSystemFor, applyTheme, DEFAULT_THEME, setCompanion } from "@loci/design-system";
+import { detectAll as milestonesDetectAll, type Milestone } from "./milestones.js";
 
 /**
  * The shared spine (PRD Phase 0). Owns the local store, analytics, and the AI
@@ -105,6 +106,31 @@ export class Spine {
   applyActivePrefs(): void {
     this.applyActiveTheme();
     this.applyActiveCompanion();
+  }
+
+  /**
+   * Return milestones newly earned since last check, marking them celebrated so
+   * each fires exactly once (persisted per profile). Drives the celebration.
+   */
+  checkMilestones(): Milestone[] {
+    const profile = this.store.activeProfile();
+    if (!profile) return [];
+    const store = this.store.moduleStorage(profile.id, "shell");
+    const all = milestonesDetectAll(this);
+    const existing = store.get<string[]>("celebrated");
+    // First check for this profile: baseline already-earned milestones silently
+    // so we never retro-celebrate a burst of old achievements.
+    if (existing === undefined) {
+      store.set("celebrated", all.map((m) => m.key));
+      return [];
+    }
+    const seen = new Set(existing);
+    const fresh = all.filter((m) => !seen.has(m.key));
+    if (fresh.length) {
+      fresh.forEach((m) => seen.add(m.key));
+      store.set("celebrated", [...seen]);
+    }
+    return fresh;
   }
 
   /** Progression for the current profile, for shell surfaces (Hub, skill map). */
