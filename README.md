@@ -5,9 +5,12 @@ apps that teach real, nameable thinking skills — memory technique, chess, ment
 arithmetic, logical reasoning and more — sharing **one child profile, one skill
 map, one design language, and one swappable AI layer**.
 
-Built to the [Loci Master PRD v2.1](./docs/Loci-Master-PRD-v2_1.md). Honesty
-guardrail (non-negotiable): we claim children learn specific real skills and
-enjoy it. We never claim we raise general intelligence or that skills transfer.
+📖 **New here? Read [FEATURES.md](./FEATURES.md)** — a plain-English tour of
+everything the app does, written for non-developers.
+
+Built to the [Loci Master PRD](./docs/) (latest: v3.2). Honesty guardrail
+(non-negotiable): we claim children learn specific real skills and enjoy it. We
+never claim we raise general intelligence or that skills transfer.
 
 > **Status:** All launch-set modules are built on the shared spine — Memora
 > (v2), Gambit, Abacus, Cortex, plus the P1/P2 modules Tangra, Lexicon and
