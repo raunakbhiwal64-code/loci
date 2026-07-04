@@ -1,6 +1,6 @@
 # Loci — What the app does
 
-*A plain-English guide for everyone (no coding needed). Last updated: 5 Jul 2026.*
+*A plain-English guide for everyone (no coding needed). Last updated: 6 Jul 2026.*
 
 **Loci** is a warm, friendly app that helps children aged **8–12** build real thinking
 skills — memory, chess, mental maths, logic and more — a few joyful minutes at a time.
@@ -30,7 +30,7 @@ map, and tiles for each skill "world":
 | World | What it grows | A taste of what's inside |
 |-------|---------------|--------------------------|
 | 🧠 **Memora** | Memory technique | Build memory "palaces", story chains, number tricks, name-a-face, and **Learn Anything** (below) |
-| ♟️ **Gambit** | Chess & planning | Learn pieces → tactics → checkmates; play a friendly bot; watch **annotated games**; a **blunder-check** habit |
+| ♟️ **Gambit** | Chess & planning | A structured 9-level **Path** (learn → practise → prove); play a friendly bot; watch **annotated games**; a **blunder-check** habit; a **Review** that targets weak spots |
 | 🔢 **Abacus** | Mental maths & Vedic tricks | Technique lessons, speed "sprints", race-your-own-ghost, a progress chart |
 | 🧩 **Cortex** | Logic & reasoning | Logic grids, number sequences, "odd one out — and *why*", Sudoku |
 | 🔷 **Tangra** | Spatial skills | Rotations, mazes, counting hidden cubes, mirror-drawing |
@@ -62,11 +62,16 @@ to mark what to remember, and learn it with proper techniques (a **poem mode** w
 first-letter trick and line-by-line build-up, or a **list mode**). It's then rehearsed over
 several days so it actually sticks. This text stays **only on the device**.
 
-### 🎬 Annotated chess games & the blunder-check (Gambit)
-Step through real games where the buddy explains the *purpose* of every move in kid
-language, with "what would you play here?" moments. In guided play, a simple **checklist**
-("is my piece safe? what can my opponent do?") teaches the habit that prevents most
-beginner mistakes — and it quietly fades as the child gets better.
+### ♟️ A real chess course, not just games (Gambit)
+Gambit has a structured **Path** of nine levels — from "how the pieces move" up to strategy.
+Each level is **learn the idea → practise it → beat a boss game → prove it**, and the next
+level stays **locked until the child actually earns it** (no skipping by clicking). A
+**Review** brings back exactly the patterns they're shakiest on, so weak spots get fixed.
+
+Alongside the Path: step through real **annotated games** where the buddy explains the
+*purpose* of every move ("what would you play here?" moments included); and in guided play a
+simple **blunder-check** checklist ("is my piece safe? what can my opponent do?") builds the
+habit that prevents most beginner mistakes — then quietly fades as the child gets better.
 
 ---
 
