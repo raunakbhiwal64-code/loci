@@ -20,8 +20,8 @@ export function Hub({ spine, nav }: { spine: Spine; nav: (s: Screen) => void }) 
         <div className="row" style={{ gap: 8 }}>
           {streak > 0 && <span className="streak">🔥 {streak}</span>}
           <button
-            aria-label="Pick your look"
-            title="Pick your look"
+            aria-label="Make it yours — theme and buddy"
+            title="Make it yours"
             style={{ border: "1px solid var(--line)", background: "var(--surface-raised)", cursor: "pointer", fontSize: 20, width: 44, height: 44, borderRadius: "50%" }}
             onClick={() => nav({ name: "theme" })}
           >

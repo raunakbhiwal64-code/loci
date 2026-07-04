@@ -88,6 +88,12 @@ export class LocalStore {
     this.flush("activeProfileId");
     return profile;
   }
+  updateProfile(id: string, patch: Partial<Omit<Profile, "id" | "createdAt">>): void {
+    const cur = this.data.profiles[id];
+    if (!cur) return;
+    this.data.profiles[id] = { ...cur, ...patch };
+    this.flush("profiles");
+  }
   deleteProfile(id: string) {
     // deleting a profile deletes everything keyed to it (PRD Appendix E).
     delete this.data.profiles[id];

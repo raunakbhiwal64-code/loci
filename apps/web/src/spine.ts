@@ -4,7 +4,7 @@ import { createProgression } from "@loci/core-progression";
 import { createSrs } from "@loci/core-srs";
 import { Analytics } from "@loci/analytics";
 import { Gateway, StubAdapter } from "@loci/ai-gateway";
-import { MODULE_ACCENTS, designSystemFor, applyTheme, DEFAULT_THEME } from "@loci/design-system";
+import { MODULE_ACCENTS, designSystemFor, applyTheme, DEFAULT_THEME, setCompanion } from "@loci/design-system";
 
 /**
  * The shared spine (PRD Phase 0). Owns the local store, analytics, and the AI
@@ -84,6 +84,27 @@ export class Spine {
   /** Apply the active profile's stored theme (or the default). Call on boot & profile switch. */
   applyActiveTheme(): void {
     applyTheme(this.getTheme());
+  }
+
+  /** Apply the active profile's chosen companion. Call on boot & profile switch. */
+  applyActiveCompanion(): void {
+    const p = this.store.activeProfile();
+    setCompanion(p?.companionId, p?.companionName);
+  }
+
+  /** Change the active child's companion (kept, applied live, persisted). */
+  setCompanionChoice(companionId: string, companionName?: string): void {
+    const p = this.store.activeProfile();
+    if (!p) return;
+    this.store.updateProfile(p.id, { companionId, companionName: companionName ?? p.companionName });
+    this.applyActiveCompanion();
+    this.notify();
+  }
+
+  /** Apply both theme and companion for the active profile. */
+  applyActivePrefs(): void {
+    this.applyActiveTheme();
+    this.applyActiveCompanion();
   }
 
   /** Progression for the current profile, for shell surfaces (Hub, skill map). */

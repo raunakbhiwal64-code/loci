@@ -1,5 +1,6 @@
 import React from "react";
 import "./components.css";
+import { getCompanion } from "./companion.js";
 
 type Div = React.HTMLAttributes<HTMLDivElement>;
 
@@ -37,12 +38,12 @@ export function ProgressRibbon({ value }: { value: number }) {
   );
 }
 
-/** The Guide — one consistent, friendly, Socratic character (PRD 7). */
+/** The Guide — the child's chosen, named companion (PRD 6.5/7). */
 export function GuideBubble({ children }: { children: React.ReactNode }) {
   return (
     <div className="ds-guide">
       <div className="ds-guide__face" aria-hidden>
-        🦉
+        {getCompanion().emoji}
       </div>
       <div>{children}</div>
     </div>

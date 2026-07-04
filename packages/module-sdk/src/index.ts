@@ -36,6 +36,9 @@ export interface Profile {
   avatarId: string;
   ageBand: AgeBand;
   createdAt: number;
+  /** The companion the child chose and named at first run (PRD 6.5). */
+  companionId?: string;
+  companionName?: string;
   settings: {
     audioPrompts: boolean;
     reducedMotion: boolean;
