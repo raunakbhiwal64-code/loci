@@ -173,6 +173,20 @@ export interface AnalyticsApi {
   emit(event: AnalyticsEvent): void;
 }
 
+/* ---- Module storage contract -------------------------------------- */
+
+/**
+ * Per-module, per-profile persistent key/value storage (local-first, IndexedDB
+ * write-through). For module-owned data like custom palaces, saved lists,
+ * bot progress. Reads are synchronous from the in-memory snapshot.
+ */
+export interface ModuleStorageApi {
+  get<T = unknown>(key: string): T | undefined;
+  set(key: string, value: unknown): void;
+  remove(key: string): void;
+  keys(): string[];
+}
+
 /* ---- Design system contract -------------------------------------- */
 
 export interface DesignSystem {
@@ -193,6 +207,8 @@ export interface ModuleContext {
   ai: AIProvider;
   analytics: AnalyticsApi;
   design: DesignSystem;
+  /** Module-owned persistent storage, scoped to (module, current profile). */
+  storage: ModuleStorageApi;
 }
 
 export interface LociModule {

@@ -1,23 +1,52 @@
+import type { ModuleStorageApi } from "@loci/module-sdk";
+
 /**
- * Ready-made palaces and the default practice list. A focused port of the
- * existing Memora content onto the spine (the full app has more palaces and a
- * photo-builder; those carry over in a later pass — see modules/memora/README).
+ * Ready-made palaces, the default practice list, and the custom (photo)
+ * palace store. Custom palaces are built in builder/PhotoPalace.tsx and are
+ * saved per-profile via ctx.storage — photos are downscaled JPEG dataURLs
+ * (re-encoded through a canvas, which strips EXIF/GPS) and never leave the
+ * device.
  */
+
+export interface PalaceSpot {
+  id: string;
+  label: string;
+  emoji: string;
+  /** Photo palaces only: pin position as a percentage of the photo (0–100). */
+  x?: number;
+  y?: number;
+}
 
 export interface Palace {
   id: string;
   name: string;
   emoji: string;
   /** Ordered loci (spots) the child walks through. */
-  loci: { id: string; label: string; emoji: string }[];
+  loci: PalaceSpot[];
+  /** Photo palaces only: downscaled JPEG dataURL. */
+  photo?: string;
 }
 
 export const PALACES: Palace[] = [
   {
+    id: "house",
+    name: "My House",
+    emoji: "🏠",
+    loci: [
+      { id: "door", label: "the front door", emoji: "🚪" },
+      { id: "sofa", label: "the sofa", emoji: "🛋️" },
+      { id: "tv", label: "the TV", emoji: "📺" },
+      { id: "table", label: "the kitchen table", emoji: "🍽️" },
+      { id: "fridge", label: "the fridge", emoji: "🧊" },
+      { id: "stairs", label: "the stairs", emoji: "🪜" },
+      { id: "bed", label: "the bed", emoji: "🛏️" },
+      { id: "window", label: "the bedroom window", emoji: "🪟" },
+    ],
+  },
+  {
     id: "treehouse",
     name: "Treehouse",
-    emoji: "🌳",
-    loci: [
+    emoji: "🌳",    loci: [
       { id: "gate", label: "the rope ladder", emoji: "🪜" },
       { id: "door", label: "the round door", emoji: "🚪" },
       { id: "window", label: "the little window", emoji: "🪟" },
@@ -47,3 +76,28 @@ export const PALACES: Palace[] = [
 
 /** Default list to memorise — the eight planets. */
 export const DEFAULT_LIST = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
+
+/* ---------------- custom palace store (per-profile) ---------------- */
+
+const CUSTOM_KEY = "custom-palaces";
+
+export function loadCustomPalaces(storage: ModuleStorageApi): Palace[] {
+  return storage.get<Palace[]>(CUSTOM_KEY) ?? [];
+}
+
+export function saveCustomPalace(storage: ModuleStorageApi, palace: Palace): void {
+  const all = loadCustomPalaces(storage).filter((p) => p.id !== palace.id);
+  storage.set(CUSTOM_KEY, [...all, palace]);
+}
+
+export function deleteCustomPalace(storage: ModuleStorageApi, id: string): void {
+  storage.set(
+    CUSTOM_KEY,
+    loadCustomPalaces(storage).filter((p) => p.id !== id)
+  );
+}
+
+/** Every palace the child can walk: ready-made first, then their own. */
+export function allPalaces(storage: ModuleStorageApi): Palace[] {
+  return [...PALACES, ...loadCustomPalaces(storage)];
+}

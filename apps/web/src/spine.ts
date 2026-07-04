@@ -15,8 +15,33 @@ import { MODULE_ACCENTS, designSystemFor } from "@loci/design-system";
 // Allowed AI task templates (input scoping, PRD 5.5). Modules use id-prefixed
 // task keys; free-form child text is never a task.
 export const KNOWN_TASKS = new Set<string>([
+  // memora
   "memora.mnemonic",
+  "memora.story",
+  "memora.suggest",
+  "memora.faces",
+  "memora.number",
   "memora.review",
+  // gambit — the model only PHRASES engine/taxonomy facts, never analyses
+  "gambit.explain",
+  "gambit.hint",
+  "gambit.review",
+  // abacus
+  "abacus.explain",
+  "abacus.hint",
+  "abacus.wordproblem",
+  // cortex
+  "cortex.hint",
+  "cortex.explain",
+  // tangra
+  "tangra.hint",
+  // lexicon
+  "lexicon.story",
+  "lexicon.definition",
+  "lexicon.hint",
+  // focusread
+  "focusread.review",
+  // hub
   "daily.encourage",
   "placeholder.hint",
 ]);
@@ -91,6 +116,7 @@ export class Spine {
       ai: gateway,
       analytics: this.analytics,
       design: designSystemFor(accent),
+      storage: this.store.moduleStorage(profile.id, mod.id),
     };
   }
 }

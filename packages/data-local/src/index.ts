@@ -23,6 +23,7 @@ interface Snapshot {
   srs: Record<string, SrsItem>;
   daily: Record<string, DailyChallengeResult>; // key: `${profileId}:${dateKey}`
   content: Record<string, ContentItem>;
+  moduleData: Record<string, unknown>; // key: `${profileId}:${moduleId}:${key}`
   activeProfileId: string | null;
 }
 
@@ -32,6 +33,7 @@ const empty: Snapshot = {
   srs: {},
   daily: {},
   content: {},
+  moduleData: {},
   activeProfileId: null,
 };
 
@@ -92,8 +94,29 @@ export class LocalStore {
     for (const k of Object.keys(this.data.skills)) if (k.startsWith(id + ":")) delete this.data.skills[k];
     for (const k of Object.keys(this.data.srs)) if (this.data.srs[k].profileId === id) delete this.data.srs[k];
     for (const k of Object.keys(this.data.daily)) if (k.startsWith(id + ":")) delete this.data.daily[k];
+    for (const k of Object.keys(this.data.moduleData)) if (k.startsWith(id + ":")) delete this.data.moduleData[k];
     if (this.data.activeProfileId === id) this.data.activeProfileId = this.listProfiles()[0]?.id ?? null;
-    (["profiles", "skills", "srs", "daily", "activeProfileId"] as (keyof Snapshot)[]).forEach((c) => this.flush(c));
+    (["profiles", "skills", "srs", "daily", "moduleData", "activeProfileId"] as (keyof Snapshot)[]).forEach((c) => this.flush(c));
+  }
+
+  /* ---- per-module storage ---- */
+  moduleStorage(profileId: string, moduleId: string) {
+    const prefix = `${profileId}:${moduleId}:`;
+    return {
+      get: <T = unknown>(key: string) => this.data.moduleData[prefix + key] as T | undefined,
+      set: (key: string, value: unknown) => {
+        this.data.moduleData[prefix + key] = value;
+        this.flush("moduleData");
+      },
+      remove: (key: string) => {
+        delete this.data.moduleData[prefix + key];
+        this.flush("moduleData");
+      },
+      keys: () =>
+        Object.keys(this.data.moduleData)
+          .filter((k) => k.startsWith(prefix))
+          .map((k) => k.slice(prefix.length)),
+    };
   }
 
   /* ---- daily challenge ---- */

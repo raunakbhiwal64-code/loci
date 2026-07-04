@@ -12,6 +12,12 @@
       "@loci/analytics": ["../../packages/analytics/src/index.ts"],
       "@loci/design-system": ["../../packages/design-system/src/index.ts"],
       "@loci/memora": ["../../modules/memora/src/index.ts"],
+      "@loci/gambit": ["../../modules/gambit/src/index.ts"],
+      "@loci/abacus": ["../../modules/abacus/src/index.ts"],
+      "@loci/cortex": ["../../modules/cortex/src/index.ts"],
+      "@loci/tangra": ["../../modules/tangra/src/index.ts"],
+      "@loci/lexicon": ["../../modules/lexicon/src/index.ts"],
+      "@loci/focusread": ["../../modules/focusread/src/index.ts"],
       "@loci/placeholder": ["../../modules/placeholder/src/index.ts"]
     }
   },

@@ -48,7 +48,7 @@ export function App({ spine }: { spine: Spine }) {
       {screen.name === "hub" && <Hub spine={spine} nav={nav} />}
       {screen.name === "skillmap" && <SkillMapScreen spine={spine} onBack={() => nav({ name: "hub" })} />}
       {screen.name === "reviews" && <Reviews spine={spine} onBack={() => nav({ name: "hub" })} />}
-      {screen.name === "grownups" && <GrownUps onBack={() => nav({ name: "hub" })} />}
+      {screen.name === "grownups" && <GrownUps spine={spine} onBack={() => nav({ name: "hub" })} />}
       {screen.name === "profiles" && (
         <ProfileSwitcher spine={spine} onDone={() => { force((n) => n + 1); nav({ name: "hub" }); }} />
       )}

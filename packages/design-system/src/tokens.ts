@@ -6,6 +6,9 @@ export const MODULE_ACCENTS: Record<string, string> = {
   gambit: "--accent-gambit",
   abacus: "--accent-abacus",
   cortex: "--accent-cortex",
+  tangra: "--accent-tangra",
+  lexicon: "--accent-lexicon",
+  focusread: "--accent-focusread",
   placeholder: "--accent-placeholder",
 };
 

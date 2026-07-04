@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { Button, Card, Display, Modal } from "@loci/design-system";
+import type { Spine } from "../spine.js";
+import { WISDOM_CARDS } from "../guardian/content.js";
+import { ensureSafetyFactsScheduled, getSafetySetup, setSafetySetup } from "../guardian/logic.js";
 
 /** Screen 11 — Grown-ups corner. Parent trust surface behind a simple adult gate. */
-export function GrownUps({ onBack }: { onBack: () => void }) {
+export function GrownUps({ spine, onBack }: { spine: Spine; onBack: () => void }) {
   const [gate, setGate] = useState(true);
   // Deterministic adult gate: a simple two-digit sum kids under ~10 won't breeze past.
   const [a] = useState(() => 7 + Math.floor(Math.random() * 6));
@@ -65,6 +68,71 @@ export function GrownUps({ onBack }: { onBack: () => void }) {
           celebrate stopping.
         </p>
       </Card>
+
+      <Card className="stack" style={{ borderLeft: "6px solid var(--good)" }}>
+        <Display as="h3" style={{ fontSize: "1.1rem" }}>Our manifesto</Display>
+        <p className="ds-muted">
+          We think children should live in the real world. If they're on a screen, it should count for something.
+          That's why sessions end by pointing outside, and why the weekly Real-World Quest earns progress for leaving
+          the app.
+        </p>
+      </Card>
+
+      <SafetySetup spine={spine} />
+
+      <CoCards />
     </div>
+  );
+}
+
+/** Guardian safety-fact setup. Everything entered stays ON THIS DEVICE only. */
+function SafetySetup({ spine }: { spine: Spine }) {
+  const [phone, setPhone] = useState(() => getSafetySetup(spine, "phone"));
+  const [address, setAddress] = useState(() => getSafetySetup(spine, "address"));
+  const [saved, setSaved] = useState(false);
+
+  const save = () => {
+    if (phone.trim()) setSafetySetup(spine, "phone", phone);
+    if (address.trim()) setSafetySetup(spine, "address", address);
+    ensureSafetyFactsScheduled(spine);
+    setSaved(true);
+  };
+
+  return (
+    <Card className="stack">
+      <Display as="h3" style={{ fontSize: "1.1rem" }}>Guardian: safety facts to memorise</Display>
+      <p className="ds-muted">
+        Loci rehearses real safety knowledge on the review schedule — your phone number, your home area, 112, and the
+        five lost-rules — until your child truly remembers them. Entered details stay <strong>on this device only</strong>;
+        they are never uploaded and never shown to the AI.
+      </p>
+      <label className="ds-muted" style={{ fontSize: "0.85rem" }}>
+        Your phone number (for your child to memorise)
+        <input className="text" style={{ marginTop: 6 }} inputMode="tel" value={phone} onChange={(e) => { setPhone(e.target.value); setSaved(false); }} />
+      </label>
+      <label className="ds-muted" style={{ fontSize: "0.85rem" }}>
+        Home area / address line
+        <input className="text" style={{ marginTop: 6 }} value={address} onChange={(e) => { setAddress(e.target.value); setSaved(false); }} />
+      </label>
+      <Button onClick={save}>{saved ? "Saved ✓ — added to reviews" : "Save & add to reviews"}</Button>
+    </Card>
+  );
+}
+
+/** Parent co-cards: "talk about this together tonight" (PRD 6.4). */
+function CoCards() {
+  const cards = WISDOM_CARDS.filter((c) => c.coCard);
+  return (
+    <Card className="stack">
+      <Display as="h3" style={{ fontSize: "1.1rem" }}>Talk about it together</Display>
+      <p className="ds-muted">Conversation starters that land best coming from you:</p>
+      <ul className="ds-muted" style={{ margin: 0, paddingLeft: 18, lineHeight: 1.7 }}>
+        {cards.map((c) => (
+          <li key={c.id}>
+            <strong>{c.emoji} {c.title}:</strong> {c.coCard}
+          </li>
+        ))}
+      </ul>
+    </Card>
   );
 }

@@ -25,6 +25,9 @@
   --accent-gambit: #1f6f6b; /* deep teal */
   --accent-abacus: #b8522f; /* terracotta */
   --accent-cortex: #4b4b8f; /* indigo */
+  --accent-tangra: #5c7f3f; /* moss green */
+  --accent-lexicon: #7d4a78; /* plum */
+  --accent-focusread: #4a6d8c; /* slate blue */
   --accent-placeholder: #6b7a8f;
 
   /* the active module accent (set per-module at mount) */

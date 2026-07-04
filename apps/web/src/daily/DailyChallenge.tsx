@@ -3,6 +3,9 @@ import { Button, Card, Display, GuideBubble, ProgressRibbon } from "@loci/design
 import type { Spine } from "../spine.js";
 import { dateKey } from "@loci/data-local";
 import { glyphGrid, shareResult } from "./shareCard.js";
+import { isScenarioDay, scenarioOfWeek } from "../guardian/logic.js";
+import { ScenarioPlayer } from "../guardian/ScenarioPlayer.js";
+import { WisdomCardView } from "../guardian/WisdomCard.js";
 
 /**
  * Screen 3 & 4 — Daily challenge flow + share card (PRD 6.3 / Section 2).
@@ -29,6 +32,41 @@ export function DailyChallenge({ spine, onBack }: { spine: Spine; onBack: () => 
   const [phase, setPhase] = useState<Phase>("intro");
   const [picked, setPicked] = useState<string[]>([]);
   const [correct, setCorrect] = useState(0);
+
+  // Saturday: the Guardian scenario IS the daily challenge (PRD 6.4).
+  const scenarioDay = isScenarioDay();
+  const scenario = scenarioOfWeek();
+
+  const finishScenario = (firstTrySafe: boolean) => {
+    const streakAfter = spine.store.streak(profile.id, new Date()) + (spine.store.getDaily(profile.id, key)?.completed ? 0 : 1);
+    spine.store.putDaily({
+      profileId: profile.id,
+      dateKey: key,
+      challengeId: `guardian-${key}`,
+      completed: true,
+      scoreSummary: firstTrySafe ? "🛡️🟩" : "🛡️",
+      shared: false,
+      streakAfter,
+    });
+    spine.progression().award("metacognition", 25);
+    spine.analytics.emit({ kind: "daily", action: "completed", challengeId: `guardian-${key}` });
+    spine.notify();
+    setCorrect(firstTrySafe ? total : total - 1);
+    setPhase("result");
+  };
+
+  if (scenarioDay && phase !== "result") {
+    return (
+      <div className="stack">
+        <div className="crumbs">
+          <Button variant="ghost" onClick={onBack}>← Home</Button>
+          <Display as="h2" style={{ fontSize: "1.4rem" }}>Today's Challenge</Display>
+        </div>
+        <GuideBubble>Saturday special — a safety drill! Show me the strong move.</GuideBubble>
+        <ScenarioPlayer scenario={scenario} onDone={finishScenario} />
+      </div>
+    );
+  }
 
   const finish = () => {
     const hit = picked.filter((p) => target.includes(p)).length;
@@ -97,14 +135,25 @@ export function DailyChallenge({ spine, onBack }: { spine: Spine; onBack: () => 
       )}
 
       {phase === "result" && (
-        <Card className="center stack">
-          <div className="big-emoji">{correct === total ? "🏆" : correct >= total - 2 ? "🌟" : "💪"}</div>
-          <Display as="h3">You remembered {correct}/{total}!</Display>
-          <pre style={{ fontSize: "1.6rem", lineHeight: 1.2, margin: 0 }}>{glyphGrid(correct, total)}</pre>
-          <p className="ds-muted">That grew your <strong>holding-things-in-mind</strong> skill. Come back tomorrow for a fresh one!</p>
-          <ShareButton spine={spine} name={profile.displayName} correct={correct} total={total} dateKey={key} />
-          <Button variant="ghost" onClick={onBack}>Back home</Button>
-        </Card>
+        <>
+          <Card className="center stack">
+            <div className="big-emoji">{scenarioDay ? "🛡️" : correct === total ? "🏆" : correct >= total - 2 ? "🌟" : "💪"}</div>
+            <Display as="h3">{scenarioDay ? "Safety drill done!" : `You remembered ${correct}/${total}!`}</Display>
+            {!scenarioDay && <pre style={{ fontSize: "1.6rem", lineHeight: 1.2, margin: 0 }}>{glyphGrid(correct, total)}</pre>}
+            <p className="ds-muted">
+              {scenarioDay
+                ? "You practised spotting the strong move — that's real safety craft."
+                : "That grew your holding-things-in-mind skill."}{" "}
+              Come back tomorrow for a fresh one!
+            </p>
+            <ShareButton spine={spine} name={profile.displayName} correct={correct} total={total} dateKey={key} />
+            <Button variant="ghost" onClick={onBack}>Back home</Button>
+          </Card>
+          <WisdomCardView spine={spine} />
+          <Card className="center">
+            <p className="ds-muted" style={{ margin: 0 }}>Done for today! Go play outside 🌳 — your brain grows out there too.</p>
+          </Card>
+        </>
       )}
     </div>
   );

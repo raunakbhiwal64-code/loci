@@ -4,6 +4,7 @@ import type { Spine } from "../spine.js";
 import { MODULES } from "../registry.js";
 import { skillRows } from "../skillRows.js";
 import { dateKey } from "@loci/data-local";
+import { QuestCard } from "../guardian/QuestCard.js";
 
 /** Screen 2 — Hub home. The daily anchor (PRD 6.3). */
 export function Hub({ spine, nav }: { spine: Spine; nav: (s: Screen) => void }) {
@@ -34,6 +35,8 @@ export function Hub({ spine, nav }: { spine: Spine; nav: (s: Screen) => void }) 
         done={todayDone}
         onStart={() => nav({ name: "daily" })}
       />
+
+      <QuestCard spine={spine} />
 
       <Card className="stack">
         <div className="spread">
