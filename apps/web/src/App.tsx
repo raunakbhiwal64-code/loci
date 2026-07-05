@@ -7,6 +7,7 @@ import { Reviews } from "./screens/Reviews.js";
 import { GrownUps } from "./screens/GrownUps.js";
 import { ProfileSwitcher } from "./screens/ProfileSwitcher.js";
 import { ModuleHost } from "./screens/ModuleHost.js";
+import { Journey } from "./screens/Journey.js";
 import { DailyChallenge } from "./daily/DailyChallenge.js";
 import { ThemePicker } from "./screens/ThemePicker.js";
 import { Celebration } from "./components/Celebration.js";
@@ -20,6 +21,7 @@ export type Screen =
   | { name: "profiles" }
   | { name: "module"; moduleId: string }
   | { name: "daily" }
+  | { name: "journey" }
   | { name: "theme" };
 
 export function App({ spine }: { spine: Spine }) {
@@ -73,6 +75,7 @@ export function App({ spine }: { spine: Spine }) {
         <ProfileSwitcher spine={spine} onDone={() => { spine.applyActivePrefs(); force((n) => n + 1); nav({ name: "hub" }); }} />
       )}
       {screen.name === "daily" && <DailyChallenge spine={spine} onBack={() => nav({ name: "hub" })} />}
+      {screen.name === "journey" && <Journey spine={spine} nav={nav} />}
       {screen.name === "theme" && <ThemePicker spine={spine} onBack={() => nav({ name: "hub" })} />}
       {screen.name === "module" && (
         <ModuleHost spine={spine} moduleId={screen.moduleId} onBack={() => nav({ name: "hub" })} />

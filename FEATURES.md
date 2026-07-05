@@ -1,6 +1,6 @@
 # Loci — What the app does
 
-*A plain-English guide for everyone (no coding needed). Last updated: 6 Jul 2026.*
+*A plain-English guide for everyone (no coding needed). Last updated: 5 Jul 2026.*
 
 **Loci** is a warm, friendly app that helps children aged **8–12** build real thinking
 skills — memory, chess, mental maths, logic and more — a few joyful minutes at a time.
@@ -23,9 +23,27 @@ device**. There are no ads, ever.
 
 ## For the child
 
-### 🧭 One home, seven adventures
-From the home screen a child sees a friendly greeting, today's challenge, their adventure
-map, and tiles for each skill "world":
+### 🧭 Your Journey — one guided path across every skill
+The heart of the app is a single **structured journey**. Instead of facing a wall of choices,
+the child always sees **one clear next step**, chosen for them. Steps from different worlds are
+deliberately **mixed together** (a memory step, then chess, then maths…) because switching
+between skills makes each one stick better. Skills come back **again and again, a little harder
+each time**, and the child only moves on once they've genuinely shown they can do something —
+never by clicking through. The journey also points out when skills help each other ("your
+memory tricks make planning ahead easier").
+
+Each visit auto-builds a small **plan for today**: a quick *recap* of something due to be
+refreshed, one or two *new steps*, and a *quick win* on something they're already good at — so
+sessions start with retention and end on a high. A scrollable **map** shows the road behind
+(with "you can now…" badges) and the road ahead (gently locked until earned).
+
+**You can still explore freely.** The seven worlds remain fully browsable from the home
+screen for any child who'd rather pick for themselves — the journey is the *guided* way
+through them, not the only way.
+
+### 🧭 Seven adventures to explore
+From the home screen a child sees a friendly greeting, their journey's next step, today's
+challenge, their adventure map, and tiles for each skill "world":
 
 | World | What it grows | A taste of what's inside |
 |-------|---------------|--------------------------|
@@ -111,10 +129,12 @@ Behind a simple "grown-ups only" check:
 
 ## What's here now vs. coming later
 
-**Built and working today:** all seven skill worlds, the companion, nine themes, the
-adventure map, the Growth Journey parent report, Guardian safety, Real-World Quests, the
-daily challenge, milestone celebrations, Memora's Learn Anything, and Gambit's annotated
-replay + blunder-check. It installs as a web app and works offline.
+**Built and working today:** the structured **Journey** (one guided next step, interleaved
+across modules, mastery-gated, with a daily plan and spaced recaps), all seven skill worlds,
+the companion, nine themes, the adventure map, the Growth Journey parent report, Guardian
+safety, Real-World Quests, the daily challenge, milestone celebrations, Memora's Learn
+Anything, and Gambit's annotated replay + blunder-check. It installs as a web app and works
+offline.
 
 **Planned for later (not built yet):** optional parent accounts with cross-device sync and
 a longer-term progress dashboard; a self-hosted AI for richer help; a few "later" extras in
