@@ -21,8 +21,9 @@ const detectRegion = (): Region => {
   const l = (typeof navigator !== 'undefined' ? navigator.language : 'en-GB').toUpperCase()
   return l.endsWith('-US') ? 'US' : l.endsWith('-CA') ? 'CA' : l.endsWith('-IN') ? 'IN' : 'UK'
 }
+const detectLang = (): Lang => (typeof navigator !== 'undefined' && navigator.language.toLowerCase().startsWith('hi') ? 'hi' : 'en')
 const initial = (): State => ({
-  settings: { lang: 'en', band: null, speed: 0.85, cap: null, theme: 'auto', region: detectRegion(), recordMode: false },
+  settings: { lang: detectLang(), band: 2, speed: 0.85, cap: null, theme: 'auto', region: detectRegion(), recordMode: false },
   days: {},
   family: [],
 })
@@ -31,7 +32,8 @@ function load(): State {
     const raw = localStorage.getItem(KEY)
     if (raw) {
       const s = JSON.parse(raw) as State
-      return { ...initial(), ...s, settings: { ...initial().settings, ...s.settings } }
+      // One audience now (ages 2-3): any earlier 1-2 choice is folded into it.
+      return { ...initial(), ...s, settings: { ...initial().settings, ...s.settings, band: 2 } }
     }
   } catch { /* storage may be blocked; run in memory */ }
   return initial()

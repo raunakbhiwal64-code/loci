@@ -11,7 +11,7 @@ export function useApp() {
   const tx = (x: Text) => regional(x[s.lang], s.lang, s.region)
   const ui = (k: Key, vars?: Record<string, string>) => regional(t(k, s.lang, vars), s.lang, s.region)
   const speak = (text: string, key?: string) => say({ text, lang: s.lang, region: s.region, rate: s.speed, key })
-  return { s, lang: s.lang, band: s.band ?? 1, tx, ui, speak }
+  return { s, lang: s.lang, band: 2 as const, tx, ui, speak }
 }
 
 export function Pic({ image, label, className = '' }: { image: string; label?: string; className?: string }) {

@@ -1,6 +1,6 @@
 # Little Learners
 
-A calm learning app for children aged 1–3, used by a parent together with the child, in English and Hindi. This is a **separate app** from Loci: this branch (`little-learners`) has its own history and is never merged into `main`.
+A calm learning app for young children (now ages 2–3 only), used by a parent together with the child, in English and Hindi. This is a **separate app** from Loci: this branch (`little-learners`) has its own history and is never merged into `main`.
 
 Built from *Little Learners: Product Spec for the Claude Code Build* (v2, 7 Oct 2026). Read `CLAUDE.md` for the learning principles and experience rules every change must follow.
 
@@ -12,11 +12,13 @@ npm run dev        # http://localhost:5173 (also reachable on your phone via the
 npm run build      # validates content, type-checks, builds the offline PWA into dist/
 npm run preview    # serve the production build
 npm test           # Vitest
-npm run e2e        # Playwright click-through (both languages, both age bands)
+npm run e2e        # Playwright click-through (both languages)
 npm run build:single   # one self-contained HTML file in dist-single/
 ```
 
 If Playwright can't find its browser, set `CHROMIUM_PATH` to a Chromium binary.
+
+**One audience:** the 1–2 age band was dropped. There is no age question; everything is shown to everyone, with a daily cap of 3.
 
 ## Status (spec build order)
 

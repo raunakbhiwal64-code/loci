@@ -37,7 +37,7 @@ function useFamilySet(): WordSet | null {
 export default function App() {
   const store = useStore()
   const { s, ui, tx, band } = useApp()
-  const [tab, setTab] = useState<Tab>(s.band === 2 ? 'stories' : 'words')
+  const [tab, setTab] = useState<Tab>('stories')
   const [view, setView] = useState<View>(null)
   const family = useFamilySet()
 
@@ -51,19 +51,6 @@ export default function App() {
     document.documentElement.dataset.theme = dark ? 'dark' : 'light'
     document.documentElement.lang = s.lang
   }, [s.theme, s.lang])
-
-  if (s.band === null)
-    return (
-      <div className="screen center" onPointerDown={unlock}>
-        <Pic image="🌱" className="big" />
-        <h1>{ui('appName')}</h1><p>{ui('tagline')}</p>
-        <LangToggle />
-        <h2>{ui('chooseAge')}</h2>
-        <button className="primary" data-testid="age-1" onClick={() => { setSettings({ band: 1 }); setTab('words') }}>{ui('age12')}</button>
-        <button className="primary" data-testid="age-2" onClick={() => { setSettings({ band: 2 }); setTab('stories') }}>{ui('age23')}</button>
-        <p className="small">{ui('useTogether')}</p><p className="small">{ui('ageNote')}</p>
-      </div>
-    )
 
   // Phone and browser Back buttons close the open screen instead of leaving the app.
   const close = () => { try { if (history.state?.ll) { history.back(); return } } catch { /* ignore */ } setView(null) }
@@ -106,7 +93,7 @@ export default function App() {
           <div className="rest" data-testid="rest">
             <Pic image="🌙" className="big" />
             <h2>{ui('rest')}</h2><p>{ui('restSub')}</p>
-            {band === 1 && <p className="small">{ui('useTogether')}</p>}
+            <p className="small">{ui('useTogether')}</p>
           </div>
         ) : (
           <>
@@ -120,14 +107,14 @@ export default function App() {
               <div className="grid">
                 {sets.map((set) => <Card key={set.id} id="wordset" icon={set.cover} title={tx(set.title)} onClick={() => readSet(set)} />)}
                 {family ? <Card icon="👪" id="wordset" title={ui('myFamily')} onClick={() => readSet(family)} /> : <p className="small">{ui('familyEmpty')}</p>}
-                {band === 2 && <Card icon="✏️" id="tracing" title={ui('tracing')} onClick={() => open({ t: 'trace' })} />}
+                <Card icon="✏️" id="tracing" title={ui('tracing')} onClick={() => open({ t: 'trace' })} />
               </div>
             </>}
             {tab === 'stories' && <>
               <Card icon="🌙" id="bedtime" title={ui('bedtime')} sub={ui('bedtimeSub')} onClick={() => open({ t: 'bed' })} />
               <h3>{ui('rhymes')}</h3><div className="grid">{storiesOf('rhyme', band).map((x) => <Card key={x.id} id="story" icon={x.cover} title={tx(x.title)} onClick={() => readStory(x)} />)}</div>
               <h3>{ui('bigDays')}</h3><div className="grid">{storiesOf('bigday', band).map((x) => <Card key={x.id} id="story" icon={x.cover} title={tx(x.title)} onClick={() => readStory(x)} />)}</div>
-              {band === 2 && <><h3>{ui('folkTales')}</h3><div className="grid">{storiesOf('story', band).map((x) => <Card key={x.id} id="story" icon={x.cover} title={tx(x.title)} onClick={() => readStory(x)} />)}</div></>}
+              <><h3>{ui('folkTales')}</h3><div className="grid">{storiesOf('story', band).map((x) => <Card key={x.id} id="story" icon={x.cover} title={tx(x.title)} onClick={() => readStory(x)} />)}</div></>
             </>}
             {tab === 'habits' && <><h3>{ui('routines')}</h3><div className="grid">{storiesOf('habit', band).map((x) => <Card key={x.id} id="story" icon={x.cover} title={tx(x.title)} onClick={() => readStory(x)} />)}</div></>}
             {tab === 'play' && <>

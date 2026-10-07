@@ -1,6 +1,8 @@
 # Little Learners: rules for every change
 
-A calm learning app for children aged 1 to 3, used by a parent with the child, in English and Hindi. These sections come from the product spec (v2, 7 Oct 2026). When a feature idea conflicts with a rule, the rule wins.
+A calm learning app for young children, used by a parent with the child, in English and Hindi. These sections come from the product spec (v2, 7 Oct 2026). When a feature idea conflicts with a rule, the rule wins.
+
+**Decision after the spec (Oct 2026): one audience, ages 2-3.** The 1-2 age band is dropped and the app no longer asks the child's age. Everything the spec gave to either band is shown to everyone, the daily cap defaults to 3, and tapping a word or picture says its name aloud for all children. Wherever the sections below say 1-2 or 2-3, read it as this single audience. Content keeps its `ages` field so a younger band can return later.
 
 ## Learning principles
 

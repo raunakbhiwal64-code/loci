@@ -40,9 +40,6 @@ export function Settings({ onClose }: { onClose: () => void }) {
     <div className="screen settings" data-testid="settings">
       <header className="bar"><button className="backbtn" onClick={onClose} data-testid="back">← {ui('back')}</button><h2>{ui('settings')}</h2><span /></header>
       <div className="scroll">
-        <section><h3>{ui('ageBand')}</h3>
-          <div className="seg wide"><button className={band === 1 ? 'on' : ''} onClick={() => setSettings({ band: 1 })}>{ui('age12')}</button>
-            <button className={band === 2 ? 'on' : ''} onClick={() => setSettings({ band: 2 })}>{ui('age23')}</button></div></section>
         <section><h3>{ui('language')}</h3><LangToggle /></section>
         <section><h3>{ui('speed')}</h3>
           <div className="seg wide"><button className={s.speed < 0.8 ? 'on' : ''} onClick={() => setSettings({ speed: 0.7 })}>{ui('slow')}</button>

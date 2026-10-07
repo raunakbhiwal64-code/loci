@@ -7,7 +7,7 @@ import type { PageData, Text, Word } from './types'
 
 /* ---------------- Reading screen ---------------- */
 export function Reader({ title, pages, tip, moral, onClose }: { title: string; pages: PageData[]; tip?: Text; moral?: Text; onClose: () => void }) {
-  const { s, band, tx, ui, speak } = useApp()
+  const { s, tx, ui, speak } = useApp()
   const [i, setI] = useState(0)
   const [finished, setFinished] = useState(false)
   const [said, setSaid] = useState(false)
@@ -20,7 +20,7 @@ export function Reader({ title, pages, tip, moral, onClose }: { title: string; p
   useEffect(() => { setSaid(false); hasRecording(s.lang, p.key).then(setHasRec); stopAudio() }, [i, s.lang, p.key])
 
   const listen = () => speak(tx(p.caption), p.key)
-  const tapPicture = () => (band === 1 && p.word ? speak(tx(p.word)) : listen())
+  const tapPicture = () => (p.word ? speak(tx(p.word)) : listen())
   const lastGo = useRef(0)
   const go = (d: number) => {
     const now = Date.now()
