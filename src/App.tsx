@@ -66,9 +66,10 @@ export default function App() {
     )
 
   // Phone and browser Back buttons close the open screen instead of leaving the app.
-  const close = () => { if (history.state?.ll) history.back(); else setView(null) }
+  const close = () => { try { if (history.state?.ll) { history.back(); return } } catch { /* ignore */ } setView(null) }
   const resting = doneToday(store) >= capFor(s)
-  const open = (v: View) => { unlock(); history.pushState({ ll: 1 }, ''); setView(v) }
+  const open = (v: View) => { unlock(); try { history.pushState({ ll: 1 }, '') } catch { /* sandboxed frame: the on-screen Back button still works */ }
+    setView(v) }
   const readSet = (set: WordSet) => open({ t: 'read', title: tx(set.title), pages: wordSetPages(set) })
   const readStory = (st: Story) => open({ t: 'read', title: tx(st.title), pages: storyPages(st), tip: st.parentTip, moral: st.moral })
   const playSet = (set: WordSet) => open({ t: 'quiz', title: tx(set.title), rounds: whereRounds(set.words, set.whereQuestion) })

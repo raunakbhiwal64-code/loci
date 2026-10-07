@@ -93,3 +93,6 @@ button:active:not(:disabled) { filter: brightness(0.96); }
 .tabs button span { font-size: 32px; }
 .hero .pic.mini { font-size: 44px; }
 .picbtn { border-radius: 32px; padding: 4px; }
+
+.center.fill { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 24px; text-align: center; }
+.screen.dim .backbtn { background: #1a221e; color: #9fb1a6; border-color: #26332c; }

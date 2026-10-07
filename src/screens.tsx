@@ -40,12 +40,15 @@ export function Reader({ title, pages, tip, moral, onClose }: { title: string; p
 
   if (finished)
     return (
-      <div className="screen center" data-testid="finished">
+      <div className="screen" data-testid="finished">
+        <header className="bar"><button className="backbtn" onClick={onClose} data-testid="back-done">← {ui('back')}</button><span /><span /></header>
+        <div className="center fill">
         <Pic image="🌼" className="big" />
         <h2>{ui('allDone')}</h2>
         {moral && <p className="note"><b>{ui('moral')}:</b> {tx(moral)}</p>}
         {tip && <p className="note"><b>{ui('parentTip')}:</b> {tx(tip)}</p>}
         <button className="primary" onClick={onClose}>{ui('close')}</button>
+        </div>
       </div>
     )
 
@@ -109,9 +112,12 @@ export function Quiz({ title, rounds, onClose }: { title: string; rounds: Round[
   }
   if (finished)
     return (
-      <div className="screen center" data-testid="finished">
+      <div className="screen" data-testid="finished">
+        <header className="bar"><button className="backbtn" onClick={onClose} data-testid="back-done">← {ui('back')}</button><span /><span /></header>
+        <div className="center fill">
         <Pic image="🌼" className="big" /><h2>{ui('allDone')}</h2>
         <button className="primary" onClick={onClose}>{ui('close')}</button>
+        </div>
       </div>
     )
   return (
@@ -225,12 +231,15 @@ export function Bedtime({ items, onClose }: { items: { pages: PageData[] }[]; on
   }
   const stop = () => { alive.current = false; stopAudio(); onClose() }
   return (
-    <div className="screen dim center" data-testid="bedtime">
+    <div className="screen dim" data-testid="bedtime">
+      <header className="bar"><button className="backbtn" onClick={stop} data-testid="back">← {ui('back')}</button><span /><span /></header>
+      <div className="center fill">
       <Pic image="🌙" className="big" />
       <h2>{ui('bedtime')}</h2>
       {state === 'ready' && <button className="primary" data-testid="bedtime-play" onClick={run}>▶ {ui('listen')}</button>}
       {state === 'playing' && <button className="primary" onClick={stop}>■ {ui('stop')}</button>}
       {state === 'done' && <><p>{ui('allDone')}</p><button className="primary" onClick={onClose}>{ui('close')}</button></>}
+      </div>
     </div>
   )
 }
