@@ -1,0 +1,99 @@
+{
+  "kind": "wordset",
+  "id": "actions",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Actions",
+    "hi": "क्रियाएँ"
+  },
+  "cover": "🏃",
+  "words": [
+    {
+      "id": "run",
+      "image": "🏃",
+      "word": {
+        "en": "run",
+        "hi": "दौड़ो"
+      },
+      "article": {
+        "en": "run",
+        "hi": "दौड़ो"
+      },
+      "action": {
+        "en": "Run on the spot.",
+        "hi": "जगह पर दौड़ो।"
+      }
+    },
+    {
+      "id": "sit",
+      "image": "🧘",
+      "word": {
+        "en": "sit",
+        "hi": "बैठो"
+      },
+      "article": {
+        "en": "sit",
+        "hi": "बैठो"
+      },
+      "action": {
+        "en": "Sit down slowly.",
+        "hi": "धीरे से बैठो।"
+      }
+    },
+    {
+      "id": "clap",
+      "image": "👏",
+      "word": {
+        "en": "clap",
+        "hi": "ताली"
+      },
+      "article": {
+        "en": "clap",
+        "hi": "ताली"
+      },
+      "action": {
+        "en": "Clap, clap, clap!",
+        "hi": "ताली, ताली, ताली!"
+      }
+    },
+    {
+      "id": "jump",
+      "image": "🦘",
+      "word": {
+        "en": "jump",
+        "hi": "कूदो"
+      },
+      "article": {
+        "en": "jump",
+        "hi": "कूदो"
+      },
+      "action": {
+        "en": "Jump up high!",
+        "hi": "ऊपर कूदो!"
+      }
+    },
+    {
+      "id": "dance",
+      "image": "💃",
+      "word": {
+        "en": "dance",
+        "hi": "नाचो"
+      },
+      "article": {
+        "en": "dance",
+        "hi": "नाचो"
+      },
+      "action": {
+        "en": "Sway side to side.",
+        "hi": "दाएँ-बाएँ झूमो।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Who can {word}?",
+    "hi": "कौन {word}?"
+  }
+}

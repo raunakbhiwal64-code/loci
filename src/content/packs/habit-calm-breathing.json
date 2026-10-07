@@ -1,0 +1,63 @@
+{
+  "id": "calm-breathing",
+  "kind": "habit",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Calm breathing",
+    "hi": "शांत साँस"
+  },
+  "cover": "🌬️",
+  "parentTip": {
+    "en": "Do it when your child is upset, too.",
+    "hi": "बच्चा परेशान हो तब भी करो।"
+  },
+  "pages": [
+    {
+      "image": "🧘",
+      "text": {
+        "en": "Sit still. Hands on tummy.",
+        "hi": "आराम से बैठो। हाथ पेट पर रखो।"
+      },
+      "action": {
+        "en": "Put your hands on your tummy.",
+        "hi": "हाथ पेट पर रखो।"
+      }
+    },
+    {
+      "image": "🌸",
+      "text": {
+        "en": "Breathe in. Smell the flower.",
+        "hi": "साँस अंदर लो। फूल सूँघो।"
+      },
+      "action": {
+        "en": "Breathe in slowly.",
+        "hi": "धीरे से साँस अंदर लो।"
+      }
+    },
+    {
+      "image": "🕯️",
+      "text": {
+        "en": "Breathe out. Blow the candle.",
+        "hi": "साँस बाहर छोड़ो। मोमबत्ती बुझाओ।"
+      },
+      "action": {
+        "en": "Blow softly.",
+        "hi": "धीरे से फूँको।"
+      }
+    },
+    {
+      "image": "😌",
+      "text": {
+        "en": "Calm and quiet. Well done.",
+        "hi": "शांत और चुप। बहुत अच्छे।"
+      },
+      "action": {
+        "en": "Smile softly.",
+        "hi": "हल्के से मुस्कुराओ।"
+      }
+    }
+  ]
+}

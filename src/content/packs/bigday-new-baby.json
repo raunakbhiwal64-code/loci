@@ -1,0 +1,63 @@
+{
+  "id": "new-baby",
+  "kind": "bigday",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "New baby",
+    "hi": "नया बच्चा"
+  },
+  "cover": "👶",
+  "parentTip": {
+    "en": "Let your child help in small ways.",
+    "hi": "बच्चे को छोटे काम में शामिल करो।"
+  },
+  "pages": [
+    {
+      "image": "🏠",
+      "text": {
+        "en": "A new baby is coming home.",
+        "hi": "घर में नया बच्चा आ रहा है।"
+      },
+      "action": {
+        "en": "Rock your arms like a baby.",
+        "hi": "बाँहों में बच्चे को झुलाओ।"
+      }
+    },
+    {
+      "image": "👶",
+      "text": {
+        "en": "Baby is so small.",
+        "hi": "बच्चा कितना छोटा है।"
+      },
+      "action": {
+        "en": "Show small with your fingers.",
+        "hi": "उँगलियों से छोटा दिखाओ।"
+      }
+    },
+    {
+      "image": "🤫",
+      "text": {
+        "en": "Shh. Baby is sleeping.",
+        "hi": "श्श्श। बच्चा सो रहा है।"
+      },
+      "action": {
+        "en": "Whisper hello.",
+        "hi": "धीरे से कहो: हेलो।"
+      }
+    },
+    {
+      "image": "🧸",
+      "text": {
+        "en": "I am a big helper!",
+        "hi": "मैं बड़ा मददगार हूँ!"
+      },
+      "action": {
+        "en": "Pat a teddy softly.",
+        "hi": "टेडी को हल्के से थपथपाओ।"
+      }
+    }
+  ]
+}

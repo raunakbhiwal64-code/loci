@@ -1,0 +1,41 @@
+{
+  "id": "row-boat",
+  "kind": "rhyme",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Row Your Boat",
+    "hi": "चलो नाव चलाएँ"
+  },
+  "cover": "🚣",
+  "parentTip": {
+    "en": "Sit facing your child and rock together.",
+    "hi": "आमने-सामने बैठकर साथ झूलो।"
+  },
+  "pages": [
+    {
+      "image": "🚣",
+      "text": {
+        "en": "Row, row, row your boat, gently down the stream.",
+        "hi": "चलो चलो नाव चलाएँ, धीरे-धीरे आगे जाएँ।"
+      },
+      "action": {
+        "en": "Rock back and forth.",
+        "hi": "आगे-पीछे झूलो।"
+      }
+    },
+    {
+      "image": "🌊",
+      "text": {
+        "en": "Merrily, merrily, merrily, life is but a dream.",
+        "hi": "हँसते-गाते, हँसते-गाते, नदी किनारे जाएँ।"
+      },
+      "action": {
+        "en": "Sway side to side.",
+        "hi": "दाएँ-बाएँ झूमो।"
+      }
+    }
+  ]
+}

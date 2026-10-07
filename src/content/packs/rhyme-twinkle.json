@@ -1,0 +1,52 @@
+{
+  "id": "twinkle",
+  "kind": "rhyme",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Twinkle Twinkle",
+    "hi": "टिमटिम तारा"
+  },
+  "cover": "🌟",
+  "parentTip": {
+    "en": "Sing slowly. Do the actions.",
+    "hi": "धीरे गाओ। हाव-भाव करो।"
+  },
+  "pages": [
+    {
+      "image": "🌟",
+      "text": {
+        "en": "Twinkle, twinkle, little star.",
+        "hi": "टिमटिम, टिमटिम, नन्हा तारा।"
+      },
+      "action": {
+        "en": "Open and close your fingers.",
+        "hi": "उँगलियाँ खोलो और बंद करो।"
+      }
+    },
+    {
+      "image": "❓",
+      "text": {
+        "en": "How I wonder what you are.",
+        "hi": "सोचूँ मैं, तू है कौन प्यारा।"
+      },
+      "action": {
+        "en": "Point up high.",
+        "hi": "ऊपर इशारा करो।"
+      }
+    },
+    {
+      "image": "🌌",
+      "text": {
+        "en": "Up above the world so high.",
+        "hi": "ऊँचे आसमान में तू चमके न्यारा।"
+      },
+      "action": {
+        "en": "Reach up to the sky.",
+        "hi": "आसमान की ओर हाथ उठाओ।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bedtime-routine",
+  "kind": "habit",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Bedtime",
+    "hi": "सोने का समय"
+  },
+  "cover": "🌙",
+  "parentTip": {
+    "en": "Keep the same order every night.",
+    "hi": "हर रात यही क्रम रखो।"
+  },
+  "pages": [
+    {
+      "image": "🌇",
+      "text": {
+        "en": "The sun goes down.",
+        "hi": "सूरज छिप गया।"
+      },
+      "action": {
+        "en": "Wave goodbye to the sun.",
+        "hi": "सूरज को टाटा कहो।"
+      }
+    },
+    {
+      "image": "👕",
+      "text": {
+        "en": "Pyjamas on.",
+        "hi": "पजामा पहन लो।"
+      },
+      "action": {
+        "en": "Touch your pyjamas.",
+        "hi": "अपना पजामा छुओ।"
+      }
+    },
+    {
+      "image": "📖",
+      "text": {
+        "en": "Read a book. Cuddle close.",
+        "hi": "किताब पढ़ो। पास आकर लेटो।"
+      },
+      "action": {
+        "en": "Cuddle your toy.",
+        "hi": "अपने खिलौने को गले लगाओ।"
+      }
+    },
+    {
+      "image": "🌙",
+      "text": {
+        "en": "Lights out. Goodnight.",
+        "hi": "बत्ती बंद। शुभ रात्रि।"
+      },
+      "action": {
+        "en": "Whisper goodnight.",
+        "hi": "धीरे से कहो: शुभ रात्रि।"
+      }
+    }
+  ]
+}

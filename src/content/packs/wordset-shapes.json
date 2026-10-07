@@ -1,0 +1,98 @@
+{
+  "kind": "wordset",
+  "id": "shapes",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "Shapes",
+    "hi": "आकार"
+  },
+  "cover": "🔷",
+  "words": [
+    {
+      "id": "circle",
+      "image": "⭕",
+      "word": {
+        "en": "circle",
+        "hi": "गोला"
+      },
+      "article": {
+        "en": "a circle",
+        "hi": "गोला"
+      },
+      "action": {
+        "en": "Draw a circle in the air.",
+        "hi": "हवा में गोला बनाओ।"
+      }
+    },
+    {
+      "id": "square",
+      "image": "🟦",
+      "word": {
+        "en": "square",
+        "hi": "चौकोर"
+      },
+      "article": {
+        "en": "a square",
+        "hi": "चौकोर"
+      },
+      "action": {
+        "en": "Draw a square in the air.",
+        "hi": "हवा में चौकोर बनाओ।"
+      }
+    },
+    {
+      "id": "triangle",
+      "image": "🔺",
+      "word": {
+        "en": "triangle",
+        "hi": "तिकोन"
+      },
+      "article": {
+        "en": "a triangle",
+        "hi": "तिकोन"
+      },
+      "action": {
+        "en": "Make a triangle with your fingers.",
+        "hi": "उँगलियों से तिकोन बनाओ।"
+      }
+    },
+    {
+      "id": "star",
+      "image": "⭐",
+      "word": {
+        "en": "star",
+        "hi": "तारा"
+      },
+      "article": {
+        "en": "a star",
+        "hi": "तारा"
+      },
+      "action": {
+        "en": "Twinkle your fingers.",
+        "hi": "उँगलियाँ टिमटिमाओ।"
+      }
+    },
+    {
+      "id": "heart",
+      "image": "❤️",
+      "word": {
+        "en": "heart",
+        "hi": "दिल"
+      },
+      "article": {
+        "en": "a heart",
+        "hi": "दिल"
+      },
+      "action": {
+        "en": "Hands on your heart.",
+        "hi": "हाथ दिल पर रखो।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is the {word}?",
+    "hi": "{word} कहाँ है?"
+  }
+}

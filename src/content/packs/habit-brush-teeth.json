@@ -1,0 +1,63 @@
+{
+  "id": "brush-teeth",
+  "kind": "habit",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Brush teeth",
+    "hi": "दाँत साफ़ करना"
+  },
+  "cover": "🪥",
+  "parentTip": {
+    "en": "Brush for two songs of Twinkle.",
+    "hi": "टिमटिम गाते हुए ब्रश करो।"
+  },
+  "pages": [
+    {
+      "image": "🪥",
+      "text": {
+        "en": "Get your toothbrush.",
+        "hi": "अपना टूथब्रश लो।"
+      },
+      "action": {
+        "en": "Hold up the brush.",
+        "hi": "ब्रश ऊपर उठाओ।"
+      }
+    },
+    {
+      "image": "🤏",
+      "text": {
+        "en": "A tiny dot of paste.",
+        "hi": "थोड़ा-सा पेस्ट।"
+      },
+      "action": {
+        "en": "Pinch your fingers: tiny!",
+        "hi": "उँगलियाँ जोड़ो: ज़रा-सा!"
+      }
+    },
+    {
+      "image": "😁",
+      "text": {
+        "en": "Brush up, brush down.",
+        "hi": "ऊपर-नीचे ब्रश करो।"
+      },
+      "action": {
+        "en": "Open wide and say Aah.",
+        "hi": "मुँह खोलो और कहो: आ।"
+      }
+    },
+    {
+      "image": "✨",
+      "text": {
+        "en": "Spit, rinse. Shiny teeth!",
+        "hi": "थूको, कुल्ला करो। चमकते दाँत!"
+      },
+      "action": {
+        "en": "Show your shiny smile.",
+        "hi": "अपनी चमकती मुस्कान दिखाओ।"
+      }
+    }
+  ]
+}

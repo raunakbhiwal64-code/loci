@@ -1,0 +1,111 @@
+{
+  "kind": "babies",
+  "ages": [
+    1,
+    2
+  ],
+  "pairs": [
+    {
+      "id": "cow",
+      "parent": {
+        "image": "🐄",
+        "word": {
+          "en": "cow",
+          "hi": "गाय"
+        }
+      },
+      "baby": {
+        "image": "🐮",
+        "word": {
+          "en": "calf",
+          "hi": "बछड़ा"
+        }
+      }
+    },
+    {
+      "id": "dog",
+      "parent": {
+        "image": "🐕",
+        "word": {
+          "en": "dog",
+          "hi": "कुत्ता"
+        }
+      },
+      "baby": {
+        "image": "🐶",
+        "word": {
+          "en": "puppy",
+          "hi": "पिल्ला"
+        }
+      }
+    },
+    {
+      "id": "cat",
+      "parent": {
+        "image": "🐈",
+        "word": {
+          "en": "cat",
+          "hi": "बिल्ली"
+        }
+      },
+      "baby": {
+        "image": "🐱",
+        "word": {
+          "en": "kitten",
+          "hi": "बिल्ली का बच्चा"
+        }
+      }
+    },
+    {
+      "id": "duck",
+      "parent": {
+        "image": "🦆",
+        "word": {
+          "en": "duck",
+          "hi": "बत्तख़"
+        }
+      },
+      "baby": {
+        "image": "🐥",
+        "word": {
+          "en": "duckling",
+          "hi": "बत्तख़ का बच्चा"
+        }
+      }
+    },
+    {
+      "id": "sheep",
+      "parent": {
+        "image": "🐑",
+        "word": {
+          "en": "sheep",
+          "hi": "भेड़"
+        }
+      },
+      "baby": {
+        "image": "🐏",
+        "word": {
+          "en": "lamb",
+          "hi": "मेमना"
+        }
+      }
+    },
+    {
+      "id": "lion",
+      "parent": {
+        "image": "🦁",
+        "word": {
+          "en": "lion",
+          "hi": "शेर"
+        }
+      },
+      "baby": {
+        "image": "🐯",
+        "word": {
+          "en": "cub",
+          "hi": "शावक"
+        }
+      }
+    }
+  ]
+}

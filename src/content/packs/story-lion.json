@@ -1,0 +1,77 @@
+{
+  "id": "lion",
+  "kind": "story",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "The Lion and the Mouse",
+    "hi": "शेर और चूहा"
+  },
+  "cover": "🦁",
+  "moral": {
+    "en": "Even small friends can help.",
+    "hi": "छोटे दोस्त भी बड़ी मदद करते हैं।"
+  },
+  "parentTip": {
+    "en": "Whisper the shh sounds together.",
+    "hi": "साथ में धीरे से श्श्श कहो।"
+  },
+  "pages": [
+    {
+      "image": "🦁",
+      "text": {
+        "en": "Lion is sleeping. Little Mouse runs by.",
+        "hi": "शेर सो रहा है। नन्हा चूहा दौड़ा।"
+      },
+      "action": {
+        "en": "Whisper: shh, shh.",
+        "hi": "धीरे से कहो: श्श्श।"
+      }
+    },
+    {
+      "image": "🐭",
+      "text": {
+        "en": "Tickle, tickle! Lion wakes up.",
+        "hi": "गुदगुदी! शेर जाग गया।"
+      },
+      "action": {
+        "en": "Wiggle your fingers.",
+        "hi": "उँगलियाँ हिलाओ।"
+      }
+    },
+    {
+      "image": "🙏",
+      "text": {
+        "en": "Mouse says sorry. Lion lets him go.",
+        "hi": "चूहे ने माफ़ी माँगी। शेर ने उसे जाने दिया।"
+      },
+      "action": {
+        "en": "Say sorry softly.",
+        "hi": "धीरे से कहो: माफ़ करना।"
+      }
+    },
+    {
+      "image": "🕸️",
+      "text": {
+        "en": "Later, Lion is stuck in a net.",
+        "hi": "बाद में शेर जाल में फँस गया।"
+      },
+      "action": {
+        "en": "Cross your arms. Say Oh no!",
+        "hi": "बाँहें मोड़ो। कहो: अरे नहीं!"
+      }
+    },
+    {
+      "image": "🐭",
+      "text": {
+        "en": "Mouse nibbles the net. Lion is free!",
+        "hi": "चूहे ने जाल कुतरा। शेर आज़ाद!"
+      },
+      "action": {
+        "en": "Nibble, nibble in the air.",
+        "hi": "हवा में कुतर-कुतर करो।"
+      }
+    }
+  ]
+}

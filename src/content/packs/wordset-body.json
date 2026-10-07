@@ -1,0 +1,115 @@
+{
+  "kind": "wordset",
+  "id": "body",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "My body",
+    "hi": "मेरा शरीर"
+  },
+  "cover": "🖐️",
+  "words": [
+    {
+      "id": "nose",
+      "image": "👃",
+      "word": {
+        "en": "nose",
+        "hi": "नाक"
+      },
+      "article": {
+        "en": "a nose",
+        "hi": "नाक"
+      },
+      "action": {
+        "en": "Touch your nose.",
+        "hi": "अपनी नाक छुओ।"
+      }
+    },
+    {
+      "id": "eyes",
+      "image": "👀",
+      "word": {
+        "en": "eyes",
+        "hi": "आँखें"
+      },
+      "article": {
+        "en": "eyes",
+        "hi": "आँखें"
+      },
+      "action": {
+        "en": "Blink your eyes.",
+        "hi": "आँखें झपकाओ।"
+      }
+    },
+    {
+      "id": "ears",
+      "image": "👂",
+      "word": {
+        "en": "ears",
+        "hi": "कान"
+      },
+      "article": {
+        "en": "ears",
+        "hi": "कान"
+      },
+      "action": {
+        "en": "Tug your ears gently.",
+        "hi": "कान हल्के से छुओ।"
+      }
+    },
+    {
+      "id": "mouth",
+      "image": "👄",
+      "word": {
+        "en": "mouth",
+        "hi": "मुँह"
+      },
+      "article": {
+        "en": "a mouth",
+        "hi": "मुँह"
+      },
+      "action": {
+        "en": "Open wide, then close.",
+        "hi": "मुँह खोलो, फिर बंद करो।"
+      }
+    },
+    {
+      "id": "hands",
+      "image": "✋",
+      "word": {
+        "en": "hands",
+        "hi": "हाथ"
+      },
+      "article": {
+        "en": "hands",
+        "hi": "हाथ"
+      },
+      "action": {
+        "en": "Wave your hands.",
+        "hi": "हाथ हिलाओ।"
+      }
+    },
+    {
+      "id": "feet",
+      "image": "🦶",
+      "word": {
+        "en": "feet",
+        "hi": "पैर"
+      },
+      "article": {
+        "en": "feet",
+        "hi": "पैर"
+      },
+      "action": {
+        "en": "Wiggle your toes.",
+        "hi": "पैर की उँगलियाँ हिलाओ।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is the {word}?",
+    "hi": "{word} कहाँ है?"
+  }
+}

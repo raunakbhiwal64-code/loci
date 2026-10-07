@@ -1,0 +1,63 @@
+{
+  "id": "playschool",
+  "kind": "bigday",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Playschool day",
+    "hi": "प्लेस्कूल का दिन"
+  },
+  "cover": "🎒",
+  "parentTip": {
+    "en": "Read this the night before.",
+    "hi": "एक रात पहले यह पढ़ो।"
+  },
+  "pages": [
+    {
+      "image": "🎒",
+      "text": {
+        "en": "Today is playschool day.",
+        "hi": "आज प्लेस्कूल जाना है।"
+      },
+      "action": {
+        "en": "Put on a pretend backpack.",
+        "hi": "नकली बैग पहनो।"
+      }
+    },
+    {
+      "image": "👋",
+      "text": {
+        "en": "Wave bye-bye to Mum.",
+        "hi": "माँ को टाटा कहो।"
+      },
+      "action": {
+        "en": "Wave bye-bye.",
+        "hi": "टाटा करो।"
+      }
+    },
+    {
+      "image": "🧩",
+      "text": {
+        "en": "Play with new friends.",
+        "hi": "नए दोस्तों के साथ खेलो।"
+      },
+      "action": {
+        "en": "Say hello to a friend.",
+        "hi": "दोस्त से कहो: नमस्ते।"
+      }
+    },
+    {
+      "image": "🤗",
+      "text": {
+        "en": "Mum is back. Big hug!",
+        "hi": "माँ वापस आ गईं। बड़ी झप्पी!"
+      },
+      "action": {
+        "en": "Open your arms for a hug.",
+        "hi": "झप्पी के लिए बाँहें खोलो।"
+      }
+    }
+  ]
+}

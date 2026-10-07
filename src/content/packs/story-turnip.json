@@ -1,0 +1,77 @@
+{
+  "id": "turnip",
+  "kind": "story",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "The Big Turnip",
+    "hi": "बड़ा शलजम"
+  },
+  "cover": "🥕",
+  "moral": {
+    "en": "Together we can do big things.",
+    "hi": "मिलकर हम बड़े काम कर सकते हैं।"
+  },
+  "parentTip": {
+    "en": "Pull and say Heave-ho together.",
+    "hi": "साथ में खींचो और कहो: हइशा!"
+  },
+  "pages": [
+    {
+      "image": "🌱",
+      "text": {
+        "en": "Grandpa plants a tiny seed.",
+        "hi": "दादाजी ने एक छोटा बीज बोया।"
+      },
+      "action": {
+        "en": "Pat the soil. Say Grow!",
+        "hi": "मिट्टी थपथपाओ। कहो: उग!"
+      }
+    },
+    {
+      "image": "🥕",
+      "text": {
+        "en": "The turnip grows big, big, big!",
+        "hi": "शलजम बड़ा, बड़ा, बड़ा हो गया!"
+      },
+      "action": {
+        "en": "Spread your arms wide.",
+        "hi": "बाँहें चौड़ी फैलाओ।"
+      }
+    },
+    {
+      "image": "👴",
+      "text": {
+        "en": "Grandpa pulls. Heave-ho! It will not move.",
+        "hi": "दादाजी ने खींचा। हइशा! नहीं हिला।"
+      },
+      "action": {
+        "en": "Pull with both hands. Say Heave-ho!",
+        "hi": "दोनों हाथों से खींचो। कहो: हइशा!"
+      }
+    },
+    {
+      "image": "🐕",
+      "text": {
+        "en": "Grandma, the dog, the cat come to help.",
+        "hi": "दादी, कुत्ता, बिल्ली मदद को आए।"
+      },
+      "action": {
+        "en": "Count the helpers on your fingers.",
+        "hi": "उँगलियों पर मददगारों को गिनो।"
+      }
+    },
+    {
+      "image": "🎉",
+      "text": {
+        "en": "Heave-ho! Out pops the turnip!",
+        "hi": "हइशा! शलजम बाहर आ गया!"
+      },
+      "action": {
+        "en": "Fall back and giggle!",
+        "hi": "पीछे लुढ़को और हँसो!"
+      }
+    }
+  ]
+}

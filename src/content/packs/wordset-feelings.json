@@ -1,0 +1,99 @@
+{
+  "kind": "wordset",
+  "id": "feelings",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Feelings",
+    "hi": "भावनाएँ"
+  },
+  "cover": "😊",
+  "words": [
+    {
+      "id": "happy",
+      "image": "😊",
+      "word": {
+        "en": "happy",
+        "hi": "खुश"
+      },
+      "article": {
+        "en": "happy",
+        "hi": "खुश"
+      },
+      "action": {
+        "en": "Make a happy face.",
+        "hi": "खुश चेहरा बनाओ।"
+      }
+    },
+    {
+      "id": "sad",
+      "image": "😢",
+      "word": {
+        "en": "sad",
+        "hi": "उदास"
+      },
+      "article": {
+        "en": "sad",
+        "hi": "उदास"
+      },
+      "action": {
+        "en": "Make a sad face.",
+        "hi": "उदास चेहरा बनाओ।"
+      }
+    },
+    {
+      "id": "angry",
+      "image": "😠",
+      "word": {
+        "en": "angry",
+        "hi": "ग़ुस्सा"
+      },
+      "article": {
+        "en": "angry",
+        "hi": "ग़ुस्सा"
+      },
+      "action": {
+        "en": "Take a big breath.",
+        "hi": "एक गहरी साँस लो।"
+      }
+    },
+    {
+      "id": "sleepy",
+      "image": "😴",
+      "word": {
+        "en": "sleepy",
+        "hi": "नींद"
+      },
+      "article": {
+        "en": "sleepy",
+        "hi": "नींद"
+      },
+      "action": {
+        "en": "Yawn together.",
+        "hi": "साथ में जम्हाई लो।"
+      }
+    },
+    {
+      "id": "surprised",
+      "image": "😮",
+      "word": {
+        "en": "surprised",
+        "hi": "हैरान"
+      },
+      "article": {
+        "en": "surprised",
+        "hi": "हैरान"
+      },
+      "action": {
+        "en": "Open your mouth: Oh!",
+        "hi": "मुँह खोलो: ओह!"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Who looks {word}?",
+    "hi": "कौन {word} लग रहा है?"
+  }
+}

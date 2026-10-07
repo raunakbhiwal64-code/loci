@@ -1,0 +1,115 @@
+{
+  "kind": "wordset",
+  "id": "fruits",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Fruits",
+    "hi": "फल"
+  },
+  "cover": "🍎",
+  "words": [
+    {
+      "id": "apple",
+      "image": "🍎",
+      "word": {
+        "en": "apple",
+        "hi": "सेब"
+      },
+      "article": {
+        "en": "an apple",
+        "hi": "सेब"
+      },
+      "action": {
+        "en": "Pretend to take a bite!",
+        "hi": "काटने का नाटक करो!"
+      }
+    },
+    {
+      "id": "banana",
+      "image": "🍌",
+      "word": {
+        "en": "banana",
+        "hi": "केला"
+      },
+      "article": {
+        "en": "a banana",
+        "hi": "केला"
+      },
+      "action": {
+        "en": "Peel it in the air.",
+        "hi": "हवा में छीलो।"
+      }
+    },
+    {
+      "id": "mango",
+      "image": "🥭",
+      "word": {
+        "en": "mango",
+        "hi": "आम"
+      },
+      "article": {
+        "en": "a mango",
+        "hi": "आम"
+      },
+      "action": {
+        "en": "Rub your tummy: yum!",
+        "hi": "पेट सहलाओ: मज़ेदार!"
+      }
+    },
+    {
+      "id": "orange",
+      "image": "🍊",
+      "word": {
+        "en": "orange",
+        "hi": "संतरा"
+      },
+      "article": {
+        "en": "an orange",
+        "hi": "संतरा"
+      },
+      "action": {
+        "en": "Squeeze it with both hands.",
+        "hi": "दोनों हाथों से निचोड़ो।"
+      }
+    },
+    {
+      "id": "grapes",
+      "image": "🍇",
+      "word": {
+        "en": "grapes",
+        "hi": "अंगूर"
+      },
+      "article": {
+        "en": "grapes",
+        "hi": "अंगूर"
+      },
+      "action": {
+        "en": "Pick tiny grapes with your fingers.",
+        "hi": "उँगलियों से छोटे अंगूर तोड़ो।"
+      }
+    },
+    {
+      "id": "watermelon",
+      "image": "🍉",
+      "word": {
+        "en": "watermelon",
+        "hi": "तरबूज़"
+      },
+      "article": {
+        "en": "a watermelon",
+        "hi": "तरबूज़"
+      },
+      "action": {
+        "en": "Spread your arms: so big!",
+        "hi": "बाँहें फैलाओ: कितना बड़ा!"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is the {word}?",
+    "hi": "{word} कहाँ है?"
+  }
+}

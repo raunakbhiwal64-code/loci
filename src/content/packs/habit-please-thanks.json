@@ -1,0 +1,63 @@
+{
+  "id": "please-thanks",
+  "kind": "habit",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Please and thank you",
+    "hi": "प्लीज़ और शुक्रिया"
+  },
+  "cover": "🙏",
+  "parentTip": {
+    "en": "Say it yourself first, every day.",
+    "hi": "पहले खुद रोज़ बोलकर दिखाओ।"
+  },
+  "pages": [
+    {
+      "image": "🥛",
+      "text": {
+        "en": "Want some milk? Say please.",
+        "hi": "दूध चाहिए? कहो: प्लीज़।"
+      },
+      "action": {
+        "en": "Say please, with a smile.",
+        "hi": "मुस्कुराकर कहो: प्लीज़।"
+      }
+    },
+    {
+      "image": "🤲",
+      "text": {
+        "en": "Here is your milk.",
+        "hi": "ये लो अपना दूध।"
+      },
+      "action": {
+        "en": "Hold out your hands.",
+        "hi": "हाथ आगे बढ़ाओ।"
+      }
+    },
+    {
+      "image": "🙏",
+      "text": {
+        "en": "Say thank you.",
+        "hi": "कहो: शुक्रिया।"
+      },
+      "action": {
+        "en": "Say Thank you!",
+        "hi": "कहो: शुक्रिया!"
+      }
+    },
+    {
+      "image": "💛",
+      "text": {
+        "en": "Please and thank you. Kind words!",
+        "hi": "प्लीज़ और शुक्रिया। प्यारे शब्द!"
+      },
+      "action": {
+        "en": "Give a hug.",
+        "hi": "एक झप्पी दो।"
+      }
+    }
+  ]
+}

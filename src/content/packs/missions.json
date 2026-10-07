@@ -1,0 +1,93 @@
+{
+  "kind": "missions",
+  "ages": [
+    1,
+    2
+  ],
+  "missions": [
+    {
+      "id": "m1",
+      "text": {
+        "en": "Find something red.",
+        "hi": "कोई लाल चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "m2",
+      "text": {
+        "en": "Find a cup at home.",
+        "hi": "घर में एक कप ढूँढो।"
+      }
+    },
+    {
+      "id": "m3",
+      "text": {
+        "en": "Count three spoons together.",
+        "hi": "तीन चम्मच साथ में गिनो।"
+      }
+    },
+    {
+      "id": "m4",
+      "text": {
+        "en": "Touch something soft.",
+        "hi": "कोई मुलायम चीज़ छुओ।"
+      }
+    },
+    {
+      "id": "m5",
+      "text": {
+        "en": "Find something round.",
+        "hi": "कोई गोल चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "m6",
+      "text": {
+        "en": "Find something blue.",
+        "hi": "कोई नीली चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "m7",
+      "text": {
+        "en": "Say hello to a neighbour.",
+        "hi": "पड़ोसी को नमस्ते कहो।"
+      }
+    },
+    {
+      "id": "m8",
+      "text": {
+        "en": "Wash your hands while singing.",
+        "hi": "गाना गाते हुए हाथ धोओ।"
+      }
+    },
+    {
+      "id": "m9",
+      "text": {
+        "en": "Find an animal picture. Make its sound.",
+        "hi": "किसी जानवर की तस्वीर ढूँढो। उसकी आवाज़ निकालो।"
+      }
+    },
+    {
+      "id": "m10",
+      "text": {
+        "en": "Help put one toy away.",
+        "hi": "एक खिलौना जगह पर रखने में मदद करो।"
+      }
+    },
+    {
+      "id": "m11",
+      "text": {
+        "en": "Find something big and something small.",
+        "hi": "कोई बड़ी और कोई छोटी चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "m12",
+      "text": {
+        "en": "Take three deep breaths together.",
+        "hi": "साथ में तीन गहरी साँसें लो।"
+      }
+    }
+  ]
+}

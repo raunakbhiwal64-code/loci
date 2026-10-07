@@ -1,0 +1,63 @@
+{
+  "id": "wash-hands",
+  "kind": "habit",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Wash hands",
+    "hi": "हाथ धोना"
+  },
+  "cover": "🧼",
+  "parentTip": {
+    "en": "Count to five together.",
+    "hi": "साथ में पाँच तक गिनो।"
+  },
+  "pages": [
+    {
+      "image": "🚰",
+      "text": {
+        "en": "Turn on the water.",
+        "hi": "पानी चालू करो।"
+      },
+      "action": {
+        "en": "Pretend to turn the tap.",
+        "hi": "नल घुमाने का नाटक करो।"
+      }
+    },
+    {
+      "image": "🧼",
+      "text": {
+        "en": "Soap, soap, bubbles!",
+        "hi": "साबुन, साबुन, झाग!"
+      },
+      "action": {
+        "en": "Rub your hands together.",
+        "hi": "हाथ आपस में मलो।"
+      }
+    },
+    {
+      "image": "🫧",
+      "text": {
+        "en": "Rub, rub, rub. Count to five.",
+        "hi": "मलो, मलो, मलो। पाँच तक गिनो।"
+      },
+      "action": {
+        "en": "Count to five together.",
+        "hi": "साथ में पाँच तक गिनो।"
+      }
+    },
+    {
+      "image": "🧻",
+      "text": {
+        "en": "Rinse and dry. Clean hands!",
+        "hi": "धो लो, पोंछ लो। साफ़ हाथ!"
+      },
+      "action": {
+        "en": "Show me your clean hands.",
+        "hi": "अपने साफ़ हाथ दिखाओ।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "kind": "wordset",
+  "id": "counting",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "Counting",
+    "hi": "गिनती"
+  },
+  "cover": "🔢",
+  "words": [
+    {
+      "id": "one",
+      "image": "🍎",
+      "word": {
+        "en": "one",
+        "hi": "एक"
+      },
+      "article": {
+        "en": "one",
+        "hi": "एक"
+      },
+      "action": {
+        "en": "Clap once.",
+        "hi": "एक बार ताली बजाओ।"
+      }
+    },
+    {
+      "id": "two",
+      "image": "🍎🍎",
+      "word": {
+        "en": "two",
+        "hi": "दो"
+      },
+      "article": {
+        "en": "two",
+        "hi": "दो"
+      },
+      "action": {
+        "en": "Clap twice.",
+        "hi": "दो बार ताली बजाओ।"
+      }
+    },
+    {
+      "id": "three",
+      "image": "🍎🍎🍎",
+      "word": {
+        "en": "three",
+        "hi": "तीन"
+      },
+      "article": {
+        "en": "three",
+        "hi": "तीन"
+      },
+      "action": {
+        "en": "Clap three times.",
+        "hi": "तीन बार ताली बजाओ।"
+      }
+    },
+    {
+      "id": "four",
+      "image": "🍎🍎🍎🍎",
+      "word": {
+        "en": "four",
+        "hi": "चार"
+      },
+      "article": {
+        "en": "four",
+        "hi": "चार"
+      },
+      "action": {
+        "en": "Tap your knees four times.",
+        "hi": "घुटनों को चार बार थपथपाओ।"
+      }
+    },
+    {
+      "id": "five",
+      "image": "🍎🍎🍎🍎🍎",
+      "word": {
+        "en": "five",
+        "hi": "पाँच"
+      },
+      "article": {
+        "en": "five",
+        "hi": "पाँच"
+      },
+      "action": {
+        "en": "Hold up five fingers.",
+        "hi": "पाँच उँगलियाँ दिखाओ।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is {word}?",
+    "hi": "{word} कहाँ है?"
+  }
+}

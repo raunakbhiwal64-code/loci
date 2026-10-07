@@ -1,0 +1,114 @@
+{
+  "kind": "wordset",
+  "id": "opposites",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "Opposites",
+    "hi": "उल्टे शब्द"
+  },
+  "cover": "↕️",
+  "words": [
+    {
+      "id": "big",
+      "image": "🐘",
+      "word": {
+        "en": "big",
+        "hi": "बड़ा"
+      },
+      "article": {
+        "en": "big",
+        "hi": "बड़ा"
+      },
+      "action": {
+        "en": "Stretch your arms wide.",
+        "hi": "बाँहें चौड़ी फैलाओ।"
+      }
+    },
+    {
+      "id": "small",
+      "image": "🐭",
+      "word": {
+        "en": "small",
+        "hi": "छोटा"
+      },
+      "article": {
+        "en": "small",
+        "hi": "छोटा"
+      },
+      "action": {
+        "en": "Curl up very small.",
+        "hi": "छोटे बन जाओ।"
+      }
+    },
+    {
+      "id": "hot",
+      "image": "🔥",
+      "word": {
+        "en": "hot",
+        "hi": "गरम"
+      },
+      "article": {
+        "en": "hot",
+        "hi": "गरम"
+      },
+      "action": {
+        "en": "Fan your face. Hot!",
+        "hi": "चेहरे पर हवा करो। गरम!"
+      }
+    },
+    {
+      "id": "cold",
+      "image": "🧊",
+      "word": {
+        "en": "cold",
+        "hi": "ठंडा"
+      },
+      "article": {
+        "en": "cold",
+        "hi": "ठंडा"
+      },
+      "action": {
+        "en": "Hug yourself. Brr!",
+        "hi": "खुद को गले लगाओ। ठंडा!"
+      }
+    },
+    {
+      "id": "up",
+      "image": "⬆️",
+      "word": {
+        "en": "up",
+        "hi": "ऊपर"
+      },
+      "article": {
+        "en": "up",
+        "hi": "ऊपर"
+      },
+      "action": {
+        "en": "Reach up high.",
+        "hi": "ऊपर हाथ उठाओ।"
+      }
+    },
+    {
+      "id": "down",
+      "image": "⬇️",
+      "word": {
+        "en": "down",
+        "hi": "नीचे"
+      },
+      "article": {
+        "en": "down",
+        "hi": "नीचे"
+      },
+      "action": {
+        "en": "Touch the floor.",
+        "hi": "ज़मीन छुओ।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is {word}?",
+    "hi": "{word} कहाँ है?"
+  }
+}

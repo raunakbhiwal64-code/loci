@@ -1,0 +1,41 @@
+{
+  "id": "clap-rhyme",
+  "kind": "rhyme",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Clap and Stomp",
+    "hi": "ताली और छम-छम"
+  },
+  "cover": "👏",
+  "parentTip": {
+    "en": "An original rhyme. Make up more verses!",
+    "hi": "हमारी अपनी कविता। और पंक्तियाँ बनाओ!"
+  },
+  "pages": [
+    {
+      "image": "👏",
+      "text": {
+        "en": "Clap, clap, clap your hands. Clap with me.",
+        "hi": "ताली, ताली, ताली बजाओ। मेरे साथ बजाओ।"
+      },
+      "action": {
+        "en": "Clap three times.",
+        "hi": "तीन बार ताली बजाओ।"
+      }
+    },
+    {
+      "image": "🦶",
+      "text": {
+        "en": "Stomp, stomp, stomp your feet. Stomp with me.",
+        "hi": "छम, छम, छम, पैर पटको। मेरे साथ पटको।"
+      },
+      "action": {
+        "en": "Stomp three times.",
+        "hi": "तीन बार पैर पटको।"
+      }
+    }
+  ]
+}

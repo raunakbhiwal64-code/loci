@@ -1,0 +1,115 @@
+{
+  "kind": "wordset",
+  "id": "home",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "At home",
+    "hi": "घर में"
+  },
+  "cover": "🏠",
+  "words": [
+    {
+      "id": "cup",
+      "image": "☕",
+      "word": {
+        "en": "cup",
+        "hi": "कप"
+      },
+      "article": {
+        "en": "a cup",
+        "hi": "कप"
+      },
+      "action": {
+        "en": "Find a cup at home.",
+        "hi": "घर में एक कप ढूँढो।"
+      }
+    },
+    {
+      "id": "bed",
+      "image": "🛏️",
+      "word": {
+        "en": "bed",
+        "hi": "बिस्तर"
+      },
+      "article": {
+        "en": "a bed",
+        "hi": "बिस्तर"
+      },
+      "action": {
+        "en": "Pat the bed.",
+        "hi": "बिस्तर थपथपाओ।"
+      }
+    },
+    {
+      "id": "chair",
+      "image": "🪑",
+      "word": {
+        "en": "chair",
+        "hi": "कुर्सी"
+      },
+      "article": {
+        "en": "a chair",
+        "hi": "कुर्सी"
+      },
+      "action": {
+        "en": "Find a chair. Sit down.",
+        "hi": "कुर्सी ढूँढो। बैठो।"
+      }
+    },
+    {
+      "id": "door",
+      "image": "🚪",
+      "word": {
+        "en": "door",
+        "hi": "दरवाज़ा"
+      },
+      "article": {
+        "en": "a door",
+        "hi": "दरवाज़ा"
+      },
+      "action": {
+        "en": "Knock, knock, knock.",
+        "hi": "ठक-ठक-ठक करो।"
+      }
+    },
+    {
+      "id": "ball",
+      "image": "⚽",
+      "word": {
+        "en": "ball",
+        "hi": "गेंद"
+      },
+      "article": {
+        "en": "a ball",
+        "hi": "गेंद"
+      },
+      "action": {
+        "en": "Roll the ball to me.",
+        "hi": "गेंद मेरी ओर लुढ़काओ।"
+      }
+    },
+    {
+      "id": "shoe",
+      "image": "👟",
+      "word": {
+        "en": "shoe",
+        "hi": "जूता"
+      },
+      "article": {
+        "en": "a shoe",
+        "hi": "जूता"
+      },
+      "action": {
+        "en": "Find your shoes.",
+        "hi": "अपने जूते ढूँढो।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is the {word}?",
+    "hi": "{word} कहाँ है?"
+  }
+}

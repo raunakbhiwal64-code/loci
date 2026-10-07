@@ -1,0 +1,63 @@
+{
+  "id": "bath-time",
+  "kind": "bigday",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Bath time",
+    "hi": "नहाने का समय"
+  },
+  "cover": "🛁",
+  "parentTip": {
+    "en": "Sing while you wash.",
+    "hi": "नहलाते हुए गाना गाओ।"
+  },
+  "pages": [
+    {
+      "image": "🛁",
+      "text": {
+        "en": "Bath time!",
+        "hi": "नहाने का समय!"
+      },
+      "action": {
+        "en": "Splash your hands in the air.",
+        "hi": "हवा में छपाक करो।"
+      }
+    },
+    {
+      "image": "🫧",
+      "text": {
+        "en": "Warm water, bubbles, splash!",
+        "hi": "गुनगुना पानी, झाग, छपाक!"
+      },
+      "action": {
+        "en": "Say Splash!",
+        "hi": "कहो: छपाक!"
+      }
+    },
+    {
+      "image": "🦶",
+      "text": {
+        "en": "Wash my tummy, my toes.",
+        "hi": "पेट धोओ, पैर की उँगलियाँ धोओ।"
+      },
+      "action": {
+        "en": "Touch your toes.",
+        "hi": "पैर की उँगलियाँ छुओ।"
+      }
+    },
+    {
+      "image": "🧺",
+      "text": {
+        "en": "Dry with a soft towel.",
+        "hi": "मुलायम तौलिये से पोंछो।"
+      },
+      "action": {
+        "en": "Rub your arms like drying.",
+        "hi": "बाँहें पोंछने का नाटक करो।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "doctor",
+  "kind": "bigday",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Doctor visit",
+    "hi": "डॉक्टर के पास"
+  },
+  "cover": "🩺",
+  "parentTip": {
+    "en": "Stay close and speak calmly.",
+    "hi": "पास रहो और शांति से बोलो।"
+  },
+  "pages": [
+    {
+      "image": "🏥",
+      "text": {
+        "en": "We visit the doctor.",
+        "hi": "हम डॉक्टर के पास जा रहे हैं।"
+      },
+      "action": {
+        "en": "Say hello, doctor.",
+        "hi": "कहो: नमस्ते डॉक्टर।"
+      }
+    },
+    {
+      "image": "🩺",
+      "text": {
+        "en": "Doctor listens to my heart.",
+        "hi": "डॉक्टर दिल की धड़कन सुन रहे हैं।"
+      },
+      "action": {
+        "en": "Stay still. Listen: thump, thump.",
+        "hi": "चुप रहो। सुनो: धक-धक।"
+      }
+    },
+    {
+      "image": "🌬️",
+      "text": {
+        "en": "A tiny pinch. Take a deep breath.",
+        "hi": "ज़रा-सी चुभन। गहरी साँस लो।"
+      },
+      "action": {
+        "en": "Take a deep breath.",
+        "hi": "गहरी साँस लो।"
+      }
+    },
+    {
+      "image": "😊",
+      "text": {
+        "en": "All done. You were so brave!",
+        "hi": "हो गया! तुम बहुत बहादुर थे!"
+      },
+      "action": {
+        "en": "Give yourself a hug.",
+        "hi": "खुद को गले लगाओ।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "tidy-up",
+  "kind": "habit",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Tidy up",
+    "hi": "सामान समेटना"
+  },
+  "cover": "🧸",
+  "parentTip": {
+    "en": "Make it a game: one toy each.",
+    "hi": "खेल बनाओ: बारी-बारी एक खिलौना।"
+  },
+  "pages": [
+    {
+      "image": "🧸",
+      "text": {
+        "en": "Toys everywhere!",
+        "hi": "हर जगह खिलौने!"
+      },
+      "action": {
+        "en": "Point to one toy.",
+        "hi": "एक खिलौने की ओर इशारा करो।"
+      }
+    },
+    {
+      "image": "🚗",
+      "text": {
+        "en": "Pick up one toy.",
+        "hi": "एक खिलौना उठाओ।"
+      },
+      "action": {
+        "en": "Pick up a real toy.",
+        "hi": "असली खिलौना उठाओ।"
+      }
+    },
+    {
+      "image": "📦",
+      "text": {
+        "en": "Put it in the box.",
+        "hi": "इसे डिब्बे में रखो।"
+      },
+      "action": {
+        "en": "Drop it in. Say Plop!",
+        "hi": "डालो। कहो: टप!"
+      }
+    },
+    {
+      "image": "🧹",
+      "text": {
+        "en": "All tidy. Thank you!",
+        "hi": "सब साफ़! शुक्रिया!"
+      },
+      "action": {
+        "en": "Clap together.",
+        "hi": "साथ में ताली बजाओ।"
+      }
+    }
+  ]
+}

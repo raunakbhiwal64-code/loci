@@ -1,0 +1,77 @@
+{
+  "id": "crow",
+  "kind": "story",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "The Thirsty Crow",
+    "hi": "प्यासा कौआ"
+  },
+  "cover": "🐦",
+  "moral": {
+    "en": "Keep trying, and you will find a way.",
+    "hi": "कोशिश करते रहो, रास्ता मिल जाएगा।"
+  },
+  "parentTip": {
+    "en": "Say Plop together.",
+    "hi": "साथ में कहो: टप!"
+  },
+  "pages": [
+    {
+      "image": "☀️",
+      "text": {
+        "en": "Hot, hot day. Crow is thirsty.",
+        "hi": "बहुत गरमी है। कौआ प्यासा है।"
+      },
+      "action": {
+        "en": "Fan your face. Say Hot!",
+        "hi": "मुँह पर हवा करो। कहो: गरमी!"
+      }
+    },
+    {
+      "image": "🏺",
+      "text": {
+        "en": "Crow sees a jug with a little water.",
+        "hi": "कौए को एक मटका दिखा। उसमें थोड़ा पानी है।"
+      },
+      "action": {
+        "en": "Peek into the jug. Say Oh!",
+        "hi": "झाँककर देखो। कहो: ओह!"
+      }
+    },
+    {
+      "image": "🐦",
+      "text": {
+        "en": "Beak is too short. Crow cannot reach.",
+        "hi": "चोंच छोटी है। पानी तक नहीं पहुँची।"
+      },
+      "action": {
+        "en": "Stretch your neck up high.",
+        "hi": "गरदन ऊपर खींचो।"
+      }
+    },
+    {
+      "image": "🪨",
+      "text": {
+        "en": "Crow drops in pebbles. Plop! Plop!",
+        "hi": "कौए ने कंकड़ डाले। टप! टप!"
+      },
+      "action": {
+        "en": "Drop pretend pebbles. Say Plop!",
+        "hi": "कंकड़ गिराओ। कहो: टप!"
+      }
+    },
+    {
+      "image": "💧",
+      "text": {
+        "en": "Water rises. Crow drinks. Hooray!",
+        "hi": "पानी ऊपर आया। कौए ने पिया। वाह!"
+      },
+      "action": {
+        "en": "Pretend to sip. Say Ahh!",
+        "hi": "पीने का नाटक करो। कहो: आह!"
+      }
+    }
+  ]
+}

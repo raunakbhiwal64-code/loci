@@ -1,0 +1,139 @@
+{
+  "kind": "wordset",
+  "id": "animals",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Animals",
+    "hi": "जानवर"
+  },
+  "cover": "🐄",
+  "words": [
+    {
+      "id": "cow",
+      "image": "🐄",
+      "word": {
+        "en": "cow",
+        "hi": "गाय"
+      },
+      "article": {
+        "en": "a cow",
+        "hi": "गाय"
+      },
+      "sound": {
+        "en": "Moo!",
+        "hi": "म्मू!"
+      },
+      "action": {
+        "en": "Say it with me!",
+        "hi": "मेरे साथ बोलो!"
+      }
+    },
+    {
+      "id": "dog",
+      "image": "🐕",
+      "word": {
+        "en": "dog",
+        "hi": "कुत्ता"
+      },
+      "article": {
+        "en": "a dog",
+        "hi": "कुत्ता"
+      },
+      "sound": {
+        "en": "Woof!",
+        "hi": "भौं भौं!"
+      },
+      "action": {
+        "en": "Pant like a puppy.",
+        "hi": "पिल्ले की तरह हाँफो।"
+      }
+    },
+    {
+      "id": "cat",
+      "image": "🐈",
+      "word": {
+        "en": "cat",
+        "hi": "बिल्ली"
+      },
+      "article": {
+        "en": "a cat",
+        "hi": "बिल्ली"
+      },
+      "sound": {
+        "en": "Meow!",
+        "hi": "म्याऊँ!"
+      },
+      "action": {
+        "en": "Stretch like a cat.",
+        "hi": "बिल्ली की तरह अंगड़ाई लो।"
+      }
+    },
+    {
+      "id": "duck",
+      "image": "🦆",
+      "word": {
+        "en": "duck",
+        "hi": "बत्तख़"
+      },
+      "article": {
+        "en": "a duck",
+        "hi": "बत्तख़"
+      },
+      "sound": {
+        "en": "Quack!",
+        "hi": "क्वैक क्वैक!"
+      },
+      "action": {
+        "en": "Waddle like a duck.",
+        "hi": "बत्तख़ की तरह चलो।"
+      }
+    },
+    {
+      "id": "sheep",
+      "image": "🐑",
+      "word": {
+        "en": "sheep",
+        "hi": "भेड़"
+      },
+      "article": {
+        "en": "a sheep",
+        "hi": "भेड़"
+      },
+      "sound": {
+        "en": "Baa!",
+        "hi": "बैं बैं!"
+      },
+      "action": {
+        "en": "Say it softly.",
+        "hi": "धीरे से बोलो।"
+      }
+    },
+    {
+      "id": "horse",
+      "image": "🐎",
+      "word": {
+        "en": "horse",
+        "hi": "घोड़ा"
+      },
+      "article": {
+        "en": "a horse",
+        "hi": "घोड़ा"
+      },
+      "sound": {
+        "en": "Neigh!",
+        "hi": "हिन-हिन!"
+      },
+      "action": {
+        "en": "Gallop on the spot.",
+        "hi": "जगह पर दौड़ो।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is the {word}?",
+    "hi": "{word} कहाँ है?"
+  }
+}

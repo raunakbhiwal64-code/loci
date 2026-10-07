@@ -1,0 +1,63 @@
+{
+  "id": "share",
+  "kind": "habit",
+  "ages": [
+    1,
+    2
+  ],
+  "title": {
+    "en": "Sharing",
+    "hi": "बाँटना"
+  },
+  "cover": "🤝",
+  "parentTip": {
+    "en": "Practise with two toys at home.",
+    "hi": "घर पर दो खिलौनों से अभ्यास करो।"
+  },
+  "pages": [
+    {
+      "image": "⚽",
+      "text": {
+        "en": "I have a ball.",
+        "hi": "मेरे पास एक गेंद है।"
+      },
+      "action": {
+        "en": "Hold the ball.",
+        "hi": "गेंद पकड़ो।"
+      }
+    },
+    {
+      "image": "🧒",
+      "text": {
+        "en": "My friend has none.",
+        "hi": "मेरे दोस्त के पास नहीं है।"
+      },
+      "action": {
+        "en": "Look at your friend.",
+        "hi": "अपने दोस्त को देखो।"
+      }
+    },
+    {
+      "image": "🤲",
+      "text": {
+        "en": "Let us share. Here you go!",
+        "hi": "चलो बाँटें। ये लो!"
+      },
+      "action": {
+        "en": "Hand the ball over.",
+        "hi": "गेंद आगे बढ़ाओ।"
+      }
+    },
+    {
+      "image": "😊",
+      "text": {
+        "en": "Two friends, one ball. Happy!",
+        "hi": "दो दोस्त, एक गेंद। खुश!"
+      },
+      "action": {
+        "en": "Smile at each other.",
+        "hi": "एक-दूसरे को देखकर मुस्कुराओ।"
+      }
+    }
+  ]
+}

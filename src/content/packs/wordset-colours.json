@@ -1,0 +1,98 @@
+{
+  "kind": "wordset",
+  "id": "colours",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "Colours",
+    "hi": "रंग"
+  },
+  "cover": "🎨",
+  "words": [
+    {
+      "id": "red",
+      "image": "🔴",
+      "word": {
+        "en": "red",
+        "hi": "लाल"
+      },
+      "article": {
+        "en": "red",
+        "hi": "लाल"
+      },
+      "action": {
+        "en": "Find something red.",
+        "hi": "कोई लाल चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "blue",
+      "image": "🔵",
+      "word": {
+        "en": "blue",
+        "hi": "नीला"
+      },
+      "article": {
+        "en": "blue",
+        "hi": "नीला"
+      },
+      "action": {
+        "en": "Find something blue.",
+        "hi": "कोई नीली चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "yellow",
+      "image": "🟡",
+      "word": {
+        "en": "yellow",
+        "hi": "पीला"
+      },
+      "article": {
+        "en": "yellow",
+        "hi": "पीला"
+      },
+      "action": {
+        "en": "Find something yellow.",
+        "hi": "कोई पीली चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "green",
+      "image": "🟢",
+      "word": {
+        "en": "green",
+        "hi": "हरा"
+      },
+      "article": {
+        "en": "green",
+        "hi": "हरा"
+      },
+      "action": {
+        "en": "Find something green.",
+        "hi": "कोई हरी चीज़ ढूँढो।"
+      }
+    },
+    {
+      "id": "orange-colour",
+      "image": "🟠",
+      "word": {
+        "en": "orange",
+        "hi": "नारंगी"
+      },
+      "article": {
+        "en": "orange",
+        "hi": "नारंगी"
+      },
+      "action": {
+        "en": "Find something orange.",
+        "hi": "कोई नारंगी चीज़ ढूँढो।"
+      }
+    }
+  ],
+  "whereQuestion": {
+    "en": "Where is {word}?",
+    "hi": "{word} रंग कहाँ है?"
+  }
+}
