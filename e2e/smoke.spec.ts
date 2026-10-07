@@ -16,7 +16,7 @@ const reset = async (page: Page, band: 1 | 2, lang: 'EN' | 'हिं') => {
   // raise the daily cap so one test can visit everything
   await openSettings(page)
   await page.locator('input[type=range]').fill('6')
-  await page.getByLabel(/✕|Close|बंद/).first().click()
+  await page.getByTestId('back').click()
 }
 async function openSettings(page: Page) {
   const box = (await page.getByTestId('parent-gate').boundingBox())!
@@ -41,7 +41,7 @@ for (const lang of ['EN', 'हिं'] as const)
 
       await page.getByTestId('nav-stories').click()
       const stories = page.getByTestId('story')
-      expect(await stories.count()).toBe(band === 1 ? 7 : 10)
+      expect(await stories.count()).toBe(band === 1 ? 7 : 13)
       await stories.first().click(); await readThrough(page); await page.getByRole('button', { name: /Close|बंद/ }).click()
 
       await page.getByTestId('nav-habits').click()

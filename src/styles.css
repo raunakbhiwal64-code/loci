@@ -1,10 +1,10 @@
 :root {
-  --bg: #f6efe3; --card: #fffaf0; --ink: #3b3a36; --muted: #7d776b; --accent: #6fa987; --accent-ink: #1f3d2b;
-  --line: #e4d9c4; --ghost: #e7dfcc; --warm: #e9b872;
+  --bg: #f3eee6; --card: #faf6ee; --ink: #403e3a; --muted: #7a756b; --accent: #a9bfae; --accent-ink: #2b3d31;
+  --line: #e2d9c9; --ghost: #e6dfd0; --warm: #dcc9a6;
 }
 :root[data-theme='dark'] {
-  --bg: #1d2320; --card: #28302b; --ink: #ece8dc; --muted: #a39f92; --accent: #5e9a78; --accent-ink: #0f1d16;
-  --line: #3a453d; --ghost: #3a463e; --warm: #b98a4f;
+  --bg: #1f2422; --card: #29302c; --ink: #e6e2d8; --muted: #a09c90; --accent: #6f8c7a; --accent-ink: #0f1a14;
+  --line: #3a443e; --ghost: #38423c; --warm: #8f7a52;
 }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body, #root { height: 100%; margin: 0; }
@@ -32,7 +32,7 @@ h1 { font-size: 22px; margin: 0; flex: 1; } h2 { font-size: 22px; margin: 0; } h
 .tabpane > .card { width: 100%; margin-bottom: 4px; }
 .rest { text-align: center; padding-top: 48px; }
 
-.pic.emoji { display: inline-block; line-height: 1; }
+.pic.emoji { display: inline-block; line-height: 1; filter: saturate(0.55) brightness(1.03); } /* soften the pictures: calm, not stimulating */
 .pic.small { font-size: 40px; } .pic.mini { font-size: 34px; } .pic.mid { font-size: 96px; } .pic.big { font-size: min(34vh, 180px); }
 .pic.photo { object-fit: cover; border-radius: 24px; } .pic.photo.big { width: min(60vw, 280px); height: min(60vw, 280px); } .pic.photo.mid { width: 120px; height: 120px; }
 
@@ -75,3 +75,9 @@ h1 { font-size: 22px; margin: 0; flex: 1; } h2 { font-size: 22px; margin: 0; } h
 .switch { display: flex; align-items: center; gap: 12px; min-height: 56px; } .switch input { width: 28px; height: 28px; }
 .fam { display: flex; gap: 10px; flex-wrap: wrap; } .fam figure { margin: 0; text-align: center; } .fam img { width: 88px; height: 88px; object-fit: cover; border-radius: 16px; }
 .tagword { display: inline-block; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 2px 10px; margin: 3px; }
+
+.backbtn { min-height: 56px; padding: 0 16px 0 10px; border-radius: 28px; font-size: 18px; font-weight: 600; color: var(--ink); background: var(--card); border: 1px solid var(--line); }
+.action p { margin: 0; }
+.parentrow { display: flex; gap: 8px; justify-content: center; margin-top: 8px; }
+.parentrow .mini { min-height: 56px; padding: 0 14px; border-radius: 28px; font-size: 16px; color: var(--muted); border: 1px dashed var(--line); background: transparent; }
+.parentrow .mini:disabled { opacity: 0.6; }

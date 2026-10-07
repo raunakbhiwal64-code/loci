@@ -1,0 +1,77 @@
+{
+  "id": "rabbit",
+  "kind": "story",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "The Clever Rabbit",
+    "hi": "चतुर खरगोश"
+  },
+  "cover": "🐰",
+  "moral": {
+    "en": "Clever ideas solve big problems.",
+    "hi": "चतुराई से बड़ी मुश्किल हल होती है।"
+  },
+  "parentTip": {
+    "en": "Look in a mirror together and make faces.",
+    "hi": "साथ में शीशा देखो और मुँह बनाओ।"
+  },
+  "pages": [
+    {
+      "image": "🦁",
+      "text": {
+        "en": "Lion roars. The animals are scared.",
+        "hi": "शेर दहाड़ा। जानवर डर गए।"
+      },
+      "action": {
+        "en": "Roar softly. Say Grr!",
+        "hi": "धीरे से दहाड़ो। कहो: ग्र्र!"
+      }
+    },
+    {
+      "image": "🐰",
+      "text": {
+        "en": "Little Rabbit says, I have a plan.",
+        "hi": "नन्हे खरगोश ने कहा: मेरे पास तरकीब है।"
+      },
+      "action": {
+        "en": "Tap your head: think!",
+        "hi": "सिर थपथपाओ: सोचो!"
+      }
+    },
+    {
+      "image": "🏞️",
+      "text": {
+        "en": "Rabbit shows Lion a still pond.",
+        "hi": "खरगोश ने शेर को शांत तालाब दिखाया।"
+      },
+      "action": {
+        "en": "Point down into the pond.",
+        "hi": "तालाब में नीचे इशारा करो।"
+      }
+    },
+    {
+      "image": "🪞",
+      "text": {
+        "en": "Lion sees another lion in the water.",
+        "hi": "शेर को पानी में एक और शेर दिखा।"
+      },
+      "action": {
+        "en": "Make a surprised face. Say Oh!",
+        "hi": "हैरानी वाला चेहरा बनाओ। कहो: ओह!"
+      }
+    },
+    {
+      "image": "😄",
+      "text": {
+        "en": "It is his own face! Lion laughs.",
+        "hi": "वह तो उसका अपना चेहरा था! शेर हँस पड़ा।"
+      },
+      "action": {
+        "en": "Make a funny face and laugh.",
+        "hi": "मज़ेदार चेहरा बनाओ और हँसो।"
+      }
+    }
+  ]
+}

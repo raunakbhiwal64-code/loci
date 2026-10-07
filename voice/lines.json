@@ -1,0 +1,3132 @@
+[
+ {
+  "id": "bath-time/p1",
+  "lang": "en",
+  "text": "Bath time!"
+ },
+ {
+  "id": "bath-time/p1",
+  "lang": "hi",
+  "text": "नहाने का समय!"
+ },
+ {
+  "id": "bath-time/p2",
+  "lang": "en",
+  "text": "Warm water, bubbles, splash!"
+ },
+ {
+  "id": "bath-time/p2",
+  "lang": "hi",
+  "text": "गुनगुना पानी, झाग, छपाक!"
+ },
+ {
+  "id": "bath-time/p3",
+  "lang": "en",
+  "text": "Wash my tummy, my toes."
+ },
+ {
+  "id": "bath-time/p3",
+  "lang": "hi",
+  "text": "पेट धोओ, पैर की उँगलियाँ धोओ।"
+ },
+ {
+  "id": "bath-time/p4",
+  "lang": "en",
+  "text": "Dry with a soft towel."
+ },
+ {
+  "id": "bath-time/p4",
+  "lang": "hi",
+  "text": "मुलायम तौलिये से पोंछो।"
+ },
+ {
+  "id": "doctor/p1",
+  "lang": "en",
+  "text": "We visit the doctor."
+ },
+ {
+  "id": "doctor/p1",
+  "lang": "hi",
+  "text": "हम डॉक्टर के पास जा रहे हैं।"
+ },
+ {
+  "id": "doctor/p2",
+  "lang": "en",
+  "text": "Doctor listens to my heart."
+ },
+ {
+  "id": "doctor/p2",
+  "lang": "hi",
+  "text": "डॉक्टर दिल की धड़कन सुन रहे हैं।"
+ },
+ {
+  "id": "doctor/p3",
+  "lang": "en",
+  "text": "A tiny pinch. Take a deep breath."
+ },
+ {
+  "id": "doctor/p3",
+  "lang": "hi",
+  "text": "ज़रा-सी चुभन। गहरी साँस लो।"
+ },
+ {
+  "id": "doctor/p4",
+  "lang": "en",
+  "text": "All done. You were so brave!"
+ },
+ {
+  "id": "doctor/p4",
+  "lang": "hi",
+  "text": "हो गया! तुम बहुत बहादुर थे!"
+ },
+ {
+  "id": "new-baby/p1",
+  "lang": "en",
+  "text": "A new baby is coming home."
+ },
+ {
+  "id": "new-baby/p1",
+  "lang": "hi",
+  "text": "घर में नया बच्चा आ रहा है।"
+ },
+ {
+  "id": "new-baby/p2",
+  "lang": "en",
+  "text": "Baby is so small."
+ },
+ {
+  "id": "new-baby/p2",
+  "lang": "hi",
+  "text": "बच्चा कितना छोटा है।"
+ },
+ {
+  "id": "new-baby/p3",
+  "lang": "en",
+  "text": "Shh. Baby is sleeping."
+ },
+ {
+  "id": "new-baby/p3",
+  "lang": "hi",
+  "text": "श्श्श। बच्चा सो रहा है।"
+ },
+ {
+  "id": "new-baby/p4",
+  "lang": "en",
+  "text": "I am a big helper!"
+ },
+ {
+  "id": "new-baby/p4",
+  "lang": "hi",
+  "text": "मैं बड़ा मददगार हूँ!"
+ },
+ {
+  "id": "playschool/p1",
+  "lang": "en",
+  "text": "Today is playschool day."
+ },
+ {
+  "id": "playschool/p1",
+  "lang": "hi",
+  "text": "आज प्लेस्कूल जाना है।"
+ },
+ {
+  "id": "playschool/p2",
+  "lang": "en",
+  "text": "Wave bye-bye to Mum."
+ },
+ {
+  "id": "playschool/p2",
+  "lang": "hi",
+  "text": "माँ को टाटा कहो।"
+ },
+ {
+  "id": "playschool/p3",
+  "lang": "en",
+  "text": "Play with new friends."
+ },
+ {
+  "id": "playschool/p3",
+  "lang": "hi",
+  "text": "नए दोस्तों के साथ खेलो।"
+ },
+ {
+  "id": "playschool/p4",
+  "lang": "en",
+  "text": "Mum is back. Big hug!"
+ },
+ {
+  "id": "playschool/p4",
+  "lang": "hi",
+  "text": "माँ वापस आ गईं। बड़ी झप्पी!"
+ },
+ {
+  "id": "bedtime-routine/p1",
+  "lang": "en",
+  "text": "The sun goes down."
+ },
+ {
+  "id": "bedtime-routine/p1",
+  "lang": "hi",
+  "text": "सूरज छिप गया।"
+ },
+ {
+  "id": "bedtime-routine/p2",
+  "lang": "en",
+  "text": "Pyjamas on."
+ },
+ {
+  "id": "bedtime-routine/p2",
+  "lang": "hi",
+  "text": "पजामा पहन लो।"
+ },
+ {
+  "id": "bedtime-routine/p3",
+  "lang": "en",
+  "text": "Read a book. Cuddle close."
+ },
+ {
+  "id": "bedtime-routine/p3",
+  "lang": "hi",
+  "text": "किताब पढ़ो। पास आकर लेटो।"
+ },
+ {
+  "id": "bedtime-routine/p4",
+  "lang": "en",
+  "text": "Lights out. Goodnight."
+ },
+ {
+  "id": "bedtime-routine/p4",
+  "lang": "hi",
+  "text": "बत्ती बंद। शुभ रात्रि।"
+ },
+ {
+  "id": "brush-teeth/p1",
+  "lang": "en",
+  "text": "Get your toothbrush."
+ },
+ {
+  "id": "brush-teeth/p1",
+  "lang": "hi",
+  "text": "अपना टूथब्रश लो।"
+ },
+ {
+  "id": "brush-teeth/p2",
+  "lang": "en",
+  "text": "A tiny dot of paste."
+ },
+ {
+  "id": "brush-teeth/p2",
+  "lang": "hi",
+  "text": "थोड़ा-सा पेस्ट।"
+ },
+ {
+  "id": "brush-teeth/p3",
+  "lang": "en",
+  "text": "Brush up, brush down."
+ },
+ {
+  "id": "brush-teeth/p3",
+  "lang": "hi",
+  "text": "ऊपर-नीचे ब्रश करो।"
+ },
+ {
+  "id": "brush-teeth/p4",
+  "lang": "en",
+  "text": "Spit, rinse. Shiny teeth!"
+ },
+ {
+  "id": "brush-teeth/p4",
+  "lang": "hi",
+  "text": "थूको, कुल्ला करो। चमकते दाँत!"
+ },
+ {
+  "id": "calm-breathing/p1",
+  "lang": "en",
+  "text": "Sit still. Hands on tummy."
+ },
+ {
+  "id": "calm-breathing/p1",
+  "lang": "hi",
+  "text": "आराम से बैठो। हाथ पेट पर रखो।"
+ },
+ {
+  "id": "calm-breathing/p2",
+  "lang": "en",
+  "text": "Breathe in. Smell the flower."
+ },
+ {
+  "id": "calm-breathing/p2",
+  "lang": "hi",
+  "text": "साँस अंदर लो। फूल सूँघो।"
+ },
+ {
+  "id": "calm-breathing/p3",
+  "lang": "en",
+  "text": "Breathe out. Blow the candle."
+ },
+ {
+  "id": "calm-breathing/p3",
+  "lang": "hi",
+  "text": "साँस बाहर छोड़ो। मोमबत्ती बुझाओ।"
+ },
+ {
+  "id": "calm-breathing/p4",
+  "lang": "en",
+  "text": "Calm and quiet. Well done."
+ },
+ {
+  "id": "calm-breathing/p4",
+  "lang": "hi",
+  "text": "शांत और चुप। बहुत अच्छे।"
+ },
+ {
+  "id": "please-thanks/p1",
+  "lang": "en",
+  "text": "Want some milk? Say please."
+ },
+ {
+  "id": "please-thanks/p1",
+  "lang": "hi",
+  "text": "दूध चाहिए? कहो: प्लीज़।"
+ },
+ {
+  "id": "please-thanks/p2",
+  "lang": "en",
+  "text": "Here is your milk."
+ },
+ {
+  "id": "please-thanks/p2",
+  "lang": "hi",
+  "text": "ये लो अपना दूध।"
+ },
+ {
+  "id": "please-thanks/p3",
+  "lang": "en",
+  "text": "Say thank you."
+ },
+ {
+  "id": "please-thanks/p3",
+  "lang": "hi",
+  "text": "कहो: शुक्रिया।"
+ },
+ {
+  "id": "please-thanks/p4",
+  "lang": "en",
+  "text": "Please and thank you. Kind words!"
+ },
+ {
+  "id": "please-thanks/p4",
+  "lang": "hi",
+  "text": "प्लीज़ और शुक्रिया। प्यारे शब्द!"
+ },
+ {
+  "id": "share/p1",
+  "lang": "en",
+  "text": "I have a ball."
+ },
+ {
+  "id": "share/p1",
+  "lang": "hi",
+  "text": "मेरे पास एक गेंद है।"
+ },
+ {
+  "id": "share/p2",
+  "lang": "en",
+  "text": "My friend has none."
+ },
+ {
+  "id": "share/p2",
+  "lang": "hi",
+  "text": "मेरे दोस्त के पास नहीं है।"
+ },
+ {
+  "id": "share/p3",
+  "lang": "en",
+  "text": "Let us share. Here you go!"
+ },
+ {
+  "id": "share/p3",
+  "lang": "hi",
+  "text": "चलो बाँटें। ये लो!"
+ },
+ {
+  "id": "share/p4",
+  "lang": "en",
+  "text": "Two friends, one ball. Happy!"
+ },
+ {
+  "id": "share/p4",
+  "lang": "hi",
+  "text": "दो दोस्त, एक गेंद। खुश!"
+ },
+ {
+  "id": "tidy-up/p1",
+  "lang": "en",
+  "text": "Toys everywhere!"
+ },
+ {
+  "id": "tidy-up/p1",
+  "lang": "hi",
+  "text": "हर जगह खिलौने!"
+ },
+ {
+  "id": "tidy-up/p2",
+  "lang": "en",
+  "text": "Pick up one toy."
+ },
+ {
+  "id": "tidy-up/p2",
+  "lang": "hi",
+  "text": "एक खिलौना उठाओ।"
+ },
+ {
+  "id": "tidy-up/p3",
+  "lang": "en",
+  "text": "Put it in the box."
+ },
+ {
+  "id": "tidy-up/p3",
+  "lang": "hi",
+  "text": "इसे डिब्बे में रखो।"
+ },
+ {
+  "id": "tidy-up/p4",
+  "lang": "en",
+  "text": "All tidy. Thank you!"
+ },
+ {
+  "id": "tidy-up/p4",
+  "lang": "hi",
+  "text": "सब साफ़! शुक्रिया!"
+ },
+ {
+  "id": "wash-hands/p1",
+  "lang": "en",
+  "text": "Turn on the water."
+ },
+ {
+  "id": "wash-hands/p1",
+  "lang": "hi",
+  "text": "पानी चालू करो।"
+ },
+ {
+  "id": "wash-hands/p2",
+  "lang": "en",
+  "text": "Soap, soap, bubbles!"
+ },
+ {
+  "id": "wash-hands/p2",
+  "lang": "hi",
+  "text": "साबुन, साबुन, झाग!"
+ },
+ {
+  "id": "wash-hands/p3",
+  "lang": "en",
+  "text": "Rub, rub, rub. Count to five."
+ },
+ {
+  "id": "wash-hands/p3",
+  "lang": "hi",
+  "text": "मलो, मलो, मलो। पाँच तक गिनो।"
+ },
+ {
+  "id": "wash-hands/p4",
+  "lang": "en",
+  "text": "Rinse and dry. Clean hands!"
+ },
+ {
+  "id": "wash-hands/p4",
+  "lang": "hi",
+  "text": "धो लो, पोंछ लो। साफ़ हाथ!"
+ },
+ {
+  "id": "mission/m1",
+  "lang": "en",
+  "text": "Find something red."
+ },
+ {
+  "id": "mission/m1",
+  "lang": "hi",
+  "text": "कोई लाल चीज़ ढूँढो।"
+ },
+ {
+  "id": "mission/m2",
+  "lang": "en",
+  "text": "Find a cup at home."
+ },
+ {
+  "id": "mission/m2",
+  "lang": "hi",
+  "text": "घर में एक कप ढूँढो।"
+ },
+ {
+  "id": "mission/m3",
+  "lang": "en",
+  "text": "Count three spoons together."
+ },
+ {
+  "id": "mission/m3",
+  "lang": "hi",
+  "text": "तीन चम्मच साथ में गिनो।"
+ },
+ {
+  "id": "mission/m4",
+  "lang": "en",
+  "text": "Touch something soft."
+ },
+ {
+  "id": "mission/m4",
+  "lang": "hi",
+  "text": "कोई मुलायम चीज़ छुओ।"
+ },
+ {
+  "id": "mission/m5",
+  "lang": "en",
+  "text": "Find something round."
+ },
+ {
+  "id": "mission/m5",
+  "lang": "hi",
+  "text": "कोई गोल चीज़ ढूँढो।"
+ },
+ {
+  "id": "mission/m6",
+  "lang": "en",
+  "text": "Find something blue."
+ },
+ {
+  "id": "mission/m6",
+  "lang": "hi",
+  "text": "कोई नीली चीज़ ढूँढो।"
+ },
+ {
+  "id": "mission/m7",
+  "lang": "en",
+  "text": "Say hello to a neighbour."
+ },
+ {
+  "id": "mission/m7",
+  "lang": "hi",
+  "text": "पड़ोसी को नमस्ते कहो।"
+ },
+ {
+  "id": "mission/m8",
+  "lang": "en",
+  "text": "Wash your hands while singing."
+ },
+ {
+  "id": "mission/m8",
+  "lang": "hi",
+  "text": "गाना गाते हुए हाथ धोओ।"
+ },
+ {
+  "id": "mission/m9",
+  "lang": "en",
+  "text": "Find an animal picture. Make its sound."
+ },
+ {
+  "id": "mission/m9",
+  "lang": "hi",
+  "text": "किसी जानवर की तस्वीर ढूँढो। उसकी आवाज़ निकालो।"
+ },
+ {
+  "id": "mission/m10",
+  "lang": "en",
+  "text": "Help put one toy away."
+ },
+ {
+  "id": "mission/m10",
+  "lang": "hi",
+  "text": "एक खिलौना जगह पर रखने में मदद करो।"
+ },
+ {
+  "id": "mission/m11",
+  "lang": "en",
+  "text": "Find something big and something small."
+ },
+ {
+  "id": "mission/m11",
+  "lang": "hi",
+  "text": "कोई बड़ी और कोई छोटी चीज़ ढूँढो।"
+ },
+ {
+  "id": "mission/m12",
+  "lang": "en",
+  "text": "Take three deep breaths together."
+ },
+ {
+  "id": "mission/m12",
+  "lang": "hi",
+  "text": "साथ में तीन गहरी साँसें लो।"
+ },
+ {
+  "id": "clap-rhyme/p1",
+  "lang": "en",
+  "text": "Clap, clap, clap your hands. Clap with me."
+ },
+ {
+  "id": "clap-rhyme/p1",
+  "lang": "hi",
+  "text": "ताली, ताली, ताली बजाओ। मेरे साथ बजाओ।"
+ },
+ {
+  "id": "clap-rhyme/p2",
+  "lang": "en",
+  "text": "Stomp, stomp, stomp your feet. Stomp with me."
+ },
+ {
+  "id": "clap-rhyme/p2",
+  "lang": "hi",
+  "text": "छम, छम, छम, पैर पटको। मेरे साथ पटको।"
+ },
+ {
+  "id": "row-boat/p1",
+  "lang": "en",
+  "text": "Row, row, row your boat, gently down the stream."
+ },
+ {
+  "id": "row-boat/p1",
+  "lang": "hi",
+  "text": "चलो चलो नाव चलाएँ, धीरे-धीरे आगे जाएँ।"
+ },
+ {
+  "id": "row-boat/p2",
+  "lang": "en",
+  "text": "Merrily, merrily, merrily, life is but a dream."
+ },
+ {
+  "id": "row-boat/p2",
+  "lang": "hi",
+  "text": "हँसते-गाते, हँसते-गाते, नदी किनारे जाएँ।"
+ },
+ {
+  "id": "twinkle/p1",
+  "lang": "en",
+  "text": "Twinkle, twinkle, little star."
+ },
+ {
+  "id": "twinkle/p1",
+  "lang": "hi",
+  "text": "टिमटिम, टिमटिम, नन्हा तारा।"
+ },
+ {
+  "id": "twinkle/p2",
+  "lang": "en",
+  "text": "How I wonder what you are."
+ },
+ {
+  "id": "twinkle/p2",
+  "lang": "hi",
+  "text": "सोचूँ मैं, तू है कौन प्यारा।"
+ },
+ {
+  "id": "twinkle/p3",
+  "lang": "en",
+  "text": "Up above the world so high."
+ },
+ {
+  "id": "twinkle/p3",
+  "lang": "hi",
+  "text": "ऊँचे आसमान में तू चमके न्यारा।"
+ },
+ {
+  "id": "crow/p1",
+  "lang": "en",
+  "text": "Hot, hot day. Crow is thirsty."
+ },
+ {
+  "id": "crow/p1",
+  "lang": "hi",
+  "text": "बहुत गरमी है। कौआ प्यासा है।"
+ },
+ {
+  "id": "crow/p2",
+  "lang": "en",
+  "text": "Crow sees a jug with a little water."
+ },
+ {
+  "id": "crow/p2",
+  "lang": "hi",
+  "text": "कौए को एक मटका दिखा। उसमें थोड़ा पानी है।"
+ },
+ {
+  "id": "crow/p3",
+  "lang": "en",
+  "text": "Beak is too short. Crow cannot reach."
+ },
+ {
+  "id": "crow/p3",
+  "lang": "hi",
+  "text": "चोंच छोटी है। पानी तक नहीं पहुँची।"
+ },
+ {
+  "id": "crow/p4",
+  "lang": "en",
+  "text": "Crow drops in pebbles. Plop! Plop!"
+ },
+ {
+  "id": "crow/p4",
+  "lang": "hi",
+  "text": "कौए ने कंकड़ डाले। टप! टप!"
+ },
+ {
+  "id": "crow/p5",
+  "lang": "en",
+  "text": "Water rises. Crow drinks. Hooray!"
+ },
+ {
+  "id": "crow/p5",
+  "lang": "hi",
+  "text": "पानी ऊपर आया। कौए ने पिया। वाह!"
+ },
+ {
+  "id": "hen/p1",
+  "lang": "en",
+  "text": "Little Red Hen finds some wheat."
+ },
+ {
+  "id": "hen/p1",
+  "lang": "hi",
+  "text": "छोटी लाल मुर्गी को गेहूँ के दाने मिले।"
+ },
+ {
+  "id": "hen/p2",
+  "lang": "en",
+  "text": "Who will help? Not I!"
+ },
+ {
+  "id": "hen/p2",
+  "lang": "hi",
+  "text": "कौन मदद करेगा? मैं नहीं!"
+ },
+ {
+  "id": "hen/p3",
+  "lang": "en",
+  "text": "Hen plants, cuts and grinds it alone."
+ },
+ {
+  "id": "hen/p3",
+  "lang": "hi",
+  "text": "मुर्गी ने अकेले बोया, काटा और पीसा।"
+ },
+ {
+  "id": "hen/p4",
+  "lang": "en",
+  "text": "Fresh bread smells so good!"
+ },
+ {
+  "id": "hen/p4",
+  "lang": "hi",
+  "text": "ताज़ी रोटी की कितनी अच्छी खुशबू!"
+ },
+ {
+  "id": "hen/p5",
+  "lang": "en",
+  "text": "Hen says: helpers share. Next time, help!"
+ },
+ {
+  "id": "hen/p5",
+  "lang": "hi",
+  "text": "मुर्गी बोली: मदद करो, फिर साथ खाओ।"
+ },
+ {
+  "id": "lion/p1",
+  "lang": "en",
+  "text": "Lion is sleeping. Little Mouse runs by."
+ },
+ {
+  "id": "lion/p1",
+  "lang": "hi",
+  "text": "शेर सो रहा है। नन्हा चूहा दौड़ा।"
+ },
+ {
+  "id": "lion/p2",
+  "lang": "en",
+  "text": "Tickle, tickle! Lion wakes up."
+ },
+ {
+  "id": "lion/p2",
+  "lang": "hi",
+  "text": "गुदगुदी! शेर जाग गया।"
+ },
+ {
+  "id": "lion/p3",
+  "lang": "en",
+  "text": "Mouse says sorry. Lion lets him go."
+ },
+ {
+  "id": "lion/p3",
+  "lang": "hi",
+  "text": "चूहे ने माफ़ी माँगी। शेर ने उसे जाने दिया।"
+ },
+ {
+  "id": "lion/p4",
+  "lang": "en",
+  "text": "Later, Lion is stuck in a net."
+ },
+ {
+  "id": "lion/p4",
+  "lang": "hi",
+  "text": "बाद में शेर जाल में फँस गया।"
+ },
+ {
+  "id": "lion/p5",
+  "lang": "en",
+  "text": "Mouse nibbles the net. Lion is free!"
+ },
+ {
+  "id": "lion/p5",
+  "lang": "hi",
+  "text": "चूहे ने जाल कुतरा। शेर आज़ाद!"
+ },
+ {
+  "id": "rabbit/p1",
+  "lang": "en",
+  "text": "Lion roars. The animals are scared."
+ },
+ {
+  "id": "rabbit/p1",
+  "lang": "hi",
+  "text": "शेर दहाड़ा। जानवर डर गए।"
+ },
+ {
+  "id": "rabbit/p2",
+  "lang": "en",
+  "text": "Little Rabbit says, I have a plan."
+ },
+ {
+  "id": "rabbit/p2",
+  "lang": "hi",
+  "text": "नन्हे खरगोश ने कहा: मेरे पास तरकीब है।"
+ },
+ {
+  "id": "rabbit/p3",
+  "lang": "en",
+  "text": "Rabbit shows Lion a still pond."
+ },
+ {
+  "id": "rabbit/p3",
+  "lang": "hi",
+  "text": "खरगोश ने शेर को शांत तालाब दिखाया।"
+ },
+ {
+  "id": "rabbit/p4",
+  "lang": "en",
+  "text": "Lion sees another lion in the water."
+ },
+ {
+  "id": "rabbit/p4",
+  "lang": "hi",
+  "text": "शेर को पानी में एक और शेर दिखा।"
+ },
+ {
+  "id": "rabbit/p5",
+  "lang": "en",
+  "text": "It is his own face! Lion laughs."
+ },
+ {
+  "id": "rabbit/p5",
+  "lang": "hi",
+  "text": "वह तो उसका अपना चेहरा था! शेर हँस पड़ा।"
+ },
+ {
+  "id": "tortoise/p1",
+  "lang": "en",
+  "text": "Hare says, I am so fast!"
+ },
+ {
+  "id": "tortoise/p1",
+  "lang": "hi",
+  "text": "खरगोश बोला: मैं बहुत तेज़ हूँ!"
+ },
+ {
+  "id": "tortoise/p2",
+  "lang": "en",
+  "text": "Slow Tortoise says, Let us race!"
+ },
+ {
+  "id": "tortoise/p2",
+  "lang": "hi",
+  "text": "धीमे कछुए ने कहा: दौड़ लगाएँ!"
+ },
+ {
+  "id": "tortoise/p3",
+  "lang": "en",
+  "text": "Hare runs far, then naps."
+ },
+ {
+  "id": "tortoise/p3",
+  "lang": "hi",
+  "text": "खरगोश दूर भागा, फिर सो गया।"
+ },
+ {
+  "id": "tortoise/p4",
+  "lang": "en",
+  "text": "Tortoise keeps going, slow and steady."
+ },
+ {
+  "id": "tortoise/p4",
+  "lang": "hi",
+  "text": "कछुआ चलता रहा, धीरे और लगातार।"
+ },
+ {
+  "id": "tortoise/p5",
+  "lang": "en",
+  "text": "Tortoise wins! Hare wakes up. Oh!"
+ },
+ {
+  "id": "tortoise/p5",
+  "lang": "hi",
+  "text": "कछुआ जीता! खरगोश जागा। अरे!"
+ },
+ {
+  "id": "turnip/p1",
+  "lang": "en",
+  "text": "Grandpa plants a tiny seed."
+ },
+ {
+  "id": "turnip/p1",
+  "lang": "hi",
+  "text": "दादाजी ने एक छोटा बीज बोया।"
+ },
+ {
+  "id": "turnip/p2",
+  "lang": "en",
+  "text": "The turnip grows big, big, big!"
+ },
+ {
+  "id": "turnip/p2",
+  "lang": "hi",
+  "text": "शलजम बड़ा, बड़ा, बड़ा हो गया!"
+ },
+ {
+  "id": "turnip/p3",
+  "lang": "en",
+  "text": "Grandpa pulls. Heave-ho! It will not move."
+ },
+ {
+  "id": "turnip/p3",
+  "lang": "hi",
+  "text": "दादाजी ने खींचा। हइशा! नहीं हिला।"
+ },
+ {
+  "id": "turnip/p4",
+  "lang": "en",
+  "text": "Grandma, the dog, the cat come to help."
+ },
+ {
+  "id": "turnip/p4",
+  "lang": "hi",
+  "text": "दादी, कुत्ता, बिल्ली मदद को आए।"
+ },
+ {
+  "id": "turnip/p5",
+  "lang": "en",
+  "text": "Heave-ho! Out pops the turnip!"
+ },
+ {
+  "id": "turnip/p5",
+  "lang": "hi",
+  "text": "हइशा! शलजम बाहर आ गया!"
+ },
+ {
+  "id": "actions/run",
+  "lang": "en",
+  "text": "Run. Run!"
+ },
+ {
+  "id": "actions/run",
+  "lang": "hi",
+  "text": "दौड़ो. दौड़ो!"
+ },
+ {
+  "id": "where/actions/run",
+  "lang": "en",
+  "text": "Who can run?"
+ },
+ {
+  "id": "where/actions/run",
+  "lang": "hi",
+  "text": "कौन दौड़ो?"
+ },
+ {
+  "id": "wrong/actions/run",
+  "lang": "en",
+  "text": "That one is run. Try again!"
+ },
+ {
+  "id": "wrong/actions/run",
+  "lang": "hi",
+  "text": "यह तो दौड़ो है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/actions/run",
+  "lang": "en",
+  "text": "Yes! run!"
+ },
+ {
+  "id": "right/actions/run",
+  "lang": "hi",
+  "text": "हाँ! दौड़ो!"
+ },
+ {
+  "id": "actions/sit",
+  "lang": "en",
+  "text": "Sit. Sit!"
+ },
+ {
+  "id": "actions/sit",
+  "lang": "hi",
+  "text": "बैठो. बैठो!"
+ },
+ {
+  "id": "where/actions/sit",
+  "lang": "en",
+  "text": "Who can sit?"
+ },
+ {
+  "id": "where/actions/sit",
+  "lang": "hi",
+  "text": "कौन बैठो?"
+ },
+ {
+  "id": "wrong/actions/sit",
+  "lang": "en",
+  "text": "That one is sit. Try again!"
+ },
+ {
+  "id": "wrong/actions/sit",
+  "lang": "hi",
+  "text": "यह तो बैठो है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/actions/sit",
+  "lang": "en",
+  "text": "Yes! sit!"
+ },
+ {
+  "id": "right/actions/sit",
+  "lang": "hi",
+  "text": "हाँ! बैठो!"
+ },
+ {
+  "id": "actions/clap",
+  "lang": "en",
+  "text": "Clap. Clap!"
+ },
+ {
+  "id": "actions/clap",
+  "lang": "hi",
+  "text": "ताली. ताली!"
+ },
+ {
+  "id": "where/actions/clap",
+  "lang": "en",
+  "text": "Who can clap?"
+ },
+ {
+  "id": "where/actions/clap",
+  "lang": "hi",
+  "text": "कौन ताली?"
+ },
+ {
+  "id": "wrong/actions/clap",
+  "lang": "en",
+  "text": "That one is clap. Try again!"
+ },
+ {
+  "id": "wrong/actions/clap",
+  "lang": "hi",
+  "text": "यह तो ताली है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/actions/clap",
+  "lang": "en",
+  "text": "Yes! clap!"
+ },
+ {
+  "id": "right/actions/clap",
+  "lang": "hi",
+  "text": "हाँ! ताली!"
+ },
+ {
+  "id": "actions/jump",
+  "lang": "en",
+  "text": "Jump. Jump!"
+ },
+ {
+  "id": "actions/jump",
+  "lang": "hi",
+  "text": "कूदो. कूदो!"
+ },
+ {
+  "id": "where/actions/jump",
+  "lang": "en",
+  "text": "Who can jump?"
+ },
+ {
+  "id": "where/actions/jump",
+  "lang": "hi",
+  "text": "कौन कूदो?"
+ },
+ {
+  "id": "wrong/actions/jump",
+  "lang": "en",
+  "text": "That one is jump. Try again!"
+ },
+ {
+  "id": "wrong/actions/jump",
+  "lang": "hi",
+  "text": "यह तो कूदो है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/actions/jump",
+  "lang": "en",
+  "text": "Yes! jump!"
+ },
+ {
+  "id": "right/actions/jump",
+  "lang": "hi",
+  "text": "हाँ! कूदो!"
+ },
+ {
+  "id": "actions/dance",
+  "lang": "en",
+  "text": "Dance. Dance!"
+ },
+ {
+  "id": "actions/dance",
+  "lang": "hi",
+  "text": "नाचो. नाचो!"
+ },
+ {
+  "id": "where/actions/dance",
+  "lang": "en",
+  "text": "Who can dance?"
+ },
+ {
+  "id": "where/actions/dance",
+  "lang": "hi",
+  "text": "कौन नाचो?"
+ },
+ {
+  "id": "wrong/actions/dance",
+  "lang": "en",
+  "text": "That one is dance. Try again!"
+ },
+ {
+  "id": "wrong/actions/dance",
+  "lang": "hi",
+  "text": "यह तो नाचो है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/actions/dance",
+  "lang": "en",
+  "text": "Yes! dance!"
+ },
+ {
+  "id": "right/actions/dance",
+  "lang": "hi",
+  "text": "हाँ! नाचो!"
+ },
+ {
+  "id": "animals/cow",
+  "lang": "en",
+  "text": "Cow. Moo!"
+ },
+ {
+  "id": "animals/cow",
+  "lang": "hi",
+  "text": "गाय. म्मू!"
+ },
+ {
+  "id": "where/animals/cow",
+  "lang": "en",
+  "text": "Where is the cow?"
+ },
+ {
+  "id": "where/animals/cow",
+  "lang": "hi",
+  "text": "गाय कहाँ है?"
+ },
+ {
+  "id": "wrong/animals/cow",
+  "lang": "en",
+  "text": "That one is cow. Try again!"
+ },
+ {
+  "id": "wrong/animals/cow",
+  "lang": "hi",
+  "text": "यह तो गाय है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/animals/cow",
+  "lang": "en",
+  "text": "Yes! cow!"
+ },
+ {
+  "id": "right/animals/cow",
+  "lang": "hi",
+  "text": "हाँ! गाय!"
+ },
+ {
+  "id": "animals/dog",
+  "lang": "en",
+  "text": "Dog. Woof!"
+ },
+ {
+  "id": "animals/dog",
+  "lang": "hi",
+  "text": "कुत्ता. भौं भौं!"
+ },
+ {
+  "id": "where/animals/dog",
+  "lang": "en",
+  "text": "Where is the dog?"
+ },
+ {
+  "id": "where/animals/dog",
+  "lang": "hi",
+  "text": "कुत्ता कहाँ है?"
+ },
+ {
+  "id": "wrong/animals/dog",
+  "lang": "en",
+  "text": "That one is dog. Try again!"
+ },
+ {
+  "id": "wrong/animals/dog",
+  "lang": "hi",
+  "text": "यह तो कुत्ता है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/animals/dog",
+  "lang": "en",
+  "text": "Yes! dog!"
+ },
+ {
+  "id": "right/animals/dog",
+  "lang": "hi",
+  "text": "हाँ! कुत्ता!"
+ },
+ {
+  "id": "animals/cat",
+  "lang": "en",
+  "text": "Cat. Meow!"
+ },
+ {
+  "id": "animals/cat",
+  "lang": "hi",
+  "text": "बिल्ली. म्याऊँ!"
+ },
+ {
+  "id": "where/animals/cat",
+  "lang": "en",
+  "text": "Where is the cat?"
+ },
+ {
+  "id": "where/animals/cat",
+  "lang": "hi",
+  "text": "बिल्ली कहाँ है?"
+ },
+ {
+  "id": "wrong/animals/cat",
+  "lang": "en",
+  "text": "That one is cat. Try again!"
+ },
+ {
+  "id": "wrong/animals/cat",
+  "lang": "hi",
+  "text": "यह तो बिल्ली है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/animals/cat",
+  "lang": "en",
+  "text": "Yes! cat!"
+ },
+ {
+  "id": "right/animals/cat",
+  "lang": "hi",
+  "text": "हाँ! बिल्ली!"
+ },
+ {
+  "id": "animals/duck",
+  "lang": "en",
+  "text": "Duck. Quack!"
+ },
+ {
+  "id": "animals/duck",
+  "lang": "hi",
+  "text": "बत्तख़. क्वैक क्वैक!"
+ },
+ {
+  "id": "where/animals/duck",
+  "lang": "en",
+  "text": "Where is the duck?"
+ },
+ {
+  "id": "where/animals/duck",
+  "lang": "hi",
+  "text": "बत्तख़ कहाँ है?"
+ },
+ {
+  "id": "wrong/animals/duck",
+  "lang": "en",
+  "text": "That one is duck. Try again!"
+ },
+ {
+  "id": "wrong/animals/duck",
+  "lang": "hi",
+  "text": "यह तो बत्तख़ है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/animals/duck",
+  "lang": "en",
+  "text": "Yes! duck!"
+ },
+ {
+  "id": "right/animals/duck",
+  "lang": "hi",
+  "text": "हाँ! बत्तख़!"
+ },
+ {
+  "id": "animals/sheep",
+  "lang": "en",
+  "text": "Sheep. Baa!"
+ },
+ {
+  "id": "animals/sheep",
+  "lang": "hi",
+  "text": "भेड़. बैं बैं!"
+ },
+ {
+  "id": "where/animals/sheep",
+  "lang": "en",
+  "text": "Where is the sheep?"
+ },
+ {
+  "id": "where/animals/sheep",
+  "lang": "hi",
+  "text": "भेड़ कहाँ है?"
+ },
+ {
+  "id": "wrong/animals/sheep",
+  "lang": "en",
+  "text": "That one is sheep. Try again!"
+ },
+ {
+  "id": "wrong/animals/sheep",
+  "lang": "hi",
+  "text": "यह तो भेड़ है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/animals/sheep",
+  "lang": "en",
+  "text": "Yes! sheep!"
+ },
+ {
+  "id": "right/animals/sheep",
+  "lang": "hi",
+  "text": "हाँ! भेड़!"
+ },
+ {
+  "id": "animals/horse",
+  "lang": "en",
+  "text": "Horse. Neigh!"
+ },
+ {
+  "id": "animals/horse",
+  "lang": "hi",
+  "text": "घोड़ा. हिन-हिन!"
+ },
+ {
+  "id": "where/animals/horse",
+  "lang": "en",
+  "text": "Where is the horse?"
+ },
+ {
+  "id": "where/animals/horse",
+  "lang": "hi",
+  "text": "घोड़ा कहाँ है?"
+ },
+ {
+  "id": "wrong/animals/horse",
+  "lang": "en",
+  "text": "That one is horse. Try again!"
+ },
+ {
+  "id": "wrong/animals/horse",
+  "lang": "hi",
+  "text": "यह तो घोड़ा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/animals/horse",
+  "lang": "en",
+  "text": "Yes! horse!"
+ },
+ {
+  "id": "right/animals/horse",
+  "lang": "hi",
+  "text": "हाँ! घोड़ा!"
+ },
+ {
+  "id": "body/nose",
+  "lang": "en",
+  "text": "Nose. Nose!"
+ },
+ {
+  "id": "body/nose",
+  "lang": "hi",
+  "text": "नाक. नाक!"
+ },
+ {
+  "id": "where/body/nose",
+  "lang": "en",
+  "text": "Where is the nose?"
+ },
+ {
+  "id": "where/body/nose",
+  "lang": "hi",
+  "text": "नाक कहाँ है?"
+ },
+ {
+  "id": "wrong/body/nose",
+  "lang": "en",
+  "text": "That one is nose. Try again!"
+ },
+ {
+  "id": "wrong/body/nose",
+  "lang": "hi",
+  "text": "यह तो नाक है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/body/nose",
+  "lang": "en",
+  "text": "Yes! nose!"
+ },
+ {
+  "id": "right/body/nose",
+  "lang": "hi",
+  "text": "हाँ! नाक!"
+ },
+ {
+  "id": "body/eyes",
+  "lang": "en",
+  "text": "Eyes. Eyes!"
+ },
+ {
+  "id": "body/eyes",
+  "lang": "hi",
+  "text": "आँखें. आँखें!"
+ },
+ {
+  "id": "where/body/eyes",
+  "lang": "en",
+  "text": "Where is the eyes?"
+ },
+ {
+  "id": "where/body/eyes",
+  "lang": "hi",
+  "text": "आँखें कहाँ है?"
+ },
+ {
+  "id": "wrong/body/eyes",
+  "lang": "en",
+  "text": "That one is eyes. Try again!"
+ },
+ {
+  "id": "wrong/body/eyes",
+  "lang": "hi",
+  "text": "यह तो आँखें है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/body/eyes",
+  "lang": "en",
+  "text": "Yes! eyes!"
+ },
+ {
+  "id": "right/body/eyes",
+  "lang": "hi",
+  "text": "हाँ! आँखें!"
+ },
+ {
+  "id": "body/ears",
+  "lang": "en",
+  "text": "Ears. Ears!"
+ },
+ {
+  "id": "body/ears",
+  "lang": "hi",
+  "text": "कान. कान!"
+ },
+ {
+  "id": "where/body/ears",
+  "lang": "en",
+  "text": "Where is the ears?"
+ },
+ {
+  "id": "where/body/ears",
+  "lang": "hi",
+  "text": "कान कहाँ है?"
+ },
+ {
+  "id": "wrong/body/ears",
+  "lang": "en",
+  "text": "That one is ears. Try again!"
+ },
+ {
+  "id": "wrong/body/ears",
+  "lang": "hi",
+  "text": "यह तो कान है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/body/ears",
+  "lang": "en",
+  "text": "Yes! ears!"
+ },
+ {
+  "id": "right/body/ears",
+  "lang": "hi",
+  "text": "हाँ! कान!"
+ },
+ {
+  "id": "body/mouth",
+  "lang": "en",
+  "text": "Mouth. Mouth!"
+ },
+ {
+  "id": "body/mouth",
+  "lang": "hi",
+  "text": "मुँह. मुँह!"
+ },
+ {
+  "id": "where/body/mouth",
+  "lang": "en",
+  "text": "Where is the mouth?"
+ },
+ {
+  "id": "where/body/mouth",
+  "lang": "hi",
+  "text": "मुँह कहाँ है?"
+ },
+ {
+  "id": "wrong/body/mouth",
+  "lang": "en",
+  "text": "That one is mouth. Try again!"
+ },
+ {
+  "id": "wrong/body/mouth",
+  "lang": "hi",
+  "text": "यह तो मुँह है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/body/mouth",
+  "lang": "en",
+  "text": "Yes! mouth!"
+ },
+ {
+  "id": "right/body/mouth",
+  "lang": "hi",
+  "text": "हाँ! मुँह!"
+ },
+ {
+  "id": "body/hands",
+  "lang": "en",
+  "text": "Hands. Hands!"
+ },
+ {
+  "id": "body/hands",
+  "lang": "hi",
+  "text": "हाथ. हाथ!"
+ },
+ {
+  "id": "where/body/hands",
+  "lang": "en",
+  "text": "Where is the hands?"
+ },
+ {
+  "id": "where/body/hands",
+  "lang": "hi",
+  "text": "हाथ कहाँ है?"
+ },
+ {
+  "id": "wrong/body/hands",
+  "lang": "en",
+  "text": "That one is hands. Try again!"
+ },
+ {
+  "id": "wrong/body/hands",
+  "lang": "hi",
+  "text": "यह तो हाथ है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/body/hands",
+  "lang": "en",
+  "text": "Yes! hands!"
+ },
+ {
+  "id": "right/body/hands",
+  "lang": "hi",
+  "text": "हाँ! हाथ!"
+ },
+ {
+  "id": "body/feet",
+  "lang": "en",
+  "text": "Feet. Feet!"
+ },
+ {
+  "id": "body/feet",
+  "lang": "hi",
+  "text": "पैर. पैर!"
+ },
+ {
+  "id": "where/body/feet",
+  "lang": "en",
+  "text": "Where is the feet?"
+ },
+ {
+  "id": "where/body/feet",
+  "lang": "hi",
+  "text": "पैर कहाँ है?"
+ },
+ {
+  "id": "wrong/body/feet",
+  "lang": "en",
+  "text": "That one is feet. Try again!"
+ },
+ {
+  "id": "wrong/body/feet",
+  "lang": "hi",
+  "text": "यह तो पैर है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/body/feet",
+  "lang": "en",
+  "text": "Yes! feet!"
+ },
+ {
+  "id": "right/body/feet",
+  "lang": "hi",
+  "text": "हाँ! पैर!"
+ },
+ {
+  "id": "colours/red",
+  "lang": "en",
+  "text": "Red. Red!"
+ },
+ {
+  "id": "colours/red",
+  "lang": "hi",
+  "text": "लाल. लाल!"
+ },
+ {
+  "id": "where/colours/red",
+  "lang": "en",
+  "text": "Where is red?"
+ },
+ {
+  "id": "where/colours/red",
+  "lang": "hi",
+  "text": "लाल रंग कहाँ है?"
+ },
+ {
+  "id": "wrong/colours/red",
+  "lang": "en",
+  "text": "That one is red. Try again!"
+ },
+ {
+  "id": "wrong/colours/red",
+  "lang": "hi",
+  "text": "यह तो लाल है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/colours/red",
+  "lang": "en",
+  "text": "Yes! red!"
+ },
+ {
+  "id": "right/colours/red",
+  "lang": "hi",
+  "text": "हाँ! लाल!"
+ },
+ {
+  "id": "colours/blue",
+  "lang": "en",
+  "text": "Blue. Blue!"
+ },
+ {
+  "id": "colours/blue",
+  "lang": "hi",
+  "text": "नीला. नीला!"
+ },
+ {
+  "id": "where/colours/blue",
+  "lang": "en",
+  "text": "Where is blue?"
+ },
+ {
+  "id": "where/colours/blue",
+  "lang": "hi",
+  "text": "नीला रंग कहाँ है?"
+ },
+ {
+  "id": "wrong/colours/blue",
+  "lang": "en",
+  "text": "That one is blue. Try again!"
+ },
+ {
+  "id": "wrong/colours/blue",
+  "lang": "hi",
+  "text": "यह तो नीला है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/colours/blue",
+  "lang": "en",
+  "text": "Yes! blue!"
+ },
+ {
+  "id": "right/colours/blue",
+  "lang": "hi",
+  "text": "हाँ! नीला!"
+ },
+ {
+  "id": "colours/yellow",
+  "lang": "en",
+  "text": "Yellow. Yellow!"
+ },
+ {
+  "id": "colours/yellow",
+  "lang": "hi",
+  "text": "पीला. पीला!"
+ },
+ {
+  "id": "where/colours/yellow",
+  "lang": "en",
+  "text": "Where is yellow?"
+ },
+ {
+  "id": "where/colours/yellow",
+  "lang": "hi",
+  "text": "पीला रंग कहाँ है?"
+ },
+ {
+  "id": "wrong/colours/yellow",
+  "lang": "en",
+  "text": "That one is yellow. Try again!"
+ },
+ {
+  "id": "wrong/colours/yellow",
+  "lang": "hi",
+  "text": "यह तो पीला है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/colours/yellow",
+  "lang": "en",
+  "text": "Yes! yellow!"
+ },
+ {
+  "id": "right/colours/yellow",
+  "lang": "hi",
+  "text": "हाँ! पीला!"
+ },
+ {
+  "id": "colours/green",
+  "lang": "en",
+  "text": "Green. Green!"
+ },
+ {
+  "id": "colours/green",
+  "lang": "hi",
+  "text": "हरा. हरा!"
+ },
+ {
+  "id": "where/colours/green",
+  "lang": "en",
+  "text": "Where is green?"
+ },
+ {
+  "id": "where/colours/green",
+  "lang": "hi",
+  "text": "हरा रंग कहाँ है?"
+ },
+ {
+  "id": "wrong/colours/green",
+  "lang": "en",
+  "text": "That one is green. Try again!"
+ },
+ {
+  "id": "wrong/colours/green",
+  "lang": "hi",
+  "text": "यह तो हरा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/colours/green",
+  "lang": "en",
+  "text": "Yes! green!"
+ },
+ {
+  "id": "right/colours/green",
+  "lang": "hi",
+  "text": "हाँ! हरा!"
+ },
+ {
+  "id": "colours/orange-colour",
+  "lang": "en",
+  "text": "Orange. Orange!"
+ },
+ {
+  "id": "colours/orange-colour",
+  "lang": "hi",
+  "text": "नारंगी. नारंगी!"
+ },
+ {
+  "id": "where/colours/orange-colour",
+  "lang": "en",
+  "text": "Where is orange?"
+ },
+ {
+  "id": "where/colours/orange-colour",
+  "lang": "hi",
+  "text": "नारंगी रंग कहाँ है?"
+ },
+ {
+  "id": "wrong/colours/orange-colour",
+  "lang": "en",
+  "text": "That one is orange. Try again!"
+ },
+ {
+  "id": "wrong/colours/orange-colour",
+  "lang": "hi",
+  "text": "यह तो नारंगी है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/colours/orange-colour",
+  "lang": "en",
+  "text": "Yes! orange!"
+ },
+ {
+  "id": "right/colours/orange-colour",
+  "lang": "hi",
+  "text": "हाँ! नारंगी!"
+ },
+ {
+  "id": "counting/one",
+  "lang": "en",
+  "text": "One. One!"
+ },
+ {
+  "id": "counting/one",
+  "lang": "hi",
+  "text": "एक. एक!"
+ },
+ {
+  "id": "where/counting/one",
+  "lang": "en",
+  "text": "Where is one?"
+ },
+ {
+  "id": "where/counting/one",
+  "lang": "hi",
+  "text": "एक कहाँ है?"
+ },
+ {
+  "id": "wrong/counting/one",
+  "lang": "en",
+  "text": "That one is one. Try again!"
+ },
+ {
+  "id": "wrong/counting/one",
+  "lang": "hi",
+  "text": "यह तो एक है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/counting/one",
+  "lang": "en",
+  "text": "Yes! one!"
+ },
+ {
+  "id": "right/counting/one",
+  "lang": "hi",
+  "text": "हाँ! एक!"
+ },
+ {
+  "id": "counting/two",
+  "lang": "en",
+  "text": "Two. Two!"
+ },
+ {
+  "id": "counting/two",
+  "lang": "hi",
+  "text": "दो. दो!"
+ },
+ {
+  "id": "where/counting/two",
+  "lang": "en",
+  "text": "Where is two?"
+ },
+ {
+  "id": "where/counting/two",
+  "lang": "hi",
+  "text": "दो कहाँ है?"
+ },
+ {
+  "id": "wrong/counting/two",
+  "lang": "en",
+  "text": "That one is two. Try again!"
+ },
+ {
+  "id": "wrong/counting/two",
+  "lang": "hi",
+  "text": "यह तो दो है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/counting/two",
+  "lang": "en",
+  "text": "Yes! two!"
+ },
+ {
+  "id": "right/counting/two",
+  "lang": "hi",
+  "text": "हाँ! दो!"
+ },
+ {
+  "id": "counting/three",
+  "lang": "en",
+  "text": "Three. Three!"
+ },
+ {
+  "id": "counting/three",
+  "lang": "hi",
+  "text": "तीन. तीन!"
+ },
+ {
+  "id": "where/counting/three",
+  "lang": "en",
+  "text": "Where is three?"
+ },
+ {
+  "id": "where/counting/three",
+  "lang": "hi",
+  "text": "तीन कहाँ है?"
+ },
+ {
+  "id": "wrong/counting/three",
+  "lang": "en",
+  "text": "That one is three. Try again!"
+ },
+ {
+  "id": "wrong/counting/three",
+  "lang": "hi",
+  "text": "यह तो तीन है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/counting/three",
+  "lang": "en",
+  "text": "Yes! three!"
+ },
+ {
+  "id": "right/counting/three",
+  "lang": "hi",
+  "text": "हाँ! तीन!"
+ },
+ {
+  "id": "counting/four",
+  "lang": "en",
+  "text": "Four. Four!"
+ },
+ {
+  "id": "counting/four",
+  "lang": "hi",
+  "text": "चार. चार!"
+ },
+ {
+  "id": "where/counting/four",
+  "lang": "en",
+  "text": "Where is four?"
+ },
+ {
+  "id": "where/counting/four",
+  "lang": "hi",
+  "text": "चार कहाँ है?"
+ },
+ {
+  "id": "wrong/counting/four",
+  "lang": "en",
+  "text": "That one is four. Try again!"
+ },
+ {
+  "id": "wrong/counting/four",
+  "lang": "hi",
+  "text": "यह तो चार है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/counting/four",
+  "lang": "en",
+  "text": "Yes! four!"
+ },
+ {
+  "id": "right/counting/four",
+  "lang": "hi",
+  "text": "हाँ! चार!"
+ },
+ {
+  "id": "counting/five",
+  "lang": "en",
+  "text": "Five. Five!"
+ },
+ {
+  "id": "counting/five",
+  "lang": "hi",
+  "text": "पाँच. पाँच!"
+ },
+ {
+  "id": "where/counting/five",
+  "lang": "en",
+  "text": "Where is five?"
+ },
+ {
+  "id": "where/counting/five",
+  "lang": "hi",
+  "text": "पाँच कहाँ है?"
+ },
+ {
+  "id": "wrong/counting/five",
+  "lang": "en",
+  "text": "That one is five. Try again!"
+ },
+ {
+  "id": "wrong/counting/five",
+  "lang": "hi",
+  "text": "यह तो पाँच है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/counting/five",
+  "lang": "en",
+  "text": "Yes! five!"
+ },
+ {
+  "id": "right/counting/five",
+  "lang": "hi",
+  "text": "हाँ! पाँच!"
+ },
+ {
+  "id": "feelings/happy",
+  "lang": "en",
+  "text": "Happy. Happy!"
+ },
+ {
+  "id": "feelings/happy",
+  "lang": "hi",
+  "text": "खुश. खुश!"
+ },
+ {
+  "id": "where/feelings/happy",
+  "lang": "en",
+  "text": "Who looks happy?"
+ },
+ {
+  "id": "where/feelings/happy",
+  "lang": "hi",
+  "text": "कौन खुश लग रहा है?"
+ },
+ {
+  "id": "wrong/feelings/happy",
+  "lang": "en",
+  "text": "That one is happy. Try again!"
+ },
+ {
+  "id": "wrong/feelings/happy",
+  "lang": "hi",
+  "text": "यह तो खुश है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/feelings/happy",
+  "lang": "en",
+  "text": "Yes! happy!"
+ },
+ {
+  "id": "right/feelings/happy",
+  "lang": "hi",
+  "text": "हाँ! खुश!"
+ },
+ {
+  "id": "feelings/sad",
+  "lang": "en",
+  "text": "Sad. Sad!"
+ },
+ {
+  "id": "feelings/sad",
+  "lang": "hi",
+  "text": "उदास. उदास!"
+ },
+ {
+  "id": "where/feelings/sad",
+  "lang": "en",
+  "text": "Who looks sad?"
+ },
+ {
+  "id": "where/feelings/sad",
+  "lang": "hi",
+  "text": "कौन उदास लग रहा है?"
+ },
+ {
+  "id": "wrong/feelings/sad",
+  "lang": "en",
+  "text": "That one is sad. Try again!"
+ },
+ {
+  "id": "wrong/feelings/sad",
+  "lang": "hi",
+  "text": "यह तो उदास है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/feelings/sad",
+  "lang": "en",
+  "text": "Yes! sad!"
+ },
+ {
+  "id": "right/feelings/sad",
+  "lang": "hi",
+  "text": "हाँ! उदास!"
+ },
+ {
+  "id": "feelings/angry",
+  "lang": "en",
+  "text": "Angry. Angry!"
+ },
+ {
+  "id": "feelings/angry",
+  "lang": "hi",
+  "text": "ग़ुस्सा. ग़ुस्सा!"
+ },
+ {
+  "id": "where/feelings/angry",
+  "lang": "en",
+  "text": "Who looks angry?"
+ },
+ {
+  "id": "where/feelings/angry",
+  "lang": "hi",
+  "text": "कौन ग़ुस्सा लग रहा है?"
+ },
+ {
+  "id": "wrong/feelings/angry",
+  "lang": "en",
+  "text": "That one is angry. Try again!"
+ },
+ {
+  "id": "wrong/feelings/angry",
+  "lang": "hi",
+  "text": "यह तो ग़ुस्सा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/feelings/angry",
+  "lang": "en",
+  "text": "Yes! angry!"
+ },
+ {
+  "id": "right/feelings/angry",
+  "lang": "hi",
+  "text": "हाँ! ग़ुस्सा!"
+ },
+ {
+  "id": "feelings/sleepy",
+  "lang": "en",
+  "text": "Sleepy. Sleepy!"
+ },
+ {
+  "id": "feelings/sleepy",
+  "lang": "hi",
+  "text": "नींद. नींद!"
+ },
+ {
+  "id": "where/feelings/sleepy",
+  "lang": "en",
+  "text": "Who looks sleepy?"
+ },
+ {
+  "id": "where/feelings/sleepy",
+  "lang": "hi",
+  "text": "कौन नींद लग रहा है?"
+ },
+ {
+  "id": "wrong/feelings/sleepy",
+  "lang": "en",
+  "text": "That one is sleepy. Try again!"
+ },
+ {
+  "id": "wrong/feelings/sleepy",
+  "lang": "hi",
+  "text": "यह तो नींद है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/feelings/sleepy",
+  "lang": "en",
+  "text": "Yes! sleepy!"
+ },
+ {
+  "id": "right/feelings/sleepy",
+  "lang": "hi",
+  "text": "हाँ! नींद!"
+ },
+ {
+  "id": "feelings/surprised",
+  "lang": "en",
+  "text": "Surprised. Surprised!"
+ },
+ {
+  "id": "feelings/surprised",
+  "lang": "hi",
+  "text": "हैरान. हैरान!"
+ },
+ {
+  "id": "where/feelings/surprised",
+  "lang": "en",
+  "text": "Who looks surprised?"
+ },
+ {
+  "id": "where/feelings/surprised",
+  "lang": "hi",
+  "text": "कौन हैरान लग रहा है?"
+ },
+ {
+  "id": "wrong/feelings/surprised",
+  "lang": "en",
+  "text": "That one is surprised. Try again!"
+ },
+ {
+  "id": "wrong/feelings/surprised",
+  "lang": "hi",
+  "text": "यह तो हैरान है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/feelings/surprised",
+  "lang": "en",
+  "text": "Yes! surprised!"
+ },
+ {
+  "id": "right/feelings/surprised",
+  "lang": "hi",
+  "text": "हाँ! हैरान!"
+ },
+ {
+  "id": "fruits/apple",
+  "lang": "en",
+  "text": "Apple. Apple!"
+ },
+ {
+  "id": "fruits/apple",
+  "lang": "hi",
+  "text": "सेब. सेब!"
+ },
+ {
+  "id": "where/fruits/apple",
+  "lang": "en",
+  "text": "Where is the apple?"
+ },
+ {
+  "id": "where/fruits/apple",
+  "lang": "hi",
+  "text": "सेब कहाँ है?"
+ },
+ {
+  "id": "wrong/fruits/apple",
+  "lang": "en",
+  "text": "That one is apple. Try again!"
+ },
+ {
+  "id": "wrong/fruits/apple",
+  "lang": "hi",
+  "text": "यह तो सेब है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/fruits/apple",
+  "lang": "en",
+  "text": "Yes! apple!"
+ },
+ {
+  "id": "right/fruits/apple",
+  "lang": "hi",
+  "text": "हाँ! सेब!"
+ },
+ {
+  "id": "fruits/banana",
+  "lang": "en",
+  "text": "Banana. Banana!"
+ },
+ {
+  "id": "fruits/banana",
+  "lang": "hi",
+  "text": "केला. केला!"
+ },
+ {
+  "id": "where/fruits/banana",
+  "lang": "en",
+  "text": "Where is the banana?"
+ },
+ {
+  "id": "where/fruits/banana",
+  "lang": "hi",
+  "text": "केला कहाँ है?"
+ },
+ {
+  "id": "wrong/fruits/banana",
+  "lang": "en",
+  "text": "That one is banana. Try again!"
+ },
+ {
+  "id": "wrong/fruits/banana",
+  "lang": "hi",
+  "text": "यह तो केला है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/fruits/banana",
+  "lang": "en",
+  "text": "Yes! banana!"
+ },
+ {
+  "id": "right/fruits/banana",
+  "lang": "hi",
+  "text": "हाँ! केला!"
+ },
+ {
+  "id": "fruits/mango",
+  "lang": "en",
+  "text": "Mango. Mango!"
+ },
+ {
+  "id": "fruits/mango",
+  "lang": "hi",
+  "text": "आम. आम!"
+ },
+ {
+  "id": "where/fruits/mango",
+  "lang": "en",
+  "text": "Where is the mango?"
+ },
+ {
+  "id": "where/fruits/mango",
+  "lang": "hi",
+  "text": "आम कहाँ है?"
+ },
+ {
+  "id": "wrong/fruits/mango",
+  "lang": "en",
+  "text": "That one is mango. Try again!"
+ },
+ {
+  "id": "wrong/fruits/mango",
+  "lang": "hi",
+  "text": "यह तो आम है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/fruits/mango",
+  "lang": "en",
+  "text": "Yes! mango!"
+ },
+ {
+  "id": "right/fruits/mango",
+  "lang": "hi",
+  "text": "हाँ! आम!"
+ },
+ {
+  "id": "fruits/orange",
+  "lang": "en",
+  "text": "Orange. Orange!"
+ },
+ {
+  "id": "fruits/orange",
+  "lang": "hi",
+  "text": "संतरा. संतरा!"
+ },
+ {
+  "id": "where/fruits/orange",
+  "lang": "en",
+  "text": "Where is the orange?"
+ },
+ {
+  "id": "where/fruits/orange",
+  "lang": "hi",
+  "text": "संतरा कहाँ है?"
+ },
+ {
+  "id": "wrong/fruits/orange",
+  "lang": "en",
+  "text": "That one is orange. Try again!"
+ },
+ {
+  "id": "wrong/fruits/orange",
+  "lang": "hi",
+  "text": "यह तो संतरा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/fruits/orange",
+  "lang": "en",
+  "text": "Yes! orange!"
+ },
+ {
+  "id": "right/fruits/orange",
+  "lang": "hi",
+  "text": "हाँ! संतरा!"
+ },
+ {
+  "id": "fruits/grapes",
+  "lang": "en",
+  "text": "Grapes. Grapes!"
+ },
+ {
+  "id": "fruits/grapes",
+  "lang": "hi",
+  "text": "अंगूर. अंगूर!"
+ },
+ {
+  "id": "where/fruits/grapes",
+  "lang": "en",
+  "text": "Where is the grapes?"
+ },
+ {
+  "id": "where/fruits/grapes",
+  "lang": "hi",
+  "text": "अंगूर कहाँ है?"
+ },
+ {
+  "id": "wrong/fruits/grapes",
+  "lang": "en",
+  "text": "That one is grapes. Try again!"
+ },
+ {
+  "id": "wrong/fruits/grapes",
+  "lang": "hi",
+  "text": "यह तो अंगूर है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/fruits/grapes",
+  "lang": "en",
+  "text": "Yes! grapes!"
+ },
+ {
+  "id": "right/fruits/grapes",
+  "lang": "hi",
+  "text": "हाँ! अंगूर!"
+ },
+ {
+  "id": "fruits/watermelon",
+  "lang": "en",
+  "text": "Watermelon. Watermelon!"
+ },
+ {
+  "id": "fruits/watermelon",
+  "lang": "hi",
+  "text": "तरबूज़. तरबूज़!"
+ },
+ {
+  "id": "where/fruits/watermelon",
+  "lang": "en",
+  "text": "Where is the watermelon?"
+ },
+ {
+  "id": "where/fruits/watermelon",
+  "lang": "hi",
+  "text": "तरबूज़ कहाँ है?"
+ },
+ {
+  "id": "wrong/fruits/watermelon",
+  "lang": "en",
+  "text": "That one is watermelon. Try again!"
+ },
+ {
+  "id": "wrong/fruits/watermelon",
+  "lang": "hi",
+  "text": "यह तो तरबूज़ है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/fruits/watermelon",
+  "lang": "en",
+  "text": "Yes! watermelon!"
+ },
+ {
+  "id": "right/fruits/watermelon",
+  "lang": "hi",
+  "text": "हाँ! तरबूज़!"
+ },
+ {
+  "id": "home/cup",
+  "lang": "en",
+  "text": "Cup. Cup!"
+ },
+ {
+  "id": "home/cup",
+  "lang": "hi",
+  "text": "कप. कप!"
+ },
+ {
+  "id": "where/home/cup",
+  "lang": "en",
+  "text": "Where is the cup?"
+ },
+ {
+  "id": "where/home/cup",
+  "lang": "hi",
+  "text": "कप कहाँ है?"
+ },
+ {
+  "id": "wrong/home/cup",
+  "lang": "en",
+  "text": "That one is cup. Try again!"
+ },
+ {
+  "id": "wrong/home/cup",
+  "lang": "hi",
+  "text": "यह तो कप है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/home/cup",
+  "lang": "en",
+  "text": "Yes! cup!"
+ },
+ {
+  "id": "right/home/cup",
+  "lang": "hi",
+  "text": "हाँ! कप!"
+ },
+ {
+  "id": "home/bed",
+  "lang": "en",
+  "text": "Bed. Bed!"
+ },
+ {
+  "id": "home/bed",
+  "lang": "hi",
+  "text": "बिस्तर. बिस्तर!"
+ },
+ {
+  "id": "where/home/bed",
+  "lang": "en",
+  "text": "Where is the bed?"
+ },
+ {
+  "id": "where/home/bed",
+  "lang": "hi",
+  "text": "बिस्तर कहाँ है?"
+ },
+ {
+  "id": "wrong/home/bed",
+  "lang": "en",
+  "text": "That one is bed. Try again!"
+ },
+ {
+  "id": "wrong/home/bed",
+  "lang": "hi",
+  "text": "यह तो बिस्तर है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/home/bed",
+  "lang": "en",
+  "text": "Yes! bed!"
+ },
+ {
+  "id": "right/home/bed",
+  "lang": "hi",
+  "text": "हाँ! बिस्तर!"
+ },
+ {
+  "id": "home/chair",
+  "lang": "en",
+  "text": "Chair. Chair!"
+ },
+ {
+  "id": "home/chair",
+  "lang": "hi",
+  "text": "कुर्सी. कुर्सी!"
+ },
+ {
+  "id": "where/home/chair",
+  "lang": "en",
+  "text": "Where is the chair?"
+ },
+ {
+  "id": "where/home/chair",
+  "lang": "hi",
+  "text": "कुर्सी कहाँ है?"
+ },
+ {
+  "id": "wrong/home/chair",
+  "lang": "en",
+  "text": "That one is chair. Try again!"
+ },
+ {
+  "id": "wrong/home/chair",
+  "lang": "hi",
+  "text": "यह तो कुर्सी है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/home/chair",
+  "lang": "en",
+  "text": "Yes! chair!"
+ },
+ {
+  "id": "right/home/chair",
+  "lang": "hi",
+  "text": "हाँ! कुर्सी!"
+ },
+ {
+  "id": "home/door",
+  "lang": "en",
+  "text": "Door. Door!"
+ },
+ {
+  "id": "home/door",
+  "lang": "hi",
+  "text": "दरवाज़ा. दरवाज़ा!"
+ },
+ {
+  "id": "where/home/door",
+  "lang": "en",
+  "text": "Where is the door?"
+ },
+ {
+  "id": "where/home/door",
+  "lang": "hi",
+  "text": "दरवाज़ा कहाँ है?"
+ },
+ {
+  "id": "wrong/home/door",
+  "lang": "en",
+  "text": "That one is door. Try again!"
+ },
+ {
+  "id": "wrong/home/door",
+  "lang": "hi",
+  "text": "यह तो दरवाज़ा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/home/door",
+  "lang": "en",
+  "text": "Yes! door!"
+ },
+ {
+  "id": "right/home/door",
+  "lang": "hi",
+  "text": "हाँ! दरवाज़ा!"
+ },
+ {
+  "id": "home/ball",
+  "lang": "en",
+  "text": "Ball. Ball!"
+ },
+ {
+  "id": "home/ball",
+  "lang": "hi",
+  "text": "गेंद. गेंद!"
+ },
+ {
+  "id": "where/home/ball",
+  "lang": "en",
+  "text": "Where is the ball?"
+ },
+ {
+  "id": "where/home/ball",
+  "lang": "hi",
+  "text": "गेंद कहाँ है?"
+ },
+ {
+  "id": "wrong/home/ball",
+  "lang": "en",
+  "text": "That one is ball. Try again!"
+ },
+ {
+  "id": "wrong/home/ball",
+  "lang": "hi",
+  "text": "यह तो गेंद है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/home/ball",
+  "lang": "en",
+  "text": "Yes! ball!"
+ },
+ {
+  "id": "right/home/ball",
+  "lang": "hi",
+  "text": "हाँ! गेंद!"
+ },
+ {
+  "id": "home/shoe",
+  "lang": "en",
+  "text": "Shoe. Shoe!"
+ },
+ {
+  "id": "home/shoe",
+  "lang": "hi",
+  "text": "जूता. जूता!"
+ },
+ {
+  "id": "where/home/shoe",
+  "lang": "en",
+  "text": "Where is the shoe?"
+ },
+ {
+  "id": "where/home/shoe",
+  "lang": "hi",
+  "text": "जूता कहाँ है?"
+ },
+ {
+  "id": "wrong/home/shoe",
+  "lang": "en",
+  "text": "That one is shoe. Try again!"
+ },
+ {
+  "id": "wrong/home/shoe",
+  "lang": "hi",
+  "text": "यह तो जूता है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/home/shoe",
+  "lang": "en",
+  "text": "Yes! shoe!"
+ },
+ {
+  "id": "right/home/shoe",
+  "lang": "hi",
+  "text": "हाँ! जूता!"
+ },
+ {
+  "id": "opposites/big",
+  "lang": "en",
+  "text": "Big. Big!"
+ },
+ {
+  "id": "opposites/big",
+  "lang": "hi",
+  "text": "बड़ा. बड़ा!"
+ },
+ {
+  "id": "where/opposites/big",
+  "lang": "en",
+  "text": "Where is big?"
+ },
+ {
+  "id": "where/opposites/big",
+  "lang": "hi",
+  "text": "बड़ा कहाँ है?"
+ },
+ {
+  "id": "wrong/opposites/big",
+  "lang": "en",
+  "text": "That one is big. Try again!"
+ },
+ {
+  "id": "wrong/opposites/big",
+  "lang": "hi",
+  "text": "यह तो बड़ा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/opposites/big",
+  "lang": "en",
+  "text": "Yes! big!"
+ },
+ {
+  "id": "right/opposites/big",
+  "lang": "hi",
+  "text": "हाँ! बड़ा!"
+ },
+ {
+  "id": "opposites/small",
+  "lang": "en",
+  "text": "Small. Small!"
+ },
+ {
+  "id": "opposites/small",
+  "lang": "hi",
+  "text": "छोटा. छोटा!"
+ },
+ {
+  "id": "where/opposites/small",
+  "lang": "en",
+  "text": "Where is small?"
+ },
+ {
+  "id": "where/opposites/small",
+  "lang": "hi",
+  "text": "छोटा कहाँ है?"
+ },
+ {
+  "id": "wrong/opposites/small",
+  "lang": "en",
+  "text": "That one is small. Try again!"
+ },
+ {
+  "id": "wrong/opposites/small",
+  "lang": "hi",
+  "text": "यह तो छोटा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/opposites/small",
+  "lang": "en",
+  "text": "Yes! small!"
+ },
+ {
+  "id": "right/opposites/small",
+  "lang": "hi",
+  "text": "हाँ! छोटा!"
+ },
+ {
+  "id": "opposites/hot",
+  "lang": "en",
+  "text": "Hot. Hot!"
+ },
+ {
+  "id": "opposites/hot",
+  "lang": "hi",
+  "text": "गरम. गरम!"
+ },
+ {
+  "id": "where/opposites/hot",
+  "lang": "en",
+  "text": "Where is hot?"
+ },
+ {
+  "id": "where/opposites/hot",
+  "lang": "hi",
+  "text": "गरम कहाँ है?"
+ },
+ {
+  "id": "wrong/opposites/hot",
+  "lang": "en",
+  "text": "That one is hot. Try again!"
+ },
+ {
+  "id": "wrong/opposites/hot",
+  "lang": "hi",
+  "text": "यह तो गरम है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/opposites/hot",
+  "lang": "en",
+  "text": "Yes! hot!"
+ },
+ {
+  "id": "right/opposites/hot",
+  "lang": "hi",
+  "text": "हाँ! गरम!"
+ },
+ {
+  "id": "opposites/cold",
+  "lang": "en",
+  "text": "Cold. Cold!"
+ },
+ {
+  "id": "opposites/cold",
+  "lang": "hi",
+  "text": "ठंडा. ठंडा!"
+ },
+ {
+  "id": "where/opposites/cold",
+  "lang": "en",
+  "text": "Where is cold?"
+ },
+ {
+  "id": "where/opposites/cold",
+  "lang": "hi",
+  "text": "ठंडा कहाँ है?"
+ },
+ {
+  "id": "wrong/opposites/cold",
+  "lang": "en",
+  "text": "That one is cold. Try again!"
+ },
+ {
+  "id": "wrong/opposites/cold",
+  "lang": "hi",
+  "text": "यह तो ठंडा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/opposites/cold",
+  "lang": "en",
+  "text": "Yes! cold!"
+ },
+ {
+  "id": "right/opposites/cold",
+  "lang": "hi",
+  "text": "हाँ! ठंडा!"
+ },
+ {
+  "id": "opposites/up",
+  "lang": "en",
+  "text": "Up. Up!"
+ },
+ {
+  "id": "opposites/up",
+  "lang": "hi",
+  "text": "ऊपर. ऊपर!"
+ },
+ {
+  "id": "where/opposites/up",
+  "lang": "en",
+  "text": "Where is up?"
+ },
+ {
+  "id": "where/opposites/up",
+  "lang": "hi",
+  "text": "ऊपर कहाँ है?"
+ },
+ {
+  "id": "wrong/opposites/up",
+  "lang": "en",
+  "text": "That one is up. Try again!"
+ },
+ {
+  "id": "wrong/opposites/up",
+  "lang": "hi",
+  "text": "यह तो ऊपर है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/opposites/up",
+  "lang": "en",
+  "text": "Yes! up!"
+ },
+ {
+  "id": "right/opposites/up",
+  "lang": "hi",
+  "text": "हाँ! ऊपर!"
+ },
+ {
+  "id": "opposites/down",
+  "lang": "en",
+  "text": "Down. Down!"
+ },
+ {
+  "id": "opposites/down",
+  "lang": "hi",
+  "text": "नीचे. नीचे!"
+ },
+ {
+  "id": "where/opposites/down",
+  "lang": "en",
+  "text": "Where is down?"
+ },
+ {
+  "id": "where/opposites/down",
+  "lang": "hi",
+  "text": "नीचे कहाँ है?"
+ },
+ {
+  "id": "wrong/opposites/down",
+  "lang": "en",
+  "text": "That one is down. Try again!"
+ },
+ {
+  "id": "wrong/opposites/down",
+  "lang": "hi",
+  "text": "यह तो नीचे है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/opposites/down",
+  "lang": "en",
+  "text": "Yes! down!"
+ },
+ {
+  "id": "right/opposites/down",
+  "lang": "hi",
+  "text": "हाँ! नीचे!"
+ },
+ {
+  "id": "shapes/circle",
+  "lang": "en",
+  "text": "Circle. Circle!"
+ },
+ {
+  "id": "shapes/circle",
+  "lang": "hi",
+  "text": "गोला. गोला!"
+ },
+ {
+  "id": "where/shapes/circle",
+  "lang": "en",
+  "text": "Where is the circle?"
+ },
+ {
+  "id": "where/shapes/circle",
+  "lang": "hi",
+  "text": "गोला कहाँ है?"
+ },
+ {
+  "id": "wrong/shapes/circle",
+  "lang": "en",
+  "text": "That one is circle. Try again!"
+ },
+ {
+  "id": "wrong/shapes/circle",
+  "lang": "hi",
+  "text": "यह तो गोला है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/shapes/circle",
+  "lang": "en",
+  "text": "Yes! circle!"
+ },
+ {
+  "id": "right/shapes/circle",
+  "lang": "hi",
+  "text": "हाँ! गोला!"
+ },
+ {
+  "id": "shapes/square",
+  "lang": "en",
+  "text": "Square. Square!"
+ },
+ {
+  "id": "shapes/square",
+  "lang": "hi",
+  "text": "चौकोर. चौकोर!"
+ },
+ {
+  "id": "where/shapes/square",
+  "lang": "en",
+  "text": "Where is the square?"
+ },
+ {
+  "id": "where/shapes/square",
+  "lang": "hi",
+  "text": "चौकोर कहाँ है?"
+ },
+ {
+  "id": "wrong/shapes/square",
+  "lang": "en",
+  "text": "That one is square. Try again!"
+ },
+ {
+  "id": "wrong/shapes/square",
+  "lang": "hi",
+  "text": "यह तो चौकोर है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/shapes/square",
+  "lang": "en",
+  "text": "Yes! square!"
+ },
+ {
+  "id": "right/shapes/square",
+  "lang": "hi",
+  "text": "हाँ! चौकोर!"
+ },
+ {
+  "id": "shapes/triangle",
+  "lang": "en",
+  "text": "Triangle. Triangle!"
+ },
+ {
+  "id": "shapes/triangle",
+  "lang": "hi",
+  "text": "तिकोन. तिकोन!"
+ },
+ {
+  "id": "where/shapes/triangle",
+  "lang": "en",
+  "text": "Where is the triangle?"
+ },
+ {
+  "id": "where/shapes/triangle",
+  "lang": "hi",
+  "text": "तिकोन कहाँ है?"
+ },
+ {
+  "id": "wrong/shapes/triangle",
+  "lang": "en",
+  "text": "That one is triangle. Try again!"
+ },
+ {
+  "id": "wrong/shapes/triangle",
+  "lang": "hi",
+  "text": "यह तो तिकोन है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/shapes/triangle",
+  "lang": "en",
+  "text": "Yes! triangle!"
+ },
+ {
+  "id": "right/shapes/triangle",
+  "lang": "hi",
+  "text": "हाँ! तिकोन!"
+ },
+ {
+  "id": "shapes/star",
+  "lang": "en",
+  "text": "Star. Star!"
+ },
+ {
+  "id": "shapes/star",
+  "lang": "hi",
+  "text": "तारा. तारा!"
+ },
+ {
+  "id": "where/shapes/star",
+  "lang": "en",
+  "text": "Where is the star?"
+ },
+ {
+  "id": "where/shapes/star",
+  "lang": "hi",
+  "text": "तारा कहाँ है?"
+ },
+ {
+  "id": "wrong/shapes/star",
+  "lang": "en",
+  "text": "That one is star. Try again!"
+ },
+ {
+  "id": "wrong/shapes/star",
+  "lang": "hi",
+  "text": "यह तो तारा है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/shapes/star",
+  "lang": "en",
+  "text": "Yes! star!"
+ },
+ {
+  "id": "right/shapes/star",
+  "lang": "hi",
+  "text": "हाँ! तारा!"
+ },
+ {
+  "id": "shapes/heart",
+  "lang": "en",
+  "text": "Heart. Heart!"
+ },
+ {
+  "id": "shapes/heart",
+  "lang": "hi",
+  "text": "दिल. दिल!"
+ },
+ {
+  "id": "where/shapes/heart",
+  "lang": "en",
+  "text": "Where is the heart?"
+ },
+ {
+  "id": "where/shapes/heart",
+  "lang": "hi",
+  "text": "दिल कहाँ है?"
+ },
+ {
+  "id": "wrong/shapes/heart",
+  "lang": "en",
+  "text": "That one is heart. Try again!"
+ },
+ {
+  "id": "wrong/shapes/heart",
+  "lang": "hi",
+  "text": "यह तो दिल है। फिर से कोशिश करो!"
+ },
+ {
+  "id": "right/shapes/heart",
+  "lang": "en",
+  "text": "Yes! heart!"
+ },
+ {
+  "id": "right/shapes/heart",
+  "lang": "hi",
+  "text": "हाँ! दिल!"
+ }
+]

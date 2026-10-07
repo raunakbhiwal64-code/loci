@@ -10,7 +10,7 @@ describe('content packs', () => {
     expect(wordSets(1)).toHaveLength(6)
     expect(wordSets(1).map((s) => s.id)).not.toContain('colours')
     expect(storiesOf('story', 1)).toHaveLength(0)
-    expect(storiesOf('story', 2).length).toBeGreaterThan(0)
+    expect(storiesOf('story', 2)).toHaveLength(6)
   })
   it("Today's words never use feelings or opposites and rotate daily", () => {
     for (let d = 0; d < 40; d++) for (const b of [1, 2] as const)

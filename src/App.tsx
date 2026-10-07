@@ -42,6 +42,11 @@ export default function App() {
   const family = useFamilySet()
 
   useEffect(() => {
+    const pop = () => setView(null)
+    addEventListener('popstate', pop)
+    return () => removeEventListener('popstate', pop)
+  }, [])
+  useEffect(() => {
     const dark = s.theme === 'dark' || (s.theme === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches)
     document.documentElement.dataset.theme = dark ? 'dark' : 'light'
     document.documentElement.lang = s.lang
@@ -60,9 +65,10 @@ export default function App() {
       </div>
     )
 
-  const close = () => setView(null)
+  // Phone and browser Back buttons close the open screen instead of leaving the app.
+  const close = () => { if (history.state?.ll) history.back(); else setView(null) }
   const resting = doneToday(store) >= capFor(s)
-  const open = (v: View) => { unlock(); setView(v) }
+  const open = (v: View) => { unlock(); history.pushState({ ll: 1 }, ''); setView(v) }
   const readSet = (set: WordSet) => open({ t: 'read', title: tx(set.title), pages: wordSetPages(set) })
   const readStory = (st: Story) => open({ t: 'read', title: tx(st.title), pages: storyPages(st), tip: st.parentTip, moral: st.moral })
   const playSet = (set: WordSet) => open({ t: 'quiz', title: tx(set.title), rounds: whereRounds(set.words, set.whereQuestion) })
@@ -92,7 +98,7 @@ export default function App() {
       <header className="top">
         <h1>{ui('appName')}</h1>
         <LangToggle />
-        <HoldButton onOpen={() => setView({ t: 'settings' })}>👪</HoldButton>
+        <HoldButton onOpen={() => open({ t: 'settings' })}>👪</HoldButton>
       </header>
       <main className="tabpane" data-testid={`tab-${tab}`}>
         {resting ? (

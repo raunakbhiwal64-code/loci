@@ -1,0 +1,11 @@
+# service
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+numpy
+# model (not needed when VOICE_ENGINE=fake)
+chatterbox-tts
+torch
+torchaudio
+# Hugging Face Space only
+gradio>=4

@@ -38,7 +38,7 @@ export function Settings({ onClose }: { onClose: () => void }) {
   }
   return (
     <div className="screen settings" data-testid="settings">
-      <header className="bar"><button className="icon" onClick={onClose} aria-label={ui('close')}>✕</button><h2>{ui('settings')}</h2><span /></header>
+      <header className="bar"><button className="backbtn" onClick={onClose} data-testid="back">← {ui('back')}</button><h2>{ui('settings')}</h2><span /></header>
       <div className="scroll">
         <section><h3>{ui('ageBand')}</h3>
           <div className="seg wide"><button className={band === 1 ? 'on' : ''} onClick={() => setSettings({ band: 1 })}>{ui('age12')}</button>

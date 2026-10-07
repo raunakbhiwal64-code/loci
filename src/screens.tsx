@@ -48,7 +48,7 @@ export function Reader({ title, pages, tip, moral, onClose }: { title: string; p
   return (
     <div className="screen reader" data-testid="reader">
       <header className="bar">
-        <button className="icon" onClick={onClose} aria-label={ui('close')}>✕</button>
+        <button className="backbtn" onClick={onClose} data-testid="back">← {ui('back')}</button>
         <h2>{title}</h2>
         <span className="dots">{i + 1}/{pages.length}</span>
       </header>
@@ -57,14 +57,16 @@ export function Reader({ title, pages, tip, moral, onClose }: { title: string; p
         onPointerUp={(e) => { const dx = e.clientX - sx.current; if (Math.abs(dx) > 60) go(dx < 0 ? 1 : -1) }}>
         <button className="picbtn" onClick={tapPicture} data-testid="picture" aria-label={tx(p.caption)}><Pic image={p.image} label={tx(p.caption)} className="big" /></button>
         <p className="caption" data-testid="caption">{tx(p.caption)}</p>
-        <p className="action" data-testid="action"><span className="tag">{ui('forParent')}</span> {tx(p.action)}</p>
-      </div>
-      {p.wordKey && (
-        <div className="extras">
-          <button className="chip" disabled={said} onClick={() => { saidIt(p.wordKey!); setSaid(true) }}>{said ? '✓ ' : ''}{ui('sayItYes')}</button>
-          <button className="chip" onClick={yourTurn}>{child.r ? '⏺ ' + ui('recording') : '🎤 ' + ui('yourTurn')}</button>
+        <div className="action" data-testid="action">
+          <p><span className="tag">{ui('forParent')}</span> {tx(p.action)}</p>
+          {p.wordKey && (
+            <div className="parentrow">
+              <button className="mini" disabled={said} onClick={() => { saidIt(p.wordKey!); setSaid(true) }}>{said ? '✓ ' : ''}{ui('sayItYes')}</button>
+              <button className="mini" onClick={yourTurn}>{child.r ? '⏺ ' + ui('recording') : '🎤 ' + ui('yourTurn')}</button>
+            </div>
+          )}
         </div>
-      )}
+      </div>
       {s.recordMode && (
         <div className="extras rec">
           <button className="chip" onClick={toggleRecord}>{rec ? '⏺ ' + ui('recording') : '🎙 ' + ui('record')}</button>
@@ -72,7 +74,7 @@ export function Reader({ title, pages, tip, moral, onClose }: { title: string; p
         </div>
       )}
       <nav className="controls">
-        <button className="round" disabled={i === 0} onClick={() => go(-1)} aria-label={ui('back')}>◀</button>
+        <button className="round" disabled={i === 0} onClick={() => go(-1)} aria-label={ui('prev')}>◀</button>
         <button className="listen" onClick={listen}>🔊 {ui('listen')}</button>
         <button className="next" onClick={() => go(1)} aria-label={ui('next')} data-testid="next">{i === pages.length - 1 ? '✓' : '▶'}</button>
       </nav>
@@ -111,7 +113,7 @@ export function Quiz({ title, rounds, onClose }: { title: string; rounds: Round[
   return (
     <div className="screen reader" data-testid="quiz">
       <header className="bar">
-        <button className="icon" onClick={onClose} aria-label={ui('close')}>✕</button><h2>{title}</h2><span className="dots">{r + 1}/{rounds.length}</span>
+        <button className="backbtn" onClick={onClose} data-testid="back">← {ui('back')}</button><h2>{title}</h2><span className="dots">{r + 1}/{rounds.length}</span>
       </header>
       <div className="page fade" key={r}>
         <p className="caption" data-testid="prompt">{tx(round.prompt)}</p>
@@ -180,7 +182,7 @@ export function Tracing({ onClose }: { onClose: () => void }) {
     if (e.pointerType === 'pen') return // finger only, no pencil, pen or stylus
     drawing.current = true; cv.current!.setPointerCapture(e.pointerId)
     const g = cv.current!.getContext('2d')!, [x, y] = pos(e)
-    g.beginPath(); g.moveTo(x, y); g.lineWidth = 26; g.lineCap = g.lineJoin = 'round'; g.strokeStyle = '#4f8f6a'; g.lineTo(x + 0.1, y); g.stroke()
+    g.beginPath(); g.moveTo(x, y); g.lineWidth = 26; g.lineCap = g.lineJoin = 'round'; g.strokeStyle = '#7f9a88'; g.lineTo(x + 0.1, y); g.stroke()
   }
   const move = (e: React.PointerEvent) => {
     if (!drawing.current || e.pointerType === 'pen') return
@@ -189,7 +191,7 @@ export function Tracing({ onClose }: { onClose: () => void }) {
   const finish = () => { completeActivity(); onClose() }
   return (
     <div className="screen reader" data-testid="tracing">
-      <header className="bar"><button className="icon" onClick={onClose} aria-label={ui('close')}>✕</button><h2>{ui('tracing')}</h2><span className="dots">{i + 1}/{set.length}</span></header>
+      <header className="bar"><button className="backbtn" onClick={onClose} data-testid="back">← {ui('back')}</button><h2>{ui('tracing')}</h2><span className="dots">{i + 1}/{set.length}</span></header>
       <div className="page"><p className="action"><span className="tag">{ui('forParent')}</span> {ui('traceHint')}</p>
         <canvas ref={cv} width={360} height={360} className="trace" data-testid="trace-canvas"
           onPointerDown={down} onPointerMove={move} onPointerUp={() => (drawing.current = false)} onPointerCancel={() => (drawing.current = false)} /></div>

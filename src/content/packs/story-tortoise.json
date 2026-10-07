@@ -1,0 +1,77 @@
+{
+  "id": "tortoise",
+  "kind": "story",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "The Tortoise and the Hare",
+    "hi": "कछुआ और खरगोश"
+  },
+  "cover": "🐢",
+  "moral": {
+    "en": "Slow and steady wins the race.",
+    "hi": "धीरे और लगातार चलने वाला जीतता है।"
+  },
+  "parentTip": {
+    "en": "Walk slowly together, then run!",
+    "hi": "साथ में धीरे चलो, फिर दौड़ो!"
+  },
+  "pages": [
+    {
+      "image": "🐇",
+      "text": {
+        "en": "Hare says, I am so fast!",
+        "hi": "खरगोश बोला: मैं बहुत तेज़ हूँ!"
+      },
+      "action": {
+        "en": "Run on the spot.",
+        "hi": "जगह पर दौड़ो।"
+      }
+    },
+    {
+      "image": "🐢",
+      "text": {
+        "en": "Slow Tortoise says, Let us race!",
+        "hi": "धीमे कछुए ने कहा: दौड़ लगाएँ!"
+      },
+      "action": {
+        "en": "Walk slowly, slowly.",
+        "hi": "धीरे-धीरे चलो।"
+      }
+    },
+    {
+      "image": "😴",
+      "text": {
+        "en": "Hare runs far, then naps.",
+        "hi": "खरगोश दूर भागा, फिर सो गया।"
+      },
+      "action": {
+        "en": "Close your eyes. Say Zzz.",
+        "hi": "आँखें बंद करो। कहो: खर्र।"
+      }
+    },
+    {
+      "image": "🐢",
+      "text": {
+        "en": "Tortoise keeps going, slow and steady.",
+        "hi": "कछुआ चलता रहा, धीरे और लगातार।"
+      },
+      "action": {
+        "en": "Take slow steps.",
+        "hi": "धीमे कदम उठाओ।"
+      }
+    },
+    {
+      "image": "🏁",
+      "text": {
+        "en": "Tortoise wins! Hare wakes up. Oh!",
+        "hi": "कछुआ जीता! खरगोश जागा। अरे!"
+      },
+      "action": {
+        "en": "Clap for Tortoise.",
+        "hi": "कछुए के लिए ताली बजाओ।"
+      }
+    }
+  ]
+}

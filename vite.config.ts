@@ -8,6 +8,7 @@ const single = !!process.env.SINGLE
 
 export default defineConfig({
   base: './',
+  resolve: single ? { alias: { 'virtual:pwa-register': new URL('./src/pwa-stub.ts', import.meta.url).pathname } } : {},
   plugins: [
     react(),
     ...(single

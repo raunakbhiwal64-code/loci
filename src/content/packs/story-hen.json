@@ -1,0 +1,77 @@
+{
+  "id": "hen",
+  "kind": "story",
+  "ages": [
+    2
+  ],
+  "title": {
+    "en": "The Little Red Hen",
+    "hi": "छोटी लाल मुर्गी"
+  },
+  "cover": "🐔",
+  "moral": {
+    "en": "Those who help get to share.",
+    "hi": "मदद करने वाले मिलकर खाते हैं।"
+  },
+  "parentTip": {
+    "en": "Say \"Not I!\" together, then \"Let us help!\"",
+    "hi": "साथ में कहो \"मैं नहीं!\", फिर \"चलो मदद करें!\""
+  },
+  "pages": [
+    {
+      "image": "🌾",
+      "text": {
+        "en": "Little Red Hen finds some wheat.",
+        "hi": "छोटी लाल मुर्गी को गेहूँ के दाने मिले।"
+      },
+      "action": {
+        "en": "Hold up a pretend seed.",
+        "hi": "नकली दाना उठाओ।"
+      }
+    },
+    {
+      "image": "🐱",
+      "text": {
+        "en": "Who will help? Not I!",
+        "hi": "कौन मदद करेगा? मैं नहीं!"
+      },
+      "action": {
+        "en": "Shake your head. Say Not I!",
+        "hi": "सिर हिलाओ। कहो: मैं नहीं!"
+      }
+    },
+    {
+      "image": "🐔",
+      "text": {
+        "en": "Hen plants, cuts and grinds it alone.",
+        "hi": "मुर्गी ने अकेले बोया, काटा और पीसा।"
+      },
+      "action": {
+        "en": "Pretend to dig and cut.",
+        "hi": "खोदने और काटने का नाटक करो।"
+      }
+    },
+    {
+      "image": "🍞",
+      "text": {
+        "en": "Fresh bread smells so good!",
+        "hi": "ताज़ी रोटी की कितनी अच्छी खुशबू!"
+      },
+      "action": {
+        "en": "Sniff the air. Say Mmm!",
+        "hi": "हवा सूँघो। कहो: म्म्म!"
+      }
+    },
+    {
+      "image": "🤝",
+      "text": {
+        "en": "Hen says: helpers share. Next time, help!",
+        "hi": "मुर्गी बोली: मदद करो, फिर साथ खाओ।"
+      },
+      "action": {
+        "en": "Say: Let us help!",
+        "hi": "कहो: चलो मदद करें!"
+      }
+    }
+  ]
+}

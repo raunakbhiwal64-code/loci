@@ -11,7 +11,8 @@
     "validate": "node scripts/validate-content.mjs",
     "seed": "node scripts/seed-content.mjs",
     "test": "vitest run",
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "export-lines": "node scripts/export-lines.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",
