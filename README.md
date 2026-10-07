@@ -28,12 +28,17 @@ If Playwright can't find its browser, set `CHROMIUM_PATH` to a Chromium binary.
 | 4 Audio: parent recording, device voice, first-tap unlock | done (volunteer pack audio plugs in via `audio` fields later) |
 | 5 Games, bedtime, family photos, Said it!, weekly summary | done, plus letter tracing, Your turn, .ics reminder, WhatsApp share |
 | 6 Click-through test | done (`e2e/smoke.spec.ts`) |
-| 7–8 Voice service and Voice Studio (Chatterbox) | not started |
+| 7 Voice service (`voice/`) | done: laptop API + ZeroGPU Space entry, tests; real model run on CPU once (see `voice/README.md`) |
+| 8 Voice Studio in the app | not started |
 | 9 Professional narration and art | not started; pictures are emoji placeholders |
 | Subscriptions (US/Canada) | not started |
 
 ## Known gaps
 
 - The prototype `little-learners.html` was not available, so pictures are emoji stand-ins, not the prototype's illustrations.
-- Content is 133 pages versus the spec's 136: 3 of the 6 folk tales are written (Thirsty Crow, Big Turnip, Lion and Mouse). Little Red Hen, Tortoise and Hare and Clever Rabbit are still to do.
+- All 6 folk tales are written. Content is 148 pages, above the spec's 136.
 - All Hindi lines need review by a native speaker before any real use.
+
+## Free hosting
+
+`.github/workflows/pages.yml` builds the app and publishes `dist/` to the `gh-pages` branch on every push to `little-learners`. One-time setup: repo Settings → Pages → Source: *Deploy from a branch* → `gh-pages` / root. GitHub Pages on a private repo needs a paid plan; Cloudflare Pages (connect the repo, build `npm run build`, output `dist`) is free either way.

@@ -21,7 +21,11 @@ export function Reader({ title, pages, tip, moral, onClose }: { title: string; p
 
   const listen = () => speak(tx(p.caption), p.key)
   const tapPicture = () => (band === 1 && p.word ? speak(tx(p.word)) : listen())
+  const lastGo = useRef(0)
   const go = (d: number) => {
+    const now = Date.now()
+    if (now - lastGo.current < 350) return // a toddler's double tap should not skip a page
+    lastGo.current = now
     if (d > 0 && i === pages.length - 1) { completeActivity(); setFinished(true); return }
     setI(Math.max(0, Math.min(pages.length - 1, i + d)))
   }

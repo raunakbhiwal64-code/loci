@@ -2,8 +2,9 @@ import { expect, test, type Page } from '@playwright/test'
 
 /** Click through every item in both languages and both age bands. */
 async function readThrough(page: Page) {
-  for (let guard = 0; guard < 12; guard++) {
+  for (let guard = 0; guard < 14; guard++) {
     if (await page.getByTestId('finished').isVisible()) return
+    await page.waitForTimeout(400) // next ignores taps closer than 350 ms
     await page.getByTestId('next').click()
   }
 }
